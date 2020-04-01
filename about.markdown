@@ -1,20 +1,31 @@
 ---
 layout: page
-title: About
+title: 자기소개
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+[https://dongbin1999.github.io/](https://dongbin1999.github.io/)
 
-[codeforces](https://codeforces.com/profile/dongbin1999)
+1. 이름 : 이동빈
+2. 학교 : 인천대학교
+3. 학과 : 정보통신공학과
+4. 학년 : 2학년
+
+
+
+1학년 겨울방학때부터 코딩 연습을 즐겨 하고 있습니다.
+
+<h3>사용중인 ojs</h3>
+
+> [inuoj][http://117.16.243.100:55000/]
+>
+> [baekjoon](https://www.acmicpc.net/user/leedongbin)
+>
+> [codeforces](https://codeforces.com/profile/dongbin1999)
+
+
 
 
 [jekyll-organization]: https://github.com/jekyll
