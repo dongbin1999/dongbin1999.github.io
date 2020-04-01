@@ -19,7 +19,7 @@ permalink: /about/
 
 <h3>사용중인 ojs</h3>
 
-> [inuoj][http://117.16.243.100:55000/]
+> [inuoj](http://117.16.243.100:55000/)
 >
 > [baekjoon](https://www.acmicpc.net/user/leedongbin)
 >
