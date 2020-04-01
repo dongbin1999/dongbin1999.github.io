@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 자기소개
+title: About me
 permalink: /about/
 ---
 
@@ -15,7 +15,7 @@ permalink: /about/
 
 
 
-1학년 겨울방학때부터 코딩 연습을 즐겨 하고 있습니다.
+지난 겨울부터 코딩 스터디를 하고 있습니다.
 
 <h3>사용중인 ojs</h3>
 
