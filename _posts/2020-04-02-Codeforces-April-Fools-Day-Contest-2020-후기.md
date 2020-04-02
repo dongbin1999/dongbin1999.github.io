@@ -18,15 +18,15 @@ date:   2020-04-02 14:30:00 +0900
 
 [대회 링크](https://codeforces.com/contest/1331)
 
-![April Fools Day Contest 2020 소개](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/April%20Fools%20Day%20Contest%202020%20%EC%86%8C%EA%B0%9C.JPG)
+![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/April%20Fools%20Day%20Contest%202020%20%EC%86%8C%EA%B0%9C.JPG)
 
 4/1일에 진행된다.. 레이팅에 반영되지 않는다[^1].. 출제자와 유머 코드가 맞아야 한다..? 등의 내용입니다.
 
 
 
-![참가인원](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/%EC%B0%B8%EA%B0%80%EC%9D%B8%EC%9B%90.JPG)
+![출처 : https://codeforces.com/contests](/images/2020-04-02/%EC%B0%B8%EA%B0%80%EC%9D%B8%EC%9B%90.JPG)
 
-세계 각국에서 __19470__분이나 참가하셨습니다.
+세계 각국에서 __19470__ 분이나 참가하셨습니다.
 
 <br />
 
@@ -36,7 +36,7 @@ date:   2020-04-02 14:30:00 +0900
 
 # 2. 목차
 
-![문제 리스트](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/%EB%AC%B8%EC%A0%9C%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.JPG)
+![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/%EB%AC%B8%EC%A0%9C%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.JPG)
 
 문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.
 
@@ -50,13 +50,15 @@ date:   2020-04-02 14:30:00 +0900
 
 # 3. 문제 풀이
 
-![A](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/A.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/A](/images/2020-04-02/A.JPG)
 
-[A번 문제](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 예제 입력과 출력에 대한 설명이 하나도 없습니다...
+[A번 문제](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
 
 ### 풀이
 
-`대회 소개`에서 `"... and it will be unrated."` 라 했으므로, NO를 출력하면 되는 문제였습니다.
+문제 이름이 __"Is it rated?"__ 입니다.
+
+대회 소개에서 `"... and it will be unrated."` 라 했으므로, NO를 출력하면 되는 문제였습니다.
 
 ```c++
 #include <cstdio>
@@ -75,7 +77,7 @@ int main()
 
 <br />
 
-![B](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/B.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/B](/images/2020-04-02/B.JPG)
 
 [B번 문제](https://codeforces.com/contest/1331/problem/B)입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..
 
@@ -124,7 +126,7 @@ int main(void)
 
 <br />
 
-![C](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/C.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/C](/images/2020-04-02/C.JPG)
 
 [C번 문제](https://codeforces.com/contest/1331/problem/C)입니다. 풀이를 생각해내는 데 한참 걸렸습니다.
 
@@ -134,7 +136,7 @@ int main(void)
 
 ### 풀이
 
-__a의 범위가 0~63__인 것에 착안하여, `input`과 `output`을 __6개의 2진수 비트__로 나타내면 다음과 같습니다.
+__a의 범위가 0~63 __인 것에 착안하여, `input`과 `output`을 __6개의 2진수 비트__ 로 나타내면 다음과 같습니다.
 
 | Test case | input(binary) | output(binary) | 비트 이동        |
 | --------- | ------------- | -------------- | ---------------- |
@@ -146,7 +148,7 @@ __a의 범위가 0~63__인 것에 착안하여, `input`과 `output`을 __6개의
 
 예시만으로는 4번째 비트와 5번째 비트가 어디로 이동하는지 알 수 없으므로, ~~운으로 찍었습니다.~~
 
-(더 정확한 풀이를 아시는 분은 _[이메일](email: dongbin1999@inu.ac.kr)_로 알려주세요!)
+(더 정확한 풀이를 아시는 분은 <dongbin1999@inu.ac.kr> 로 알려주세요!)
 
 ```c++
 #include <cstdio>
@@ -185,7 +187,7 @@ int main(void)
 
 <br />
 
-![D](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/D.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/D](/images/2020-04-02/D.JPG)
 
 [D번 문제](https://codeforces.com/contest/1331/problem/D)입니다. 오른쪽 아래`Problem tags`에 `chinese remainder theorem`[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.
 
@@ -216,9 +218,9 @@ int main(void)
 
 __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 넘어가겠습니다.__
 
-![E1](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/E1.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E1.JPG)
 
-![E2](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/E2.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E2.JPG)
 
 [E번 문제](https://codeforces.com/contest/1331/problem/E)입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.
 
@@ -234,7 +236,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 <br />
 
-![F](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/F.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/F](/images/2020-04-02/F.JPG)
 
 [F번 문제](https://codeforces.com/contest/1331/problem/F)입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 풀어보세요!
 
@@ -253,7 +255,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 특히 H번 문제는 `UnknownX`라는 언어로 제출 언어 제한이 걸려있습니다.
 
-H번 문제의 풀이 자체는 `n`의 [double factorial](https://en.wikipedia.org/wiki/Double_factorial)을 `mod`로 나눈 나머지를 구하라는 문제인데, C++ 코드를 그대로 제출하니 `Compilation error`를 받았습니다.
+H번 문제의 풀이 자체는 `n`의 [double factorial](https://en.wikipedia.org/wiki/Double_factorial)을 `mod`로 나눈 나머지를 구하라는 문제인데, C++ 코드를 그대로 제출하니 <span style="color:blue">`Compilation error`</span>를 받았습니다.
 
 제출했던 코드는 아래와 같습니다.
 
@@ -284,7 +286,7 @@ int main(void)
 
 # 4. 결과
 
-![standing](https://github.com/dongbin1999/dongbin1999.github.io/blob/master/images/2020-04-02/standing.JPG)
+![출처 : https://codeforces.com/contest/1331/standings](/images/2020-04-02/standing.JPG)
 
 제 성적입니다.
 
@@ -298,6 +300,8 @@ int main(void)
 혹시 코딩에 관심 있으신 분은 코드포스 대회에 참여해보시는 걸 추천합니다!
 
 여기까지 후기였습니다. 긴 글 봐주셔서 감사합니다!
+
+<br />
 
 [^1]: Codeforces는 대회 성적을 반영한 rating시스템이 있습니다.
 [^2]: [중국인의 나머지 정리]([https://namu.wiki/w/%EC%A4%91%EA%B5%AD%EC%9D%B8%EC%9D%98%20%EB%82%98%EB%A8%B8%EC%A7%80%20%EC%A0%95%EB%A6%AC](https://namu.wiki/w/중국인의 나머지 정리))
