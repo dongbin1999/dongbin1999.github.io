@@ -1,12 +1,8 @@
+---
 layout: post
-
 title:  "Codeforces April Fools Day Contest 2020 후기"
-
 date:   2020-04-02 14:30:00 +0900
-
-categories: jekyll update
-
-
+---
 
 > 겨울방학 때부터 참가했던 스터디에서 [Codeforces](https://codeforces.com/)라는 코딩 사이트를 알게 되었습니다.
 >
