@@ -1,8 +1,6 @@
-```
 layout: post
 title:  "Codeforces April Fools Day Contest 2020 후기"
 date:   2020-04-02 14:30:00 +0900
-```
 
 > 겨울방학 때부터 참가했던 스터디에서 [Codeforces](https://codeforces.com/)라는 코딩 사이트를 알게 되었습니다.
 >
@@ -52,7 +50,7 @@ date:   2020-04-02 14:30:00 +0900
 
 ![출처 : https://codeforces.com/contest/1331/problem/A](/images/2020-04-02/A.JPG)
 
-[A번 문제](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
+[`A번 문제`](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
 
 <br />
 
@@ -81,7 +79,7 @@ int main()
 
 ![출처 : https://codeforces.com/contest/1331/problem/B](/images/2020-04-02/B.JPG)
 
-[B번 문제](https://codeforces.com/contest/1331/problem/B)입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..
+[`B번 문제`](https://codeforces.com/contest/1331/problem/B)입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..
 
 <br />
 
@@ -132,7 +130,7 @@ int main(void)
 
 ![출처 : https://codeforces.com/contest/1331/problem/C](/images/2020-04-02/C.JPG)
 
-[C번 문제](https://codeforces.com/contest/1331/problem/C)입니다. 풀이를 생각해내는 데 한참 걸렸습니다.
+[`C번 문제`](https://codeforces.com/contest/1331/problem/C)입니다. 풀이를 생각해내는 데 한참 걸렸습니다.
 
 문제 이름을 해석하면 "... 그리고 그들은 행복하게 살았답니다." 정도인 것 같습니다.
 
@@ -195,7 +193,7 @@ int main(void)
 
 ![출처 : https://codeforces.com/contest/1331/problem/D](/images/2020-04-02/D.JPG)
 
-[D번 문제](https://codeforces.com/contest/1331/problem/D)입니다. 오른쪽 아래`Problem tags`에 `chinese remainder theorem`[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.
+[`D번 문제`](https://codeforces.com/contest/1331/problem/D)입니다. 오른쪽 아래`Problem tags`에 `chinese remainder theorem`[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.
 
 <br />
 
@@ -230,7 +228,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 ![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E2.JPG)
 
-[E번 문제](https://codeforces.com/contest/1331/problem/E)입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.
+[`E번 문제`](https://codeforces.com/contest/1331/problem/E)입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.
 
 <br />
 
@@ -248,7 +246,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 ![출처 : https://codeforces.com/contest/1331/problem/F](/images/2020-04-02/F.JPG)
 
-[F번 문제](https://codeforces.com/contest/1331/problem/F)입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!
+[`F번 문제`](https://codeforces.com/contest/1331/problem/F)입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!
 
 <br />
 
@@ -263,7 +261,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 <br />
 
-[G번 문제](https://codeforces.com/contest/1331/problem/G), [H번 문제](https://codeforces.com/contest/1331/problem/H)는 코드를 참고해도 모르겠습니다..
+[`G번 문제`](https://codeforces.com/contest/1331/problem/G), [`H번 문제`](https://codeforces.com/contest/1331/problem/H)는 코드를 참고해도 모르겠습니다..
 
 특히 H번 문제는 `UnknownX`라는 언어로 제출 언어 제한이 걸려있습니다.
 
