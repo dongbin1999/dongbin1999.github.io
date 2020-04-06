@@ -20,7 +20,7 @@ title                    : "Leedongbin_inu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "dongbin1999"
-description              : "An amazing website."
+description              : "github blog"
 url                      : "https://dongbin1999.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dongbin1999/dongbin1999.github.io"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Leedongbin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "2020.03~"
+  location         : "Seoul, South Korea"
+  email            : "<dongbin1999@inu.ac.kr>"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
