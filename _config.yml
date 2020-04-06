@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "2020.03~"
   location         : "Seoul, South Korea"
-  email            : "<dongbin1999@inu.ac.kr>"
+  email            : "dongbin1999@inu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
