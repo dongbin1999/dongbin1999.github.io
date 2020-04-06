@@ -1,3 +1,12 @@
+---
+layout: single
+title:  "Number of F cases"
+date:   2020-03-26 16:27:40 +0900
+categories: jekyll update
+---
+
+
+
 <h1>F를 받게되는 경우의 수</h1>
 
 <h5>201901694 이동빈</h5>

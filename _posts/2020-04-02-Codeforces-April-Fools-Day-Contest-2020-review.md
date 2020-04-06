@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "Codeforces April Fools Day Contest 2020 후기"
+layout: single
+title:  "Codeforces April Fools Day Contest 2020 review"
 date:   2020-04-02 14:30:00 +0900
 ---
+
+# Codeforces April Fools Day Contest 2020 review
 
 > 겨울방학 때부터 참가했던 스터디에서 [Codeforces](https://codeforces.com/)라는 코딩 사이트를 알게 되었습니다.
 >
@@ -18,13 +20,13 @@ date:   2020-04-02 14:30:00 +0900
 
 [대회 링크](https://codeforces.com/contest/1331)
 
-![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/April%20Fools%20Day%20Contest%202020%20%EC%86%8C%EA%B0%9C.JPG)
+![출처 : https://codeforces.com/contest/1331](\assets\images\2020-04-02\April Fools Day Contest 2020 introduction.JPG)
 
 4/1일에 진행된다.. 레이팅에 반영되지 않는다[^1].. 출제자와 유머 코드가 맞아야 한다..? 등의 내용입니다.
 
 
 
-![출처 : https://codeforces.com/contests](/images/2020-04-02/%EC%B0%B8%EA%B0%80%EC%9D%B8%EC%9B%90.JPG)
+![출처 : https://codeforces.com/contests](\assets\images\2020-04-02\participants.JPG)
 
 세계 각국에서 __19470__ 분이나 참가하셨습니다.
 
@@ -36,7 +38,7 @@ date:   2020-04-02 14:30:00 +0900
 
 # 2. 목차
 
-![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/%EB%AC%B8%EC%A0%9C%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.JPG)
+![출처 : https://codeforces.com/contest/1331](\assets\images\2020-04-02\Problems list.JPG)
 
 문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.
 
@@ -50,7 +52,7 @@ date:   2020-04-02 14:30:00 +0900
 
 # 3. 문제 풀이
 
-![출처 : https://codeforces.com/contest/1331/problem/A](/images/2020-04-02/A.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/A](\assets\images\2020-04-02\A.JPG)
 
 [`A번 문제`](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
 
@@ -79,7 +81,7 @@ int main()
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/B](/images/2020-04-02/B.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/B](\assets\images\2020-04-02\B.JPG)
 
 [`B번 문제`](https://codeforces.com/contest/1331/problem/B)입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..
 
@@ -130,7 +132,7 @@ int main(void)
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/C](/images/2020-04-02/C.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/C](\assets\images\2020-04-02\C.JPG)
 
 [`C번 문제`](https://codeforces.com/contest/1331/problem/C)입니다. 풀이를 생각해내는 데 한참 걸렸습니다.
 
@@ -142,7 +144,7 @@ int main(void)
 
 ### 풀이
 
-__a의 범위가 0~63 __인 것에 착안하여, `input`과 `output`을 **6개의 2진수 비트** 로 나타내면 다음과 같습니다.
+__a의 범위가 0~63__ 인 것에 착안하여, `input`과 `output`을 **6개의 2진수 비트** 로 나타내면 다음과 같습니다.
 
 | Test case | input(binary) | output(binary) | 비트 이동        |
 | --------- | ------------- | -------------- | ---------------- |
@@ -193,7 +195,7 @@ int main(void)
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/D](/images/2020-04-02/D.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/D](\assets\images\2020-04-02\D.JPG)
 
 [`D번 문제`](https://codeforces.com/contest/1331/problem/D)입니다. 오른쪽 아래`Problem tags`에 `chinese remainder theorem`[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.
 
@@ -226,9 +228,9 @@ int main(void)
 
 __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 넘어가겠습니다.__
 
-![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E1.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](\assets\images\2020-04-02\E1.JPG)
 
-![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E2.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](\assets\images\2020-04-02\E2.JPG)
 
 [`E번 문제`](https://codeforces.com/contest/1331/problem/E)입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.
 
@@ -246,7 +248,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/F](/images/2020-04-02/F.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/F](\assets\images\2020-04-02\F.JPG)
 
 [`F번 문제`](https://codeforces.com/contest/1331/problem/F)입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!
 
@@ -298,14 +300,14 @@ int main(void)
 
 # 4. 결과
 
-![출처 : https://codeforces.com/contest/1331/standings](/images/2020-04-02/standing.JPG)
+![출처 : https://codeforces.com/contest/1331/standings](\assets\images\2020-04-02\standing.JPG)
 
 제 성적입니다.
 
-+ <span style="color:green">초록색 +</span>는 맞힌 문제, <span style="color:green">+</span> 뒤의 숫자는 틀린 횟수를 나타냅니다.
++ __<span style="color:green">초록색 +</span>__ 는 맞힌 문제, __<span style="color:green">+</span>__ 뒤의 숫자는 틀린 횟수를 나타냅니다.
 + __틀린 횟수 당 10분의 패널티가 주어집니다.__
-+ <span style="color:blue">`-2`</span>는 2번 틀리고 풀지 못했음을 나타냅니다.
-+ `Tried`는 각 문제당 제출된 코드 수, <span style="color:green">`Accepted`</span>는 그중 맞힌 사람의 수를 나타냅니다.
++ __<span style="color:blue">`-2`</span>__ 는 2번 틀리고 풀지 못했음을 나타냅니다.
++ `Tried`는 각 문제당 제출된 코드 수, __<span style="color:green">`Accepted`</span>__ 는 그중 맞힌 사람의 수를 나타냅니다.
 
 <br /><br /><br />
 

@@ -1,3 +1,12 @@
+---
+layout: single
+title:  "Java differences by Version"
+date:   2020-04-01 16:27:40 +0900
+categories: jekyll update
+---
+
+
+
 <h1>Java 버전별 차이점</h1>
 
 <h4>201901694 이동빈</h4>
