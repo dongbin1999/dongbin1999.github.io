@@ -24,7 +24,7 @@ ___
 
 <h3>사용중인 ojs</h3>
 
-> [inuoj](http://117.16.243.100:55000/)
+> [inuoj 개인 프로필](http://hxxn85.team/userinfo.php?user=201901694)
 >
 > [baekjoon 개인 프로필](https://www.acmicpc.net/user/leedongbin)
 >
