@@ -32,8 +32,6 @@ ___
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-~~롤도 좋아합니다! [op.gg](https://www.op.gg/summoner/userName=Templar)~~
-
 
 [jekyll-organization]: https://github.com/jekyll
 
