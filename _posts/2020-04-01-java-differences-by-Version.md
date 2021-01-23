@@ -1,10 +1,10 @@
 ---
-title: "Java differences by Version"
-date: 2020-04-01 16:27:40 +0900
+title: "Java differenves by Version"
+date: 2020-04-01 16:27:00 +0900
 categories:
 - university
 tags:
--assignment
+- assignment
 ---
 
 .
