@@ -1,6 +1,6 @@
 ---
-title:  "Codeforces April Fools Day Contest 2020 review"
-date:   2020-04-02 14:30:00 +0900
+title: "Codeforces April Fools Day Contest 2020 review"
+date: 2020-04-02 14:30:00 +0900
 categories:
 - PS
 - University
