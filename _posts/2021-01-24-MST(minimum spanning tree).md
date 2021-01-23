@@ -28,6 +28,7 @@ vector<pii> tree[10001];
 int u[10001];
 priority_queue<element> pq;
 
+//크루스칼 알고리즘 사용. 연결 여부를 union-find로 판별.
 int find(int a)
 {
     if(u[a]<0)return a;
