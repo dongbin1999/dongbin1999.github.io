@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: leedongbin archive
+title: leedongbin's archive
 subtitle:
 description:
 author: leedongbin
@@ -62,7 +62,7 @@ defaults:
 
 # Atom feed
 feed:
-  path: atom.xml
+  path: rss.html
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -84,10 +84,10 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
+rss: /atom.xml
 
 # Specify the date when the site was setup
-#since: 2020
+since: 2020
 
 # icon between year and author @Footer
 authoricon: heart
@@ -119,10 +119,10 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/
-  about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
+  about: /about/
   #commonweal: /404.html
 
 
@@ -228,7 +228,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   # Twitter: twitter
-  Weibo: weibo
+  # Weibo: weibo
 
 
 # Sidebar Avatar
