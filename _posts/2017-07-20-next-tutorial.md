@@ -263,7 +263,7 @@ tags:
 
 This is a highlight test.
 
-# Normal block
+## Normal block
 
 ```
 alert('Hello World!');
@@ -271,7 +271,7 @@ alert('Hello World!');
 
     print 'helloworld'
 
-# Highlight block
+## Highlight block
 
 ```javascript
 alert( 'Hello, world!' );
@@ -374,9 +374,7 @@ tags:
 
 The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
 
----
-
-# Heading 1
+Heading 1 (index 때문에 생략. #Heading 1)
 
 ## Heading 2
 
