@@ -1,8 +1,11 @@
 ---
-layout: single
-title:  "About Strassen Algorithm"
-date:   2020-04-11 20:30:00 +0900
-categories: jekyll update
+title: "About Strassen Algorithm"
+date: 2020-04-11 20:30:00 +0900
+categories:
+- algorithm
+- university
+tags:
+- assignment
 ---
 
 .

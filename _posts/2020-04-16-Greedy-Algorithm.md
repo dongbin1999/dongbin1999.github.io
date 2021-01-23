@@ -1,8 +1,13 @@
 ---
-layout: single
-title:  "Greedy Algorithm"
-date:   2020-04-16 15:50:00 +0900
-categories: jekyll update
+title: "Greedy Algorithm"
+date: 2020-04-16 15:50:00 +0900
+categories:
+- PS
+- university
+tags:
+- codeforces
+- assignment
+- review
 ---
 
 ## [Codeforces Round #635 (Div. 2) #C 문제](https://codeforces.com/contest/1337/problem/C)

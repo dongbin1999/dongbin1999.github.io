@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Programming-TeamProject"
-date:   2020-05-31 20:15:00 +0900
-categories: jekyll update
+title: "Programming-TeamProject"
+date: 2020-05-31 20:15:00 +0900
+categories:
+- university
+tags:
+- project
 ---
 
 # 프로그래밍 팀프로젝트

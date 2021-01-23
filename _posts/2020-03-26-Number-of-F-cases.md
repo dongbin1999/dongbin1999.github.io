@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Number of F cases"
-date:   2020-03-26 16:27:40 +0900
-categories: jekyll update
+title: "Number of F cases"
+date: 2020-03-26 16:27:40 +0900
+categories:
+- university
+tags:
+- assignment
 ---
 
 

@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Java differences by Version"
-date:   2020-04-01 16:27:40 +0900
-categories: jekyll update
+title: "Java differences by Version"
+date: 2020-04-01 16:27:40 +0900
+categories:
+- university
+tags:
+-assignment
 ---
 
 

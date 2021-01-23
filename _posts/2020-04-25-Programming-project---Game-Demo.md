@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Programming project - Game Demo"
-date:   2020-04-25 16:27:40 +0900
-categories: jekyll update
+title: "Programming project - Game Demo"
+date: 2020-04-25 16:27:40 +0900
+categories:
+- university
+tags:
+- project
 ---
 
 # 프로그래밍 프로젝트
