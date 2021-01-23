@@ -10,7 +10,7 @@ tags:
 - review
 ---
 
-.
+<!-- more -->
 
 # Codeforces April Fools Day Contest 2020 review
 

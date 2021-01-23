@@ -10,7 +10,7 @@ tags:
 - review
 ---
 
-.
+<!-- more -->
 
 ## [Codeforces Round #635 (Div. 2) #C 문제](https://codeforces.com/contest/1337/problem/C)
 

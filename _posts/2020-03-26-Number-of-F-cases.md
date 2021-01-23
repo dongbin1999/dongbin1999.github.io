@@ -7,7 +7,7 @@ tags:
 - assignment
 ---
 
-.
+<!-- more -->
 
 <h1>F를 받게되는 경우의 수</h1>
 
