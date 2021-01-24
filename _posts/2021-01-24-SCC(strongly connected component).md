@@ -1,6 +1,6 @@
 ---
 title: "SCC(strongly connected component)"
-date: 2021-01-24 16:31:00 +0900
+date: 2021-01-24 18:10:00 +0900
 categories:
 - algorithm
 tags:
