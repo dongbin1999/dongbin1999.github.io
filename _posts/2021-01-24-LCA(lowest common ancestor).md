@@ -1,6 +1,6 @@
 ---
 title: "LCA(lowest common ancestor)"
-date: 2021-01-24 16:31:00 +0900
+date: 2021-01-24 16:51:00 +0900
 categories:
 - algorithm
 tags:
