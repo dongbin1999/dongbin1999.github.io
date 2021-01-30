@@ -11,37 +11,64 @@ tags:
 
 ```c++
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
+//크기는 n<sz 이면서 sz=1<<k 꼴로. 2^17=131072 / 2^18=262144 / 2^19=524288 / 2^20=1048576
+//고쳐야 할 부분 (1)~(5)
+const int sz = 1<<20;
+ll arr[sz*2];
 
-//처음에 u 배열 -1로 초기화.
-int u[1000001];
-
-int find(int a)
+//처음 값 입력받은 후 트리 구축.
+void construct()
 {
-    if(u[a]<0)return a;
-    return u[a]=find(u[a]);
+    for(int i=sz-1;i>=1;i--)
+        arr[i]=arr[i*2]+arr[i*2+1];//(1)
 }
 
-bool merge(int a,int b)
+void update(int i,ll val)
 {
-    a=find(a),b=find(b);
-    if(a==b)return false;
-    if(-u[a]<-u[b])swap(a,b);
-    u[a]+=u[b],u[b]=a;
-    return true;
+    i+=sz;
+    arr[i]=val;
+    while(i>1)
+    {
+        i/=2;
+        arr[i]=arr[i*2]+arr[i*2+1];//(2)
+    }
+}
+
+ll query(int s,int e,int node,int ns,int ne)
+{
+    if(e<ns||ne<s)return 0;//(3)
+    if(s<=ns&&ne<=e)return arr[node];//(4)
+    int mid=(ns+ne)/2;
+    return query(s,e,node*2,ns,mid)+query(s,e,node*2+1,mid+1,ne);//(5)
 }
 
 int main(void)
 {
-    int n,m;
-    scanf("%d %d",&n,&m);
-    fill(u,u+1+n,-1);
-    while(m--)
+    int n,m,k;
+    scanf("%d %d %d",&n,&m,&k);
+
+    //값 입력받는 위치 주의.(+sz)
+    for(int i=1;i<=n;i++)
+        scanf("%lld",&arr[i+sz]);
+    construct();
+
+    int q=m+k;
+    while(q--)
     {
-        int c,a,b;
-        scanf("%d %d %d",&c,&a,&b);
-        if(c) printf(find(a)==find(b)?"YES\n":"NO\n");
-        else merge(a,b);
+        int a;
+        scanf("%d",&a);
+        if(a==1)
+        {
+            int b;ll c; scanf("%d %lld",&b,&c);
+            update(b,c);
+        }
+        else
+        {
+            int l,r; scanf("%d %d",&l, &r);
+            printf("%lld\n", query(l,r,1,0,sz-1));
+        }
     }
     return 0;
 }
