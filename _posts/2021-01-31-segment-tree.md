@@ -57,8 +57,7 @@ int main(void)
     int q=m+k;
     while(q--)
     {
-        int a;
-        scanf("%d",&a);
+        int a; scanf("%d",&a);
         if(a==1)
         {
             int b;ll c; scanf("%d %lld",&b,&c);
