@@ -1,0 +1,54 @@
+---
+title: "segment-tree"
+date: 2021-01-31 02:14:00 +0900
+categories:
+- data structure
+tags:
+- segment-tree
+---
+
+<!-- more -->
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+//처음에 u 배열 -1로 초기화.
+int u[1000001];
+
+int find(int a)
+{
+    if(u[a]<0)return a;
+    return u[a]=find(u[a]);
+}
+
+bool merge(int a,int b)
+{
+    a=find(a),b=find(b);
+    if(a==b)return false;
+    if(-u[a]<-u[b])swap(a,b);
+    u[a]+=u[b],u[b]=a;
+    return true;
+}
+
+int main(void)
+{
+    int n,m;
+    scanf("%d %d",&n,&m);
+    fill(u,u+1+n,-1);
+    while(m--)
+    {
+        int c,a,b;
+        scanf("%d %d %d",&c,&a,&b);
+        if(c) printf(find(a)==find(b)?"YES\n":"NO\n");
+        else merge(a,b);
+    }
+    return 0;
+}
+```
+
+
+
+# 관련문제
+
+[백준2042 : 구간 합 구하기](https://www.acmicpc.net/problem/2042)
