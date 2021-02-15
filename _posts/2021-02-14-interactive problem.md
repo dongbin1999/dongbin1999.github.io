@@ -1,11 +1,12 @@
 ---
-title: "interactive problem"
-date: 2021-02-14 18:53:00 +0900
+title: interactive problem
+date: '2021-02-14 18:53:00 +0900'
 categories:
-- PS
+  - PS
 tags:
-- codeforces
-- interactive
+  - codeforces
+  - interactive
+published: true
 ---
 
 <!-- more -->
@@ -15,7 +16,7 @@ tags:
 [Codeforces 1425F - Flamingoes of Mystery](https://codeforces.com/problemset/problem/1425/F)
 
 1. $N$ 개의 신비한 새장이 있고, $i$ 번째 새장에는 $A_i$ 마리의 플라밍고가 들어있습니다.
-2. `? L R` 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.
+2. $? L R$ 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.
 3. 최대 $N$ 번의 질문으로, 각 새장에 들어있는 플라밍고의 수를 알아내야 합니다.
 
 ```c++
