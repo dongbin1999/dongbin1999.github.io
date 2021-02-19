@@ -1,6 +1,6 @@
 ---
 title: "MST(minimum spanning tree)"
-date: 2021-01-24 04:56:00 +0900
+date: 2021-01-24 04:56:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 최소 스패닝 트리
 
 ```c++
 #include <bits/stdc++.h>
@@ -78,8 +80,14 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+$O(ElogE) (=O(ElogE)+O(Elog*V))$
+
+> V : 정점 수, E : 간선 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준1197 : 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)

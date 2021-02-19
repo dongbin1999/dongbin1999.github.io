@@ -1,6 +1,6 @@
 ---
 title: "SCC(strongly connected component)"
-date: 2021-01-24 18:10:00 +0900
+date: 2021-01-24 18:10:00
 categories:
 - algorithm
 tags:
@@ -9,13 +9,15 @@ tags:
 
 <!-- more -->
 
+# 강한 연결 요소
+
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
 const int sz=100001;
 //sz : n+1로 설정.
 int dfsn[sz],scc[sz],dfsnumber,sccnumber;
-//graph : 처음 주어지는 그래프 / dag : SCC로 묶인 그래프 / group[i] : i번 scc 노드에 묶여있는 정점들.
+//graph : 처음 주어지는 그래프 / dag : SCC로 묶인 그래프 / group[i] : i번 scc 노드에 묶여있는 노드들.
 vector<int> graph[sz],dag[sz],group[sz];
 stack<int> s;
 int indegree[sz];
@@ -88,8 +90,14 @@ int main(void)
 }
 ```
 
+## 시간복잡도
+
+$O(V+E)$
+
+> V : 노드 수, E : 간선 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준4196 : 도미노](https://www.acmicpc.net/problem/4196)

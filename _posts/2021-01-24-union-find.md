@@ -1,6 +1,6 @@
 ---
 title: "union-find"
-date: 2021-01-24 04:32:00 +0900
+date: 2021-01-24 04:32:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 분리 집합
 
 ```c++
 #include <bits/stdc++.h>
@@ -26,7 +28,8 @@ bool merge(int a,int b)
 {
     a=find(a),b=find(b);
     if(a==b)return false;
-    if(-u[a]<-u[b])swap(a,b);
+    //union by rank. path compression을 하지 않을 때 사용.
+    //if(-u[a]<-u[b])swap(a,b);
     u[a]+=u[b],u[b]=a;
     return true;
 }
@@ -47,8 +50,14 @@ int main(void)
 }
 ```
 
+## 시간복잡도
+
+$O(Mlog*N) \approx O(M)$
+
+> N : 정점 수, M : find 연산 수행 횟수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준1717 : 집합의 표현](https://www.acmicpc.net/problem/1717)

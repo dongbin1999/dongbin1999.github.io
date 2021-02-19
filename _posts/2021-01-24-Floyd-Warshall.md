@@ -1,6 +1,6 @@
 ---
 title: "Floyd-Warshall"
-date: 2021-01-24 04:15:00 +0900
+date: 2021-01-24 04:15:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 플로이드 와샬 알고리즘
 
 ```c++
 #include <bits/stdc++.h>
@@ -49,9 +51,15 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+$O(V^3)$
+
+> V : 정점 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준11404 : 플로이드](https://www.acmicpc.net/problem/11404)
 

@@ -1,6 +1,6 @@
 ---
 title: "prime-factorization"
-date: 2021-02-03 05:02:00 +0900
+date: 2021-02-03 05:02:00
 categories:
 - algorithm
 tags:
@@ -11,12 +11,12 @@ tags:
 
 <!-- more -->
 
-# 1. 에라토스테네스의 체 (sqrt(n))
+# 에라토스테네스의 체
 
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
-//n<=sz^2이 되도록 sz 적당히 크게 잡기. n은 소인수분해 할 가장 큰 수.
+//n<=sz^2이 되도록 sz 적당히 크게 잡기.
 //고쳐야 할 부분 (1)~(2)
 const int sz=3163;//(1)
 bool no_prime[sz+1]={true,true};
@@ -46,9 +46,16 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+* 전처리 : $O(\sqrt{N}log\sqrt{N})$
+* 소인수분해 : $O(\sqrt{N}) (=O(\sqrt{N}+logN))$
+
+> N : 소인수분해 할 가장 큰 수.
 
 
-# 관련문제
+
+## 관련문제
 
 [백준11653 : 소인수분해](https://www.acmicpc.net/problem/11653)
 
@@ -62,7 +69,7 @@ int main()
 
 
 
-# 2. 언더 프라임 (log(n))
+# 언더 프라임
 
 ```c++
 #include <bits/stdc++.h>
@@ -104,8 +111,15 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+* 전처리 : $O(NlogN)$
+* 소인수분해 : $O(logN)$
+
+> N : 소인수분해 할 가장 큰 수.
 
 
-# 관련문제
+
+## 관련문제
 
 [백준16563 : 어려운 소인수분해](https://www.acmicpc.net/problem/16563)

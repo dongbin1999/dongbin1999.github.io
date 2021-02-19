@@ -1,6 +1,6 @@
 ---
 title: "segment-tree"
-date: 2021-01-31 02:14:00 +0900
+date: 2021-01-31 02:14:00
 categories:
 - data structure
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 세그먼트 트리
 
 ```c++
 #include <bits/stdc++.h>
@@ -73,8 +75,16 @@ int main(void)
 }
 ```
 
+## 시간복잡도
+
+* 전처리 : $O(N)$
+* 구간 합 구하기 : $O(logN)$
+* 값 업데이트 : $O(logN)$
+
+> N : 수의 개수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준2042 : 구간 합 구하기](https://www.acmicpc.net/problem/2042)

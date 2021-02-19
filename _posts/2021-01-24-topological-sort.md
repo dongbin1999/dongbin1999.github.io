@@ -1,6 +1,6 @@
 ---
 title: "topological-sort"
-date: 2021-01-24 16:31:00 +0900
+date: 2021-01-24 16:31:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 위상 정렬
 
 ```c++
 #include <bits/stdc++.h>
@@ -53,8 +55,14 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+$O(V+E)$
+
+> V : 정점 수, E : 간선 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준2252 : 줄 세우기](https://www.acmicpc.net/problem/2252)

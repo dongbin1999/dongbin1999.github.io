@@ -1,6 +1,6 @@
 ---
 title: interactive problem
-date: '2021-02-14 18:53:00 +0900'
+date: 2021-02-14 18:53:00
 categories:
   - PS
 tags:

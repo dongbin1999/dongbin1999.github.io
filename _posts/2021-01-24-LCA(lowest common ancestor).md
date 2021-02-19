@@ -1,6 +1,6 @@
 ---
 title: "LCA(lowest common ancestor)"
-date: 2021-01-24 16:51:00 +0900
+date: 2021-01-24 16:51:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 최소 공통 조상
 
 ```c++
 #include <bits/stdc++.h>
@@ -67,8 +69,15 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+* 전처리 : $O(NlogN)$
+* LCA 찾기 : $O(logN)$
+
+> N : 노드 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준11438 : LCA 2](https://www.acmicpc.net/problem/11438)
