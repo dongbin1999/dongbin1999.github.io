@@ -1,6 +1,6 @@
 ---
 title: "Bellman-Ford"
-date: 2021-01-24 03:54:00 +0900
+date: 2021-01-24 03:54:00
 categories:
 - algorithm
 tags:
@@ -8,6 +8,8 @@ tags:
 ---
 
 <!-- more -->
+
+# 벨만 포드 알고리즘
 
 ```c++
 #include <bits/stdc++.h>
@@ -56,9 +58,15 @@ int main()
 }
 ```
 
+## 시간복잡도
+
+$O(VE)$
+
+> V : 정점 수, E : 간선 수
 
 
-# 관련문제
+
+## 관련문제
 
 [백준11657 : 타임머신](https://www.acmicpc.net/problem/11657)
 
