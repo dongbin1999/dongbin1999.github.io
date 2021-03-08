@@ -91,7 +91,7 @@ int main()
 
 ## 시간복잡도
 
-$min(O(E^{2}V),O(EF) \approx O(E^{2}V)$
+$min(O(E^{2}V),O(EF)) \approx O(E^{2}V)$
 
 > V : 정점 수, E : 간선 수, F : 답으로 출력하는 수
 
