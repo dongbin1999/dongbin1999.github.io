@@ -1,10 +1,11 @@
 ---
-title: "segment-tree"
-date: 2021-01-31 02:14:00
+title: segment-tree
+date: {}
 categories:
-- data structure
+  - data structure
 tags:
-- segment-tree
+  - segment-tree
+published: true
 ---
 
 <!-- more -->
@@ -13,41 +14,32 @@ tags:
 
 ```c++
 #include <bits/stdc++.h>
-#define ll long long
 using namespace std;
+typedef long long ll;
 //크기는 n<sz 이면서 sz=1<<k 꼴로. 2^17=131072 / 2^18=262144 / 2^19=524288 / 2^20=1048576
 //고쳐야 할 부분 (1)~(5)
-const int sz = 1<<20;
+const int sz=1<<20;
 ll arr[sz*2];
 
 //처음 값 입력받은 후 트리 구축.
-void construct()
-{
+void construct(){
     for(int i=sz-1;i>=1;i--)
         arr[i]=arr[i*2]+arr[i*2+1];//(1)
 }
 
-void update(int i,ll val)
-{
-    i+=sz;
-    arr[i]=val;
-    while(i>1)
-    {
-        i/=2;
-        arr[i]=arr[i*2]+arr[i*2+1];//(2)
-    }
+void update(int i,ll val){
+    i+=sz,arr[i]=val;
+    while(i>1)i/=2,arr[i]=arr[i*2]+arr[i*2+1];//(2)
 }
 
-ll query(int s,int e,int node,int ns,int ne)
-{
+ll query(int s,int e,int node,int ns,int ne){
     if(e<ns||ne<s)return 0;//(3)
     if(s<=ns&&ne<=e)return arr[node];//(4)
     int mid=(ns+ne)/2;
     return query(s,e,node*2,ns,mid)+query(s,e,node*2+1,mid+1,ne);//(5)
 }
 
-int main(void)
-{
+int main(){
     int n,m,k;
     scanf("%d %d %d",&n,&m,&k);
 
@@ -57,16 +49,13 @@ int main(void)
     construct();
 
     int q=m+k;
-    while(q--)
-    {
+    while(q--){
         int a; scanf("%d",&a);
-        if(a==1)
-        {
+        if(a==1){
             int b;ll c; scanf("%d %lld",&b,&c);
             update(b,c);
         }
-        else
-        {
+        else{
             int l,r; scanf("%d %d",&l, &r);
             printf("%lld\n", query(l,r,1,0,sz-1));
         }
