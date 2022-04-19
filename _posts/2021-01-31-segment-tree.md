@@ -1,11 +1,11 @@
 ---
-title: segment-tree
-date: 2022-04-20T00:00:00.000Z
+title: "segment-tree"
+date: 2021-01-31 02:14:00
 categories:
-  - data structure
+- data structure
 tags:
-  - segment-tree
-published: true
+- segment-tree
+
 ---
 
 <!-- more -->
