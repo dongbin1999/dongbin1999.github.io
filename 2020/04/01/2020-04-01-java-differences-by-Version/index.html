@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/silver/pace-theme-material.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"dongbin1999.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.2","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Java 버전별 차이점  201901694 이동빈    ~2000년도 JDK 1.0a 발표 : 1994년도   JDK 1.0a2 발표 : 1995년 5월 23일 특징  언어 자체가 정식으로 발표된 날이다.  JDK 1.0 발표 : 1996년 1월 23일  특징 발표 이전에 불렸던 이름은 Oak였으며, 안정화 작업을 거친 1.0.2 버전에서 Java로 이">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java differenves by Version">
+<meta property="og:url" content="https://dongbin1999.github.io/2020/04/01/2020-04-01-java-differences-by-Version/index.html">
+<meta property="og:site_name" content="leedongbin&#39;s blog">
+<meta property="og:description" content="Java 버전별 차이점  201901694 이동빈    ~2000년도 JDK 1.0a 발표 : 1994년도   JDK 1.0a2 발표 : 1995년 5월 23일 특징  언어 자체가 정식으로 발표된 날이다.  JDK 1.0 발표 : 1996년 1월 23일  특징 발표 이전에 불렸던 이름은 Oak였으며, 안정화 작업을 거친 1.0.2 버전에서 Java로 이">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2020-04-01T07:27:00.000Z">
+<meta property="article:modified_time" content="2022-11-29T12:09:34.583Z">
+<meta property="article:author" content="leedongbin">
+<meta property="article:tag" content="assignment">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://dongbin1999.github.io/2020/04/01/2020-04-01-java-differences-by-Version/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"ko","comments":true,"permalink":"https://dongbin1999.github.io/2020/04/01/2020-04-01-java-differences-by-Version/","path":"2020/04/01/2020-04-01-java-differences-by-Version/","title":"Java differenves by Version"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Java differenves by Version | leedongbin's blog</title>
+  
+
+
+
+
+
+
+  <script async defer data-website-id="" src=""></script>
+
+  <script defer data-domain="" src=""></script>
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">leedongbin's blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">개발 / PS / 게임일기</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="검색" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>홈</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>정보</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>태그</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>카테고리</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>아카이브</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>검색
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          목차
+        </li>
+        <li class="sidebar-nav-overview">
+          흝어보기
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">Java 버전별 차이점</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">201901694 이동빈</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2000%EB%85%84%EB%8F%84"><span class="nav-number">1.1.</span> <span class="nav-text">~2000년도</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-1-0a"><span class="nav-number">1.1.1.</span> <span class="nav-text">JDK 1.0a</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-1-0a2"><span class="nav-number">1.1.2.</span> <span class="nav-text">JDK 1.0a2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-1-0"><span class="nav-number">1.1.3.</span> <span class="nav-text">JDK 1.0</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-1-1"><span class="nav-number">1.1.4.</span> <span class="nav-text">JDK 1.1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#J2SE-1-2"><span class="nav-number">1.1.5.</span> <span class="nav-text">J2SE 1.2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2000-2010%EB%85%84%EB%8F%84"><span class="nav-number">1.2.</span> <span class="nav-text">2000~2010년도</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#J2SE-1-3"><span class="nav-number">1.2.1.</span> <span class="nav-text">J2SE 1.3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#J2SE-1-4"><span class="nav-number">1.2.2.</span> <span class="nav-text">J2SE 1.4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#J2SE-5"><span class="nav-number">1.2.3.</span> <span class="nav-text">J2SE 5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-6"><span class="nav-number">1.2.4.</span> <span class="nav-text">Java SE 6</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2010%EB%85%84%EB%8F%84-%ED%98%84%EC%9E%AC"><span class="nav-number">1.3.</span> <span class="nav-text">2010년도~ 현재</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-7"><span class="nav-number">1.3.1.</span> <span class="nav-text">Java SE 7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-8"><span class="nav-number">1.3.2.</span> <span class="nav-text">Java SE 8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-9"><span class="nav-number">1.3.3.</span> <span class="nav-text">Java SE 9</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-10"><span class="nav-number">1.3.4.</span> <span class="nav-text">Java SE 10</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-11"><span class="nav-number">1.3.5.</span> <span class="nav-text">Java SE 11</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-12"><span class="nav-number">1.3.6.</span> <span class="nav-text">Java SE 12</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-13"><span class="nav-number">1.3.7.</span> <span class="nav-text">Java SE 13</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-14"><span class="nav-number">1.3.8.</span> <span class="nav-text">Java SE 14</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%95%9E%EC%9C%BC%EB%A1%9C-%EC%B6%9C%EC%8B%9C%EB%90%A0-%EB%B2%84%EC%A0%84"><span class="nav-number">1.4.</span> <span class="nav-text">앞으로 출시될 버전</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Java-SE-15"><span class="nav-number">1.4.1.</span> <span class="nav-text">Java SE 15</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="leedongbin"
+      src="/images/profile.jpg">
+  <p class="site-author-name" itemprop="name">leedongbin</p>
+  <div class="site-description" itemprop="description">INU 2nd grade</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-name">포스트</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">카테고리</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">22</span>
+        <span class="site-state-item-name">태그</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;dongbin1999"><i class="fab fa-github fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/dongbin1999@inu.ac.kr" title="E-Mail → dongbin1999@inu.ac.kr"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9sb2xjaGVzcy5nZy9wcm9maWxlL2tyL3RlbXBsYXI=" title="TFT → https:&#x2F;&#x2F;lolchess.gg&#x2F;profile&#x2F;kr&#x2F;templar"><i class="fa fa-gamepad fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvdXNlci9sZWVkb25nYmlu" title="Baekjoon → https:&#x2F;&#x2F;www.acmicpc.net&#x2F;user&#x2F;leedongbin"><i class="fa fa-code fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9wcm9maWxlL2RvbmdiaW4xOTk5" title="Codeforces → https:&#x2F;&#x2F;codeforces.com&#x2F;profile&#x2F;dongbin1999"><i class="fa fa-chart-simple fa-fw"></i></span>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLmtv"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/big/by_nc_sa.svg" alt="Creative Commons"></span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="ko">
+    <link itemprop="mainEntityOfPage" href="https://dongbin1999.github.io/2020/04/01/2020-04-01-java-differences-by-Version/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/profile.jpg">
+      <meta itemprop="name" content="leedongbin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="leedongbin's blog">
+      <meta itemprop="description" content="INU 2nd grade">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Java differenves by Version | leedongbin's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Java differenves by Version<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L2RvbmdiaW4xOTk5LmdpdGh1Yi5pby9tYXN0ZXIvc291cmNlL19wb3N0cy8yMDIwLTA0LTAxLWphdmEtZGlmZmVyZW5jZXMtYnktVmVyc2lvbi5tZA==" title="Edit this post"><i class="fa fa-pen-nib"></i></span>
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">작성일</span>
+
+      <time title="Post created: 2020-04-01 16:27:00" itemprop="dateCreated datePublished" datetime="2020-04-01T16:27:00+09:00">2020-04-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Updated at: 2022-11-29 21:09:34" itemprop="dateModified" datetime="2022-11-29T21:09:34+09:00">2022-11-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/university/" itemprop="url" rel="index"><span itemprop="name">university</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2020/04/01/2020-04-01-java-differences-by-Version/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/04/01/2020-04-01-java-differences-by-Version/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <span id="more"></span>
+
+<h1>Java 버전별 차이점</h1>
+
+<h4>201901694 이동빈</h4>
+
+
+
+<h2 id="2000년도"><a href="#2000년도" class="headerlink" title="~2000년도"></a>~2000년도</h2><hr>
+<h3 id="JDK-1-0a"><a href="#JDK-1-0a" class="headerlink" title="JDK 1.0a"></a>JDK 1.0a</h3><ul>
+<li>발표 : 1994년도</li>
+</ul>
+<hr>
+<h3 id="JDK-1-0a2"><a href="#JDK-1-0a2" class="headerlink" title="JDK 1.0a2"></a>JDK 1.0a2</h3><ul>
+<li>발표 : 1995년 5월 23일</li>
+<li>특징</li>
+</ul>
+<p><strong>언어 자체가 정식으로 발표된 날이다.</strong></p>
+<hr>
+<h3 id="JDK-1-0"><a href="#JDK-1-0" class="headerlink" title="JDK 1.0"></a>JDK 1.0</h3><ul>
+<li><p>발표 : 1996년 1월 23일</p>
+</li>
+<li><p>특징</p>
+<p>발표 이전에 불렸던 이름은 <code>Oak</code>였으며, 안정화 작업을 거친 1.0.2 버전에서 <code>Java</code>로 이름이 바뀌었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="JDK-1-1"><a href="#JDK-1-1" class="headerlink" title="JDK 1.1"></a>JDK 1.1</h3><ul>
+<li>발표 : 1997년 2월 19일</li>
+<li>추가된 기능<ul>
+<li><code>inner class</code></li>
+<li><code>JavaBeans</code></li>
+<li><code>RMI</code></li>
+<li><code>reflection</code></li>
+<li>유니코드 지원</li>
+<li><code>국제화(Internationalization)</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-1-2"><a href="#J2SE-1-2" class="headerlink" title="J2SE 1.2"></a>J2SE 1.2</h3><ul>
+<li><p>발표 : 1998년 12월 8일</p>
+</li>
+<li><p>지원 종료 : 2003년 11월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>새로운 <code>GUI</code></li>
+<li><code> JIT</code></li>
+<li><code>CORBA</code></li>
+<li><code>strictfp</code>, <code>Swing GUI</code>, <code>JIT</code>, <code>Java Applet</code>을 구동하는 웹 브라우저 플러그인</li>
+<li><code>Collections</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>굵직한 기능들이 추가되면서 2 부터 약칭을 <code>J2SE(Java 2 Standard Edition)</code> 로 표기하기 시작했으며, 이 표기는 5 까지 사용된다. 1999년에 업데이트를 통해 <code>HotSpot JVM</code>이 첫 선을 보인다.</p>
+</li>
+</ul>
+<hr>
+<h2 id="2000-2010년도"><a href="#2000-2010년도" class="headerlink" title="2000~2010년도"></a>2000~2010년도</h2><hr>
+<h3 id="J2SE-1-3"><a href="#J2SE-1-3" class="headerlink" title="J2SE 1.3"></a>J2SE 1.3</h3><ul>
+<li><p>발표 : 2000년 3월 8일</p>
+</li>
+<li><p>지원 종료 : 2006년 11월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>HotSpot JVM</code></li>
+<li><code>JNDI</code></li>
+<li><code>JPDA</code></li>
+<li><code>JavaSound</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> <code>RMI</code>가 <code>CORBA</code>를 지원하도록 변경되었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-1-4"><a href="#J2SE-1-4" class="headerlink" title="J2SE 1.4"></a>J2SE 1.4</h3><ul>
+<li>발표 : 2002년 2월 6일</li>
+<li>지원 종료 : 2008년 10월 <em>(2013년 2월까지 연장 지원)</em></li>
+<li>추가된 기능<ul>
+<li><code>assert</code>문</li>
+<li>정규표현식</li>
+<li><code>IPv6</code></li>
+<li><code>Non-Blocking IO</code></li>
+<li><code>XML API</code></li>
+<li><code>JCE</code></li>
+<li><code>JSSE</code></li>
+<li><code>JAAS</code></li>
+<li><code>Java Web Start</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-5"><a href="#J2SE-5" class="headerlink" title="J2SE 5"></a>J2SE 5</h3><ul>
+<li><p>발표 : 2004년 9월 30일</p>
+</li>
+<li><p>지원 종료 : 2009년 9월 <em>(2015년 5월까지 연장 지원)</em> </p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Generics</code></li>
+<li><code>Annotation</code></li>
+<li><code>Auto Boxing/Unboxing</code></li>
+<li><code>Enumeration</code></li>
+<li>가변 길이 파라미터</li>
+<li><code>Static Import</code></li>
+<li>새로운 <code>Concurrency API</code></li>
+<li><code>java.util.Scanner</code> <em>(이전보다 편하게 표준 입력 사용 가능)</em></li>
+<li><code>Windows 9x</code> &#x2F; <code>Windows NT 4.0</code> <em>(~&#96;J2SE 5.0&#96;)</em></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p><strong>이 때부터 버젼 중 앞의 1을 빼버리고 표기하기 시작했다.</strong> 그러나 내부적으로는 여전히 1.5, 1.6, 1.7 등으로 데이터가 들어있다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-6"><a href="#Java-SE-6" class="headerlink" title="Java SE 6"></a>Java SE 6</h3><ul>
+<li><p>발표 : 2006년 12월 11일</p>
+</li>
+<li><p>지원 종료 : 2013년 2월 <em>(2018년 12월까지 연장 지원)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Scripting Language Support</code></li>
+<li><code>JDBC 4.0</code></li>
+<li><code>Java Compiler API</code></li>
+<li><code>Pluggable Annotation</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p><strong>이 때부터 표기가 <code>J2SE</code>에서 <code>Java SE</code>로 바뀌었다.</strong>  스크립팅 언어 지원과 함께 <code>Rhino JavaScript</code> 엔진이 기본으로 탑재되었다.</p>
+</li>
+</ul>
+<hr>
+<h2 id="2010년도-현재"><a href="#2010년도-현재" class="headerlink" title="2010년도~ 현재"></a>2010년도~ 현재</h2><hr>
+<h3 id="Java-SE-7"><a href="#Java-SE-7" class="headerlink" title="Java SE 7"></a>Java SE 7</h3><ul>
+<li>발표 : 2011년 7월 7일</li>
+<li>지원 종료 : 2015년 4월 <em>(2022년 7월까지 연장 지원 예정)</em></li>
+<li>추가된 기능<ul>
+<li><code>Dynamic Language</code> 지원</li>
+<li><code>switch</code>문에서 <code>String</code> 사용</li>
+<li><code>try</code>문에서 자동 자원 관리</li>
+<li><code>Diamond Operator &lt;&gt;</code></li>
+<li>이진수 literal, 숫자 literal에 <code>_</code> 지원</li>
+<li>새로운 <code>Concurrency API</code></li>
+<li>새로운 <code>File NIO library</code></li>
+<li><code>Elliptic Curve Cryptography</code></li>
+<li><code>Java2D</code>를 위한 <code>XRender</code>, <code>Upstream</code>, <code>Java Deployment Ruleset</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-8"><a href="#Java-SE-8" class="headerlink" title="Java SE 8"></a>Java SE 8</h3><ul>
+<li><p>발표 : 2014년 3월 18일</p>
+</li>
+<li><p>지원 종료 : 2019년 1월 <em>(2023년 9월까지 연장 지원 예정)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Unsigned Integer</code> 계산</li>
+<li><code>Lambda Expression</code>, <code>Rhino</code> 대신 <code>Nashorn JavaScript</code> 엔진 탑재</li>
+<li><code>Annotation on Java Types</code></li>
+<li><code>Repeating Annotation</code></li>
+<li>새로운 날짜와 시간 API <em>(사실상 JodaTime이라고 보면 된다)</em></li>
+<li><code>Static Link JNI Library</code></li>
+<li><code>Interface Default Method</code></li>
+<li><code>PermGen</code> 영역 삭제</li>
+<li><code>Stream API</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>본래 일반 지원은 2017년 9월 종료 예정이었으나 <code>Java 9</code> 발표의 지연 때문에 2018년 9월로 연장되었다가, 이후 라이선스 이관 문제로 인해 2019년 1월로 다시 연장되었다.</p>
+<p><strong>32비트를 지원하는 마지막 공식 Java 버전으로, 이후 버전의 32비트 지원은 오직 서드파티를 통해서만 지원된다.</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-9"><a href="#Java-SE-9" class="headerlink" title="Java SE 9"></a>Java SE 9</h3><ul>
+<li><p>발표 : 2017년 9월 21일</p>
+</li>
+<li><p>지원 종료 : 2018년 3월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><p><code>JShell</code> <em>(Java를 인터프리터 언어 셸처럼 사용할 수 있음)</em></p>
+</li>
+<li><p><code>Ahead-Of-Time Compilation</code> <em>( 실험 기능 &#x2F; Java 바이트코드를 기계어로 미리 번역)</em></p>
+</li>
+<li><p><code>구조적 불변 컬렉션</code>, <code>통합 로깅</code>,  <code>HTTP/2</code>, <code>private 인터페이스 메소드</code>, <code>HTML5 Javadoc</code> 지원</p>
+</li>
+<li><p>.properties 파일에 <code>UTF-8</code> 지원</p>
+</li>
+<li><p><code>Project Jigsaw</code> 기반으로 런타임 모듈화</p>
+<ul>
+<li><code>AWT</code>나 <code>Swing </code> 같은 불필요한 라이브러리를 끌어쓸 필요도 없이, 최상위 모듈인 <code>Base</code>만 사용해도 된다.</li>
+<li>특정 프로그램에 최적화된 최소 런타임을 제작할 수 있게 되면서 패키징 역시 간편해졌다</li>
+</ul>
+<br /></li>
+</ul>
+</li>
+<li><p>삭제된 기능</p>
+<ul>
+<li><code>Java Applet</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> Deprecated 표시에는 해당 버전과 제거 예정 여부를 표시할 수 있게 되었다.</p>
+<p>새로 적용된 버저닝 정책에 따라 이 버전부터는 더 이상 1.x 버전으로 내놓지 않고, 대신 <strong>9.0</strong>으로 급속한 판올림이 일어났다. 또한 제거 예정인 Deprecated API는 <strong>다음 버전인 Java SE 10부터 완전 삭제 예정</strong>이므로 해당 API를 쓰는 프로그램은 더 이상 이후의 버전에서 컴파일조차 불가능하게 된다. 그리고<code> Java SE 9</code>부터는 6개월마다 새로운 버전이 업데이트된다.</p>
+<p>본래는 2016년 발표 예정이었으나 2번이나 연기되어 2017년 7월 27일 발표 예정, 그나마도 한번 더 연기되어 9월 21일에 발표되었다. 가장 큰 원인은 역시 <code>Project Jigsaw</code>의 개발 난이도였다. 런타임의 모듈화는 하위 호환성을 어느 정도 포기하고 성능을 추구한 것이기에 아직 현장에서는 <code>Java 9</code>로 넘어가는 것을 꺼리는 분위기다.</p>
+<p><strong>이 버전부터 64비트 버전만 출시되었으며, 32비트 버전은 더 이상 공식적으로 나오지 않는다.</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-10"><a href="#Java-SE-10" class="headerlink" title="Java SE 10"></a>Java SE 10</h3><ul>
+<li><p>발표 : 2018년 3월 20일</p>
+</li>
+<li><p>지원 종료 : 2018년 9월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>var 키워드</code>를 이용한 지역 변수 타입 추론</li>
+<li>병렬 garbage collection</li>
+<li>개별 쓰레드로 분리된 <code>Stop-The-World</code></li>
+<li><code>루트 CA 목록</code></li>
+<li>Java 기반의 <code>JIT 컴파일러</code> <em>(실험 기능)</em></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> JDK의 레포지토리가 하나로 통합되었으며, JVM 힙 영역을 시스템 메모리가 아닌 다른 종류의 메모리에도 할당할 수 있게 되었다. 이전 버전에서 Deprecated 처리된 API는 <code>Java SE 10</code>에서 모두 삭제되었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-11"><a href="#Java-SE-11" class="headerlink" title="Java SE 11"></a>Java SE 11</h3><ul>
+<li><p>발표 : 2018년 9월 25일</p>
+</li>
+<li><p>지원 종료 : 2023년 9월 <em>(2026년 9월까지 연장 지원 예정)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>lambda parameter에 대한 지역 변수 문법</li>
+<li>epsilon garbage collector</li>
+<li>HTTP 클라이언트 표준화 기능</li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>이클립스 재단으로 넘어간 <code>Java EE</code>가 JDK에서 삭제되고, <code>JavaFX</code>도 JDK에서 분리되어 별도의 모듈로 제공된다.  <code>Gloun</code>이라는 업체가 <code>JavaFX</code>를 유지보수 중이므로 <span class="exturl" data-url="aHR0cHM6Ly9nbHVvbmhxLmNvbS9wcm9kdWN0cy9qYXZhZngv">이곳<i class="fa fa-external-link-alt"></i></span>에서 다운로드받으면 된다.</p>
+</li>
+</ul>
+<p> Java SE 11부터 Oracle JDK의 독점 기능이 오픈 소스 버전인 OpenJDK에 이식된다. 이는 다시 말해 Oracle JDK와 OpenJDK가 완전히 <strong>동일</strong>해진다는 뜻이다. Oracle JDK는 Java SE 11부터 LTS(장기 지원) 버전으로 3년마다 출시되는데, 출시 후 5년 동안 오라클의 기술 지원이 제공되고 최대 3년까지 지원 기간을 연장할 수 있다. Oracle JDK는 이제 3년에 한 번 출시되니 Java의 실질적인 버전 업을 담당하는 것은 OpenJDK가 된 셈이다. OpenJDK는 기업들을 위한 기술 지원은 없고, 새로운 버전이 나오면 이전 버전에 대한 마이너 업데이트와 보안 업데이트는 중단된다.</p>
+<p>그리고 Java 11과 함께 발표된 또 다른 소식은 바로 <strong>Oracle JDK가 구독형 유료 모델로 전환된다는 점</strong>이다. 2019년 1월부터 오라클이 제공하는 모든 <code>Oracle JDK</code>는 유료화되며, 구독권을 구입하지 않으면 <code>Oracle JDK</code>에 접근 자체가 금지된다. 기존의 일반&#x2F;연장 지원 서비스는 구독권에 포함되므로 별도의 서비스로는 제공되지 않는다. <strong>개인 사용자는 2021년 1월부터 비용을 지불해야 한다.</strong> 이 때문에 많은 기업들이 <code>Oracle JDK</code>에서 발을 빼고 있으며, <code>OpenJDK</code>를 기반으로 한 다른 <code>서드파티 JDK</code>가 대안으로 떠오르고 있다. 대표적인 예로 <code>Azul Systems</code>에서 개발한 <code>Zulu JDK</code>가 있는데, <code>Zulu JDK</code>는 오라클의 <code>TCK(Technology Certification Kit)</code> 인증을 받은 구현체이다. 개인과 기업 모두 무료로 사용할 수 있고, 기술 지원에 한해서만 유료 서비스가 제공된다. 또 다른 대안으로는 <code>AdoptOpenJDK</code>가 있는데, <code>AdoptOpenJDK</code>는 <code>HotSpot VM</code> 대신 <code>Eclipse OpenJ9</code>을 탑재한 버전도 같이 제공하고 있다. 다만 아직 TCK 인증을 받지 않았기에 주의가 필요하다.</p>
+<hr>
+<h3 id="Java-SE-12"><a href="#Java-SE-12" class="headerlink" title="Java SE 12"></a>Java SE 12</h3><ul>
+<li><p>발표 : 2019년 3월 19일</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>garbage collector 개선</li>
+<li><code>micro benchmarking</code> 툴</li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>문법적으로 Switch문을 확장했다.</p>
+</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">FRIDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">SUNDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">SATURDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<p>예전에는 이렇게 써야 했던 Switch문을 아래와 같은 형식으로도 쓸 수 있게 되었다.</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+<h3 id="Java-SE-13"><a href="#Java-SE-13" class="headerlink" title="Java SE 13"></a>Java SE 13</h3><ul>
+<li><p>발표 : 2019년 9월 17일</p>
+</li>
+<li><p>특징</p>
+<p>java 12에서의 스위치 개선을 이어 yield 라는 예약어가 추가되었다.</p>
+</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">6</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">7</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">8</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">9</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+<h3 id="Java-SE-14"><a href="#Java-SE-14" class="headerlink" title="Java SE 14"></a>Java SE 14</h3><ul>
+<li>발표 : 2020년 3월 18일</li>
+</ul>
+<hr>
+<h2 id="앞으로-출시될-버전"><a href="#앞으로-출시될-버전" class="headerlink" title="앞으로 출시될 버전"></a>앞으로 출시될 버전</h2><hr>
+<h3 id="Java-SE-15"><a href="#Java-SE-15" class="headerlink" title="Java SE 15"></a>Java SE 15</h3><ul>
+<li>2020년 9월 공개 예정.</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/assignment/" rel="tag"># assignment</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/03/26/2020-03-26-Number-of-F-cases/" rel="prev" title="Number of F cases">
+                  <i class="fa fa-chevron-left"></i> Number of F cases
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/04/02/2020-04-02-Codeforces-April-Fools-Day-Contest-2020-review/" rel="next" title="Codeforces April Fools Day Contest 2020 review">
+                  Codeforces April Fools Day Contest 2020 review <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-crown"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">leedongbin</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <span class="exturl github-corner" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></span>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"dongbin1999-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>
