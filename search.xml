@@ -453,6 +453,317 @@ int main()
       </tags>
   </entry>
   <entry>
+    <title>Codeforces April Fools Day Contest 2020 review</title>
+    <url>/2020/04/02/2020-04-02-Codeforces-April-Fools-Day-Contest-2020-review/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="Codeforces-April-Fools-Day-Contest-2020-review"><a href="#Codeforces-April-Fools-Day-Contest-2020-review" class="headerlink" title="Codeforces April Fools Day Contest 2020 review"></a>Codeforces April Fools Day Contest 2020 review</h1><br />
+
+<hr>
+<br />
+
+<h1 id="1-대회-소개"><a href="#1-대회-소개" class="headerlink" title="1. 대회 소개"></a>1. 대회 소개</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzE=">대회 링크<i class="fa fa-external-link-alt"></i></span></p>
+<p>![출처 : <span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzFd">https://codeforces.com/contest/1331]<i class="fa fa-external-link-alt"></i></span>(\images\2020-04-02\April Fools Day Contest 2020 introduction.JPG)</p>
+<p>4&#x2F;1일에 진행된다.. 레이팅에 반영되지 않는다[^1].. 출제자와 유머 코드가 맞아야 한다..? 등의 내용입니다.</p>
+<p><img src="/%5Cimages%5C2020-04-02%5Cparticipants.JPG" alt="출처 : https://codeforces.com/contests"></p>
+<p>세계 각국에서 <strong>19470</strong> 분이나 참가하셨습니다.</p>
+<br />
+
+<hr>
+<br />
+
+<h1 id="2-목차"><a href="#2-목차" class="headerlink" title="2. 목차"></a>2. 목차</h1><p>![출처 : <span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzFd">https://codeforces.com/contest/1331]<i class="fa fa-external-link-alt"></i></span>(\images\2020-04-02\Problems list.JPG)</p>
+<p>문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.</p>
+<p>총 8문제로 구성되었고, <span class="exturl" data-url="aHR0cHM6Ly93d3cudGltZWFuZGRhdGUuY29tL3dvcmxkY2xvY2svZml4ZWR0aW1lLmh0bWw/ZGF5PTEmbW9udGg9NCZ5ZWFyPTIwMjAmaG91cj0xNyZtaW49MzUmc2VjPTAmcDE9MTY2">우리나라 시계 기준 4&#x2F;1 밤 11시 35분<i class="fa fa-external-link-alt"></i></span>부터 2시간 동안 진행되었습니다. </p>
+<br />
+
+<hr>
+<br />
+
+<h1 id="3-문제-풀이"><a href="#3-문제-풀이" class="headerlink" title="3. 문제 풀이"></a>3. 문제 풀이</h1><p><img src="/%5Cimages%5C2020-04-02%5CA.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/A"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/A"><code>A번 문제</code></a>입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다…</p>
+<br />
+
+<h3 id="풀이"><a href="#풀이" class="headerlink" title="풀이"></a>풀이</h3><p>문제 이름이 <strong>“Is it rated?”</strong> 입니다.</p>
+<p>대회 소개에서 <code>&quot;... and it will be unrated.&quot;</code> 라 했으므로, NO를 출력하면 되는 문제였습니다.</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
+using namespace std;
+ 
+int main()
+&#123;
+    printf(&quot;NO&quot;);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<br />
+
+<hr>
+<br />
+
+<p><img src="/%5Cimages%5C2020-04-02%5CB.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/B"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/B"><code>B번 문제</code></a>입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..</p>
+<br />
+
+<h3 id="풀이-1"><a href="#풀이-1" class="headerlink" title="풀이"></a>풀이</h3><p><code>input</code>과 <code>output</code>간의 규칙을 보면, </p>
+<table>
+<thead>
+<tr>
+<th>Test case</th>
+<th>input</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>#1</td>
+<td>35</td>
+<td>57  (5*7)</td>
+</tr>
+<tr>
+<td>#2</td>
+<td>57</td>
+<td>319  (3*19)</td>
+</tr>
+<tr>
+<td>#3</td>
+<td>391</td>
+<td>1723  (17*23)</td>
+</tr>
+</tbody></table>
+<p>output은 소수의 오름차순 곱으로 이루어져 있다는 것을 알 수 있습니다!</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
+using namespace std;
+ 
+int prime[12] &#x3D; &#123; 2,3,5,7,11,13,17,19,23,29,31 &#125;;
+ 
+int main(void)
+&#123;
+    int a;
+    scanf(&quot;%d&quot;, &amp;a);
+    for (int i &#x3D; 0; i &lt;&#x3D; 10; i++)
+    &#123;
+        if (a % prime[i] &#x3D;&#x3D; 0)
+            while (a % prime[i] &#x3D;&#x3D; 0)
+            &#123;
+                printf(&quot;%d&quot;, prime[i]);
+                a &#x2F;&#x3D; prime[i];
+            &#125;
+        if (a &#x3D;&#x3D; 1)
+            break;
+    &#125;
+    if (a !&#x3D; 1)
+        printf(&quot;%d&quot;, a);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<br />
+
+<hr>
+<br />
+
+<p><img src="/%5Cimages%5C2020-04-02%5CC.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/C"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/C"><code>C번 문제</code></a>입니다. 풀이를 생각해내는 데 한참 걸렸습니다.</p>
+<p>문제 이름을 해석하면 “… 그리고 그들은 행복하게 살았답니다.” 정도인 것 같습니다.</p>
+<p>동화의 마무리 멘트 같은 느낌이네요.</p>
+<br />
+
+<h3 id="풀이-2"><a href="#풀이-2" class="headerlink" title="풀이"></a>풀이</h3><p><strong>a의 범위가 0~63</strong> 인 것에 착안하여, <code>input</code>과 <code>output</code>을 <strong>6개의 2진수 비트</strong> 로 나타내면 다음과 같습니다.</p>
+<table>
+<thead>
+<tr>
+<th>Test case</th>
+<th>input(binary)</th>
+<th>output(binary)</th>
+<th>비트 이동</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>#1</td>
+<td>000010</td>
+<td>000010</td>
+<td>2-&gt;2</td>
+</tr>
+<tr>
+<td>#2</td>
+<td>000101</td>
+<td>011000</td>
+<td>1-&gt;5, 3-&gt;4</td>
+</tr>
+<tr>
+<td>#3</td>
+<td>100011</td>
+<td>110010</td>
+<td>1-&gt;5, 2-&gt;2, 6-&gt;6</td>
+</tr>
+</tbody></table>
+<p>표의 <code>비트 이동</code>과 같은 규칙으로 비트가 이동했음을 알 수 있습니다.</p>
+<p>예시만으로는 4번째 비트와 5번째 비트가 어디로 이동하는지 알 수 없으므로, <del>운으로 찍었습니다.</del></p>
+<blockquote>
+<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjeDZmOyYjeDZlOyYjeDY3OyYjOTg7JiMxMDU7JiMxMTA7JiN4MzE7JiN4Mzk7JiM1NzsmI3gzOTsmIzY0OyYjMTA1OyYjeDZlOyYjMTE3OyYjNDY7JiM5NzsmI3g2MzsmIzQ2OyYjeDZiOyYjeDcyOw==">&#x64;&#x6f;&#x6e;&#x67;&#98;&#105;&#110;&#x31;&#x39;&#57;&#x39;&#64;&#105;&#x6e;&#117;&#46;&#97;&#x63;&#46;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
+</blockquote>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
+using namespace std;
+ 
+int main(void)
+&#123;
+    int a;
+    scanf(&quot;%d&quot;, &amp;a);
+    int b[6] &#x3D; &#123; 0 &#125;;
+    for (int i &#x3D; 0; i &lt; 6; i++)
+        if ((a &amp; (1 &lt;&lt; i)) !&#x3D; 0)
+            b[i] &#x3D; 1;
+    int ans &#x3D; 0;
+    if (b[0])
+        ans +&#x3D; 16;
+    if (b[1])
+        ans +&#x3D; 2;
+    if (b[2])
+        ans +&#x3D; 8;
+    if (b[3])
+        ans +&#x3D; 4;
+    if (b[4])
+        ans +&#x3D; 1;
+    if (b[5])
+        ans +&#x3D; 32;
+    printf(&quot;%d&quot;, ans);
+    
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<br />
+
+<hr>
+<br />
+
+<p><img src="/%5Cimages%5C2020-04-02%5CD.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/D"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/D"><code>D번 문제</code></a>입니다. 오른쪽 아래<code>Problem tags</code>에 <code>chinese remainder theorem</code>[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.</p>
+<br />
+
+<h3 id="풀이-3"><a href="#풀이-3" class="headerlink" title="풀이"></a>풀이</h3><p>A 뒤에 나오는 숫자를 2로 나눈 나머지를 출력하면 됩니다.</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
+using namespace std;
+ 
+int main(void)
+&#123;
+    int a;
+    char c;
+    scanf(&quot;%c&quot;, &amp;c);
+    scanf(&quot;%d&quot;, &amp;a);
+    printf(&quot;%d&quot;, a % 2 &#x3D;&#x3D; 0 ? 0 : 1);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<br />
+
+<hr>
+<br />
+
+<p><strong>여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 넘어가겠습니다.</strong></p>
+<p><img src="/%5Cimages%5C2020-04-02%5CE1.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/E"></p>
+<p><img src="/%5Cimages%5C2020-04-02%5CE2.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/E"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/E"><code>E번 문제</code></a>입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.</p>
+<br />
+
+<h3 id="풀이-4"><a href="#풀이-4" class="headerlink" title="풀이"></a>풀이</h3><p><code>input</code>좌표가 그림 속 얼굴 안쪽이면 IN을, 바깥쪽이면 OUT을 출력하는 문제 같습니다.</p>
+<p>저는 주어진 시간인 2시간 내에 풀지 못할 것 같아 넘겼습니다.  <strong><del>귀찮아서</del></strong></p>
+<br />
+
+<hr>
+<br />
+
+<p><img src="/%5Cimages%5C2020-04-02%5CF.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/F"></p>
+<p><a href="https://codeforces.com/contest/1331/problem/F"><code>F번 문제</code></a>입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!</p>
+<br />
+
+<h3 id="풀이-5"><a href="#풀이-5" class="headerlink" title="풀이"></a>풀이</h3><details><summary>풀이 보기</summary>주기율표의 원소기호만 사용하여 `input`의 단어를 만들 수 있으면 `YES`를, 아니면 `NO`를 출력하는 문제입니다.
+예를 들어, GENIUS -> 'Ge(저마늄)' + 'N(질소)' + 'I(아이오딘)' + 'U(우라늄)' + 'S(황)'으로 표현이 가능하므로 'YES'입니다.</details>
+
+<br />
+
+<hr>
+<br />
+
+<p><a href="https://codeforces.com/contest/1331/problem/G"><code>G번 문제</code></a>, <a href="https://codeforces.com/contest/1331/problem/H"><code>H번 문제</code></a>는 코드를 참고해도 모르겠습니다..</p>
+<p>특히 H번 문제는 <code>UnknownX</code>라는 언어로 제출 언어 제한이 걸려있습니다.</p>
+<p>H번 문제의 풀이 자체는 <code>n</code>의 <span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRG91YmxlX2ZhY3RvcmlhbA==">double factorial<i class="fa fa-external-link-alt"></i></span>을 <code>mod</code>로 나눈 나머지를 구하라는 문제인데, C++ 코드를 그대로 제출하니 <span style="color:blue"><code>Compilation error</code></span>를 받았습니다.</p>
+<p>제출했던 코드는 아래와 같습니다.</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
+using namespace std;
+ 
+int main(void)
+&#123;
+    int temp;
+    scanf(&quot;%d&quot;, &amp;temp);
+    int n &#x3D; temp &#x2F; 1000;
+    int mod &#x3D; temp % 1000;
+    int ans &#x3D; 1;
+    for (int i &#x3D; n; i &gt; 0; i -&#x3D; 2)
+        ans &#x3D; (ans * i) % mod;
+    
+    printf(&quot;%d&quot;, ans);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<br />
+
+<hr>
+<br />
+
+<h1 id="4-결과"><a href="#4-결과" class="headerlink" title="4. 결과"></a>4. 결과</h1><p><img src="/%5Cimages%5C2020-04-02%5Cstanding.JPG" alt="출처 : https://codeforces.com/contest/1331/standings"></p>
+<p>제 성적입니다.</p>
+<ul>
+<li><strong><span style="color:green">초록색 +</span></strong> 는 맞힌 문제, <strong><span style="color:green">+</span></strong> 뒤의 숫자는 틀린 횟수를 나타냅니다.</li>
+<li><strong>틀린 횟수 당 10분의 패널티가 주어집니다.</strong></li>
+<li><strong><span style="color:blue"><code>-2</code></span></strong> 는 2번 틀리고 풀지 못했음을 나타냅니다.</li>
+<li><code>Tried</code>는 각 문제당 제출된 코드 수, <strong><span style="color:green"><code>Accepted</code></span></strong> 는 그중 맞힌 사람의 수를 나타냅니다.</li>
+</ul>
+<p><br /><br /><br /></p>
+<p>혹시 코딩에 관심 있으신 분은 코드포스 대회에 참여해보시는 걸 추천합니다!</p>
+<p>여기까지 후기였습니다. 긴 글 봐주셔서 감사합니다!</p>
+<br />
+
+<p>[^1]: Codeforces는 대회 성적을 반영한 rating시스템이 있습니다.<br>[^2]: [중국인의 나머지 정리]([<span class="exturl" data-url="aHR0cHM6Ly9uYW11Lndpa2kvdy8lRUMlQTQlOTElRUElQjUlQUQlRUMlOUQlQjglRUMlOUQlOTglMjAlRUIlODIlOTglRUIlQTglQjglRUMlQTclODAlMjAlRUMlQTAlOTUlRUIlQTYlQUNd">https://namu.wiki/w/%EC%A4%91%EA%B5%AD%EC%9D%B8%EC%9D%98%20%EB%82%98%EB%A8%B8%EC%A7%80%20%EC%A0%95%EB%A6%AC]<i class="fa fa-external-link-alt"></i></span>(<span class="exturl" data-url="aHR0cHM6Ly9uYW11Lndpa2kvdy8lRUMlQTQlOTElRUElQjUlQUQlRUMlOUQlQjglRUMlOUQlOTg=">https://namu.wiki/w/중국인의<i class="fa fa-external-link-alt"></i></span> 나머지 정리))</p>
+]]></content>
+      <categories>
+        <category>PS</category>
+        <category>university</category>
+      </categories>
+      <tags>
+        <tag>assignment</tag>
+        <tag>codeforces</tag>
+        <tag>review</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Programming project - Game Demo</title>
+    <url>/2020/04/25/2020-04-25-Programming-project---Game-Demo/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="프로그래밍-프로젝트"><a href="#프로그래밍-프로젝트" class="headerlink" title="프로그래밍 프로젝트"></a>프로그래밍 프로젝트</h1><h3 id="장애물-피하기-게임-변경-사항-x2F-오류-제보"><a href="#장애물-피하기-게임-변경-사항-x2F-오류-제보" class="headerlink" title="장애물 피하기 게임 (변경 사항&#x2F;오류 제보)"></a>장애물 피하기 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVByb2plY3Q=">Download<i class="fa fa-external-link-alt"></i></span></p>
+<ul>
+<li>Ver 1.0<ul>
+<li>게임의 첫 버전입니다.</li>
+</ul>
+</li>
+<li>Ver 1.1<ul>
+<li>게임내 글씨, 물체들의 색깔을 다양하게 수정하였습니다.</li>
+<li>물체와 캐릭터간의 y축 충돌이 제대로 일어나지 않는 오류를 수정했습니다.</li>
+<li>출처, 연락처 등의 내용을 추가하였습니다.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjeDZlOyYjeDY3OyYjeDYyOyYjMTA1OyYjeDZlOyYjNDk7JiM1NzsmIzU3OyYjeDM5OyYjNjQ7JiN4Njk7JiMxMTA7JiN4NzU7JiN4MmU7JiM5NzsmIzk5OyYjNDY7JiN4NmI7JiN4NzI7">&#x64;&#111;&#x6e;&#x67;&#x62;&#105;&#x6e;&#49;&#57;&#57;&#x39;&#64;&#x69;&#110;&#x75;&#x2e;&#97;&#99;&#46;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>university</category>
+      </categories>
+      <tags>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About Strassen Algorithm</title>
     <url>/2020/04/11/2020-04-11-About-Strassen-Algorithm/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1052,345 +1363,6 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>Codeforces April Fools Day Contest 2020 review</title>
-    <url>/2020/04/02/2020-04-02-Codeforces-April-Fools-Day-Contest-2020-review/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="Codeforces-April-Fools-Day-Contest-2020-review"><a href="#Codeforces-April-Fools-Day-Contest-2020-review" class="headerlink" title="Codeforces April Fools Day Contest 2020 review"></a>Codeforces April Fools Day Contest 2020 review</h1><br />
-
-<hr>
-<br />
-
-<h1 id="1-대회-소개"><a href="#1-대회-소개" class="headerlink" title="1. 대회 소개"></a>1. 대회 소개</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzE=">대회 링크<i class="fa fa-external-link-alt"></i></span></p>
-<p>![출처 : <span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzFd">https://codeforces.com/contest/1331]<i class="fa fa-external-link-alt"></i></span>(\source\images\2020-04-02\April Fools Day Contest 2020 introduction.JPG)</p>
-<p>4&#x2F;1일에 진행된다.. 레이팅에 반영되지 않는다[^1].. 출제자와 유머 코드가 맞아야 한다..? 등의 내용입니다.</p>
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5Cparticipants.JPG" alt="출처 : https://codeforces.com/contests"></p>
-<p>세계 각국에서 <strong>19470</strong> 분이나 참가하셨습니다.</p>
-<br />
-
-<hr>
-<br />
-
-<h1 id="2-목차"><a href="#2-목차" class="headerlink" title="2. 목차"></a>2. 목차</h1><p>![출처 : <span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzEzMzFd">https://codeforces.com/contest/1331]<i class="fa fa-external-link-alt"></i></span>(\source\images\2020-04-02\Problems list.JPG)</p>
-<p>문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.</p>
-<p>총 8문제로 구성되었고, <span class="exturl" data-url="aHR0cHM6Ly93d3cudGltZWFuZGRhdGUuY29tL3dvcmxkY2xvY2svZml4ZWR0aW1lLmh0bWw/ZGF5PTEmbW9udGg9NCZ5ZWFyPTIwMjAmaG91cj0xNyZtaW49MzUmc2VjPTAmcDE9MTY2">우리나라 시계 기준 4&#x2F;1 밤 11시 35분<i class="fa fa-external-link-alt"></i></span>부터 2시간 동안 진행되었습니다. </p>
-<br />
-
-<hr>
-<br />
-
-<h1 id="3-문제-풀이"><a href="#3-문제-풀이" class="headerlink" title="3. 문제 풀이"></a>3. 문제 풀이</h1><p><img src="/%5Csource%5Cimages%5C2020-04-02%5CA.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/A"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/A"><code>A번 문제</code></a>입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다…</p>
-<br />
-
-<h3 id="풀이"><a href="#풀이" class="headerlink" title="풀이"></a>풀이</h3><p>문제 이름이 <strong>“Is it rated?”</strong> 입니다.</p>
-<p>대회 소개에서 <code>&quot;... and it will be unrated.&quot;</code> 라 했으므로, NO를 출력하면 되는 문제였습니다.</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
-using namespace std;
- 
-int main()
-&#123;
-    printf(&quot;NO&quot;);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<br />
-
-<hr>
-<br />
-
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CB.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/B"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/B"><code>B번 문제</code></a>입니다. 문제 설명은 풀이와 아무 관련이 없는듯합니다..</p>
-<br />
-
-<h3 id="풀이-1"><a href="#풀이-1" class="headerlink" title="풀이"></a>풀이</h3><p><code>input</code>과 <code>output</code>간의 규칙을 보면, </p>
-<table>
-<thead>
-<tr>
-<th>Test case</th>
-<th>input</th>
-<th>output</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#1</td>
-<td>35</td>
-<td>57  (5*7)</td>
-</tr>
-<tr>
-<td>#2</td>
-<td>57</td>
-<td>319  (3*19)</td>
-</tr>
-<tr>
-<td>#3</td>
-<td>391</td>
-<td>1723  (17*23)</td>
-</tr>
-</tbody></table>
-<p>output은 소수의 오름차순 곱으로 이루어져 있다는 것을 알 수 있습니다!</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
-using namespace std;
- 
-int prime[12] &#x3D; &#123; 2,3,5,7,11,13,17,19,23,29,31 &#125;;
- 
-int main(void)
-&#123;
-    int a;
-    scanf(&quot;%d&quot;, &amp;a);
-    for (int i &#x3D; 0; i &lt;&#x3D; 10; i++)
-    &#123;
-        if (a % prime[i] &#x3D;&#x3D; 0)
-            while (a % prime[i] &#x3D;&#x3D; 0)
-            &#123;
-                printf(&quot;%d&quot;, prime[i]);
-                a &#x2F;&#x3D; prime[i];
-            &#125;
-        if (a &#x3D;&#x3D; 1)
-            break;
-    &#125;
-    if (a !&#x3D; 1)
-        printf(&quot;%d&quot;, a);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<br />
-
-<hr>
-<br />
-
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CC.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/C"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/C"><code>C번 문제</code></a>입니다. 풀이를 생각해내는 데 한참 걸렸습니다.</p>
-<p>문제 이름을 해석하면 “… 그리고 그들은 행복하게 살았답니다.” 정도인 것 같습니다.</p>
-<p>동화의 마무리 멘트 같은 느낌이네요.</p>
-<br />
-
-<h3 id="풀이-2"><a href="#풀이-2" class="headerlink" title="풀이"></a>풀이</h3><p><strong>a의 범위가 0~63</strong> 인 것에 착안하여, <code>input</code>과 <code>output</code>을 <strong>6개의 2진수 비트</strong> 로 나타내면 다음과 같습니다.</p>
-<table>
-<thead>
-<tr>
-<th>Test case</th>
-<th>input(binary)</th>
-<th>output(binary)</th>
-<th>비트 이동</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#1</td>
-<td>000010</td>
-<td>000010</td>
-<td>2-&gt;2</td>
-</tr>
-<tr>
-<td>#2</td>
-<td>000101</td>
-<td>011000</td>
-<td>1-&gt;5, 3-&gt;4</td>
-</tr>
-<tr>
-<td>#3</td>
-<td>100011</td>
-<td>110010</td>
-<td>1-&gt;5, 2-&gt;2, 6-&gt;6</td>
-</tr>
-</tbody></table>
-<p>표의 <code>비트 이동</code>과 같은 규칙으로 비트가 이동했음을 알 수 있습니다.</p>
-<p>예시만으로는 4번째 비트와 5번째 비트가 어디로 이동하는지 알 수 없으므로, <del>운으로 찍었습니다.</del></p>
-<blockquote>
-<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDZmOyYjMTEwOyYjeDY3OyYjOTg7JiMxMDU7JiMxMTA7JiN4MzE7JiN4Mzk7JiM1NzsmIzU3OyYjeDQwOyYjeDY5OyYjMTEwOyYjMTE3OyYjeDJlOyYjOTc7JiM5OTsmIzQ2OyYjeDZiOyYjeDcyOw==">&#100;&#x6f;&#110;&#x67;&#98;&#105;&#110;&#x31;&#x39;&#57;&#57;&#x40;&#x69;&#110;&#117;&#x2e;&#97;&#99;&#46;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
-</blockquote>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
-using namespace std;
- 
-int main(void)
-&#123;
-    int a;
-    scanf(&quot;%d&quot;, &amp;a);
-    int b[6] &#x3D; &#123; 0 &#125;;
-    for (int i &#x3D; 0; i &lt; 6; i++)
-        if ((a &amp; (1 &lt;&lt; i)) !&#x3D; 0)
-            b[i] &#x3D; 1;
-    int ans &#x3D; 0;
-    if (b[0])
-        ans +&#x3D; 16;
-    if (b[1])
-        ans +&#x3D; 2;
-    if (b[2])
-        ans +&#x3D; 8;
-    if (b[3])
-        ans +&#x3D; 4;
-    if (b[4])
-        ans +&#x3D; 1;
-    if (b[5])
-        ans +&#x3D; 32;
-    printf(&quot;%d&quot;, ans);
-    
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<br />
-
-<hr>
-<br />
-
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CD.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/D"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/D"><code>D번 문제</code></a>입니다. 오른쪽 아래<code>Problem tags</code>에 <code>chinese remainder theorem</code>[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.</p>
-<br />
-
-<h3 id="풀이-3"><a href="#풀이-3" class="headerlink" title="풀이"></a>풀이</h3><p>A 뒤에 나오는 숫자를 2로 나눈 나머지를 출력하면 됩니다.</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
-using namespace std;
- 
-int main(void)
-&#123;
-    int a;
-    char c;
-    scanf(&quot;%c&quot;, &amp;c);
-    scanf(&quot;%d&quot;, &amp;a);
-    printf(&quot;%d&quot;, a % 2 &#x3D;&#x3D; 0 ? 0 : 1);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<br />
-
-<hr>
-<br />
-
-<p><strong>여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 넘어가겠습니다.</strong></p>
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CE1.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/E"></p>
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CE2.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/E"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/E"><code>E번 문제</code></a>입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.</p>
-<br />
-
-<h3 id="풀이-4"><a href="#풀이-4" class="headerlink" title="풀이"></a>풀이</h3><p><code>input</code>좌표가 그림 속 얼굴 안쪽이면 IN을, 바깥쪽이면 OUT을 출력하는 문제 같습니다.</p>
-<p>저는 주어진 시간인 2시간 내에 풀지 못할 것 같아 넘겼습니다.  <strong><del>귀찮아서</del></strong></p>
-<br />
-
-<hr>
-<br />
-
-<p><img src="/%5Csource%5Cimages%5C2020-04-02%5CF.JPG" alt="출처 : https://codeforces.com/contest/1331/problem/F"></p>
-<p><a href="https://codeforces.com/contest/1331/problem/F"><code>F번 문제</code></a>입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!</p>
-<br />
-
-<h3 id="풀이-5"><a href="#풀이-5" class="headerlink" title="풀이"></a>풀이</h3><details><summary>풀이 보기</summary>주기율표의 원소기호만 사용하여 `input`의 단어를 만들 수 있으면 `YES`를, 아니면 `NO`를 출력하는 문제입니다.
-예를 들어, GENIUS -> 'Ge(저마늄)' + 'N(질소)' + 'I(아이오딘)' + 'U(우라늄)' + 'S(황)'으로 표현이 가능하므로 'YES'입니다.</details>
-
-<br />
-
-<hr>
-<br />
-
-<p><a href="https://codeforces.com/contest/1331/problem/G"><code>G번 문제</code></a>, <a href="https://codeforces.com/contest/1331/problem/H"><code>H번 문제</code></a>는 코드를 참고해도 모르겠습니다..</p>
-<p>특히 H번 문제는 <code>UnknownX</code>라는 언어로 제출 언어 제한이 걸려있습니다.</p>
-<p>H번 문제의 풀이 자체는 <code>n</code>의 <span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRG91YmxlX2ZhY3RvcmlhbA==">double factorial<i class="fa fa-external-link-alt"></i></span>을 <code>mod</code>로 나눈 나머지를 구하라는 문제인데, C++ 코드를 그대로 제출하니 <span style="color:blue"><code>Compilation error</code></span>를 받았습니다.</p>
-<p>제출했던 코드는 아래와 같습니다.</p>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">![standing](C:\Users\leedongbin\hexo-site\dongbin1999.github.io\source\images\2020-04-02\standing.JPG)#include &lt;cstdio&gt;
-using namespace std;
- 
-int main(void)
-&#123;
-    int temp;
-    scanf(&quot;%d&quot;, &amp;temp);
-    int n &#x3D; temp &#x2F; 1000;
-    int mod &#x3D; temp % 1000;
-    int ans &#x3D; 1;
-    for (int i &#x3D; n; i &gt; 0; i -&#x3D; 2)
-        ans &#x3D; (ans * i) % mod;
-    
-    printf(&quot;%d&quot;, ans);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<br />
-
-<hr>
-<br />
-
-<h1 id="4-결과"><a href="#4-결과" class="headerlink" title="4. 결과"></a>4. 결과</h1><p><img src="/%5Csource%5Cimages%5C2020-04-02%5Cstanding.JPG" alt="출처 : https://codeforces.com/contest/1331/standings"></p>
-<p>제 성적입니다.</p>
-<ul>
-<li><strong><span style="color:green">초록색 +</span></strong> 는 맞힌 문제, <strong><span style="color:green">+</span></strong> 뒤의 숫자는 틀린 횟수를 나타냅니다.</li>
-<li><strong>틀린 횟수 당 10분의 패널티가 주어집니다.</strong></li>
-<li><strong><span style="color:blue"><code>-2</code></span></strong> 는 2번 틀리고 풀지 못했음을 나타냅니다.</li>
-<li><code>Tried</code>는 각 문제당 제출된 코드 수, <strong><span style="color:green"><code>Accepted</code></span></strong> 는 그중 맞힌 사람의 수를 나타냅니다.</li>
-</ul>
-<p><br /><br /><br /></p>
-<p>혹시 코딩에 관심 있으신 분은 코드포스 대회에 참여해보시는 걸 추천합니다!</p>
-<p>여기까지 후기였습니다. 긴 글 봐주셔서 감사합니다!</p>
-<br />
-
-<p>[^1]: Codeforces는 대회 성적을 반영한 rating시스템이 있습니다.<br>[^2]: [중국인의 나머지 정리]([<span class="exturl" data-url="aHR0cHM6Ly9uYW11Lndpa2kvdy8lRUMlQTQlOTElRUElQjUlQUQlRUMlOUQlQjglRUMlOUQlOTglMjAlRUIlODIlOTglRUIlQTglQjglRUMlQTclODAlMjAlRUMlQTAlOTUlRUIlQTYlQUNd">https://namu.wiki/w/%EC%A4%91%EA%B5%AD%EC%9D%B8%EC%9D%98%20%EB%82%98%EB%A8%B8%EC%A7%80%20%EC%A0%95%EB%A6%AC]<i class="fa fa-external-link-alt"></i></span>(<span class="exturl" data-url="aHR0cHM6Ly9uYW11Lndpa2kvdy8lRUMlQTQlOTElRUElQjUlQUQlRUMlOUQlQjglRUMlOUQlOTg=">https://namu.wiki/w/중국인의<i class="fa fa-external-link-alt"></i></span> 나머지 정리))</p>
-]]></content>
-      <categories>
-        <category>PS</category>
-        <category>university</category>
-      </categories>
-      <tags>
-        <tag>assignment</tag>
-        <tag>codeforces</tag>
-        <tag>review</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Programming project - Game Demo</title>
-    <url>/2020/04/25/2020-04-25-Programming-project---Game-Demo/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="프로그래밍-프로젝트"><a href="#프로그래밍-프로젝트" class="headerlink" title="프로그래밍 프로젝트"></a>프로그래밍 프로젝트</h1><h3 id="장애물-피하기-게임-변경-사항-x2F-오류-제보"><a href="#장애물-피하기-게임-변경-사항-x2F-오류-제보" class="headerlink" title="장애물 피하기 게임 (변경 사항&#x2F;오류 제보)"></a>장애물 피하기 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVByb2plY3Q=">Download<i class="fa fa-external-link-alt"></i></span></p>
-<ul>
-<li>Ver 1.0<ul>
-<li>게임의 첫 버전입니다.</li>
-</ul>
-</li>
-<li>Ver 1.1<ul>
-<li>게임내 글씨, 물체들의 색깔을 다양하게 수정하였습니다.</li>
-<li>물체와 캐릭터간의 y축 충돌이 제대로 일어나지 않는 오류를 수정했습니다.</li>
-<li>출처, 연락처 등의 내용을 추가하였습니다.</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjeDZmOyYjeDZlOyYjeDY3OyYjeDYyOyYjeDY5OyYjMTEwOyYjNDk7JiN4Mzk7JiN4Mzk7JiN4Mzk7JiM2NDsmI3g2OTsmIzExMDsmI3g3NTsmIzQ2OyYjOTc7JiN4NjM7JiM0NjsmIzEwNzsmI3g3Mjs=">&#x64;&#x6f;&#x6e;&#x67;&#x62;&#x69;&#110;&#49;&#x39;&#x39;&#x39;&#64;&#x69;&#110;&#x75;&#46;&#97;&#x63;&#46;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>university</category>
-      </categories>
-      <tags>
-        <tag>project</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Programming-TeamProject</title>
-    <url>/2020/05/31/2020-05-31-Programming-TeamProject/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="프로그래밍-팀프로젝트"><a href="#프로그래밍-팀프로젝트" class="headerlink" title="프로그래밍 팀프로젝트"></a>프로그래밍 팀프로젝트</h1><h3 id="좀비-게임-변경-사항-x2F-오류-제보"><a href="#좀비-게임-변경-사항-x2F-오류-제보" class="headerlink" title="좀비 게임 (변경 사항&#x2F;오류 제보)"></a>좀비 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVRlYW1Qcm9qZWN0">Download<i class="fa fa-external-link-alt"></i></span></p>
-<ul>
-<li>Ver 1.0<ul>
-<li>게임의 첫 버전입니다.</li>
-</ul>
-</li>
-<li>Ver 1.1<br>*<br>* <ul>
-<li></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDZmOyYjeDZlOyYjeDY3OyYjOTg7JiN4Njk7JiN4NmU7JiN4MzE7JiN4Mzk7JiM1NzsmIzU3OyYjeDQwOyYjMTA1OyYjeDZlOyYjMTE3OyYjNDY7JiM5NzsmI3g2MzsmIzQ2OyYjMTA3OyYjeDcyOw==">&#100;&#x6f;&#x6e;&#x67;&#98;&#x69;&#x6e;&#x31;&#x39;&#57;&#57;&#x40;&#105;&#x6e;&#117;&#46;&#97;&#x63;&#46;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>university</category>
-      </categories>
-      <tags>
-        <tag>project</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Bellman-Ford</title>
     <url>/2021/01/24/2021-01-24-Bellman-Ford/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1451,6 +1423,185 @@ int main()
       </categories>
       <tags>
         <tag>Bellman-Ford</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Programming-TeamProject</title>
+    <url>/2020/05/31/2020-05-31-Programming-TeamProject/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="프로그래밍-팀프로젝트"><a href="#프로그래밍-팀프로젝트" class="headerlink" title="프로그래밍 팀프로젝트"></a>프로그래밍 팀프로젝트</h1><h3 id="좀비-게임-변경-사항-x2F-오류-제보"><a href="#좀비-게임-변경-사항-x2F-오류-제보" class="headerlink" title="좀비 게임 (변경 사항&#x2F;오류 제보)"></a>좀비 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVRlYW1Qcm9qZWN0">Download<i class="fa fa-external-link-alt"></i></span></p>
+<ul>
+<li>Ver 1.0<ul>
+<li>게임의 첫 버전입니다.</li>
+</ul>
+</li>
+<li>Ver 1.1<br>*<br>* <ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDZmOyYjeDZlOyYjeDY3OyYjOTg7JiN4Njk7JiMxMTA7JiM0OTsmIzU3OyYjNTc7JiN4Mzk7JiN4NDA7JiN4Njk7JiMxMTA7JiMxMTc7JiM0NjsmIzk3OyYjeDYzOyYjNDY7JiN4NmI7JiMxMTQ7">&#100;&#x6f;&#x6e;&#x67;&#98;&#x69;&#110;&#49;&#57;&#57;&#x39;&#x40;&#x69;&#110;&#117;&#46;&#97;&#x63;&#46;&#x6b;&#114;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>university</category>
+      </categories>
+      <tags>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Floyd-Warshall</title>
+    <url>/2021/01/24/2021-01-24-Floyd-Warshall/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="플로이드-와샬-알고리즘"><a href="#플로이드-와샬-알고리즘" class="headerlink" title="플로이드 와샬 알고리즘"></a>플로이드 와샬 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+&#x2F;&#x2F;간선 입력 전에, adj 배열 1e9로 초기화.
+int adj[101][101];
+void floyd_warshall(int n)
+&#123;
+    for(int via&#x3D;1;via&lt;&#x3D;n;via++)
+        for(int s&#x3D;1;s&lt;&#x3D;n;s++)
+            for(int e&#x3D;1;e&lt;&#x3D;n;e++)
+                if(s!&#x3D;e)
+                    adj[s][e]&#x3D;min(adj[s][e],adj[s][via]+adj[via][e]);
+
+    &#x2F;&#x2F;출력. adj[i][j] : i-&gt;j에 필요한 최소 비용.
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        for(int j&#x3D;1;j&lt;&#x3D;n;j++)
+            printf(&quot;%d &quot;,adj[i][j]&#x3D;&#x3D;1e9?0:adj[i][j]);
+        printf(&quot;\n&quot;);
+    &#125;
+&#125;
+
+int main()
+&#123;
+    int n,m;
+    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        fill(adj[i]+1,adj[i]+1+n,1e9);
+    while(m--)
+    &#123;
+        int a,b,c;
+        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
+        adj[a][b]&#x3D;min(adj[a][b],c);
+    &#125;
+    floyd_warshall(n);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V^3)$</p>
+<blockquote>
+<p>V : 정점 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQwNA==">백준11404 : 플로이드<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>Floyd-Warshall</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SCC(strongly connected component)</title>
+    <url>/2021/01/24/2021-01-24-SCC(strongly%20connected%20component)/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="강한-연결-요소"><a href="#강한-연결-요소" class="headerlink" title="강한 연결 요소"></a>강한 연결 요소</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+const int sz&#x3D;100001;
+&#x2F;&#x2F;sz : n+1로 설정.
+int dfsn[sz],scc[sz],dfsnumber,sccnumber;
+&#x2F;&#x2F;graph : 처음 주어지는 그래프 &#x2F; dag : SCC로 묶인 그래프 &#x2F; group[i] : i번 scc 노드에 묶여있는 노드들.
+vector&lt;int&gt; graph[sz],dag[sz],group[sz];
+stack&lt;int&gt; s;
+int indegree[sz];
+
+&#x2F;&#x2F;타잔 알고리즘 이용.(scc 결과의 역순이 위상정렬한 dag 의 결과와 같음.)
+int SCC(int node)
+&#123;
+    dfsn[node]&#x3D;++dfsnumber;
+    s.push(node);
+    int topmost&#x3D;dfsn[node];
+    for(int to:graph[node])
+        if(!dfsn[to]) topmost&#x3D;min(topmost, SCC(to));
+        else if(!scc[to]) topmost&#x3D;min(topmost,dfsn[to]);
+
+    if(topmost&#x3D;&#x3D;dfsn[node])
+    &#123;
+        ++sccnumber;
+        while(true)
+        &#123;
+            int t&#x3D;s.top();
+            s.pop();
+            scc[t]&#x3D;sccnumber;
+            group[sccnumber].push_back(t);
+            if(t&#x3D;&#x3D;node) break;
+        &#125;
+    &#125;
+    return topmost;
+&#125;
+
+void init(int n)
+&#123;
+    dfsnumber&#x3D;0,sccnumber&#x3D;0;
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        graph[i].clear(),dag[i].clear(),dfsn[i]&#x3D;0,indegree[i]&#x3D;0,scc[i]&#x3D;0,group[i].clear();
+&#125;
+
+int main(void)
+&#123;
+    int tc;
+    scanf(&quot;%d&quot;,&amp;tc);
+    while(tc--)
+    &#123;
+        int n,m;
+        scanf(&quot;%d %d&quot;, &amp;n,&amp;m);
+        while(m--)
+        &#123;
+            int x,y;
+            scanf(&quot;%d %d&quot;,&amp;x,&amp;y);
+            graph[x].push_back(y);
+        &#125;
+        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+            if(!dfsn[i]) SCC(i);
+
+        &#x2F;&#x2F;이제 위상정렬이 가능해짐.
+        for(int node&#x3D;1;node&lt;&#x3D;n;node++)
+            for(int to:graph[node])
+                if(scc[node]!&#x3D;scc[to])
+                &#123;
+                    dag[scc[node]].push_back(scc[to]);
+                    indegree[scc[to]]++;
+                &#125;
+
+        int ans&#x3D;0;
+        for(int i&#x3D;1;i&lt;&#x3D;sccnumber;i++)
+            if (!indegree[i]) ans++;
+        printf(&quot;%d\n&quot;,ans);
+        init(n);
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V+E)$</p>
+<blockquote>
+<p>V : 노드 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS80MTk2">백준4196 : 도미노<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>SCC</tag>
       </tags>
   </entry>
   <entry>
@@ -1616,157 +1767,6 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>Floyd-Warshall</title>
-    <url>/2021/01/24/2021-01-24-Floyd-Warshall/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="플로이드-와샬-알고리즘"><a href="#플로이드-와샬-알고리즘" class="headerlink" title="플로이드 와샬 알고리즘"></a>플로이드 와샬 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;간선 입력 전에, adj 배열 1e9로 초기화.
-int adj[101][101];
-void floyd_warshall(int n)
-&#123;
-    for(int via&#x3D;1;via&lt;&#x3D;n;via++)
-        for(int s&#x3D;1;s&lt;&#x3D;n;s++)
-            for(int e&#x3D;1;e&lt;&#x3D;n;e++)
-                if(s!&#x3D;e)
-                    adj[s][e]&#x3D;min(adj[s][e],adj[s][via]+adj[via][e]);
-
-    &#x2F;&#x2F;출력. adj[i][j] : i-&gt;j에 필요한 최소 비용.
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        for(int j&#x3D;1;j&lt;&#x3D;n;j++)
-            printf(&quot;%d &quot;,adj[i][j]&#x3D;&#x3D;1e9?0:adj[i][j]);
-        printf(&quot;\n&quot;);
-    &#125;
-&#125;
-
-int main()
-&#123;
-    int n,m;
-    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        fill(adj[i]+1,adj[i]+1+n,1e9);
-    while(m--)
-    &#123;
-        int a,b,c;
-        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
-        adj[a][b]&#x3D;min(adj[a][b],c);
-    &#125;
-    floyd_warshall(n);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V^3)$</p>
-<blockquote>
-<p>V : 정점 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQwNA==">백준11404 : 플로이드<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>Floyd-Warshall</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SCC(strongly connected component)</title>
-    <url>/2021/01/24/2021-01-24-SCC(strongly%20connected%20component)/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="강한-연결-요소"><a href="#강한-연결-요소" class="headerlink" title="강한 연결 요소"></a>강한 연결 요소</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-const int sz&#x3D;100001;
-&#x2F;&#x2F;sz : n+1로 설정.
-int dfsn[sz],scc[sz],dfsnumber,sccnumber;
-&#x2F;&#x2F;graph : 처음 주어지는 그래프 &#x2F; dag : SCC로 묶인 그래프 &#x2F; group[i] : i번 scc 노드에 묶여있는 노드들.
-vector&lt;int&gt; graph[sz],dag[sz],group[sz];
-stack&lt;int&gt; s;
-int indegree[sz];
-
-&#x2F;&#x2F;타잔 알고리즘 이용.(scc 결과의 역순이 위상정렬한 dag 의 결과와 같음.)
-int SCC(int node)
-&#123;
-    dfsn[node]&#x3D;++dfsnumber;
-    s.push(node);
-    int topmost&#x3D;dfsn[node];
-    for(int to:graph[node])
-        if(!dfsn[to]) topmost&#x3D;min(topmost, SCC(to));
-        else if(!scc[to]) topmost&#x3D;min(topmost,dfsn[to]);
-
-    if(topmost&#x3D;&#x3D;dfsn[node])
-    &#123;
-        ++sccnumber;
-        while(true)
-        &#123;
-            int t&#x3D;s.top();
-            s.pop();
-            scc[t]&#x3D;sccnumber;
-            group[sccnumber].push_back(t);
-            if(t&#x3D;&#x3D;node) break;
-        &#125;
-    &#125;
-    return topmost;
-&#125;
-
-void init(int n)
-&#123;
-    dfsnumber&#x3D;0,sccnumber&#x3D;0;
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        graph[i].clear(),dag[i].clear(),dfsn[i]&#x3D;0,indegree[i]&#x3D;0,scc[i]&#x3D;0,group[i].clear();
-&#125;
-
-int main(void)
-&#123;
-    int tc;
-    scanf(&quot;%d&quot;,&amp;tc);
-    while(tc--)
-    &#123;
-        int n,m;
-        scanf(&quot;%d %d&quot;, &amp;n,&amp;m);
-        while(m--)
-        &#123;
-            int x,y;
-            scanf(&quot;%d %d&quot;,&amp;x,&amp;y);
-            graph[x].push_back(y);
-        &#125;
-        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-            if(!dfsn[i]) SCC(i);
-
-        &#x2F;&#x2F;이제 위상정렬이 가능해짐.
-        for(int node&#x3D;1;node&lt;&#x3D;n;node++)
-            for(int to:graph[node])
-                if(scc[node]!&#x3D;scc[to])
-                &#123;
-                    dag[scc[node]].push_back(scc[to]);
-                    indegree[scc[to]]++;
-                &#125;
-
-        int ans&#x3D;0;
-        for(int i&#x3D;1;i&lt;&#x3D;sccnumber;i++)
-            if (!indegree[i]) ans++;
-        printf(&quot;%d\n&quot;,ans);
-        init(n);
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V+E)$</p>
-<blockquote>
-<p>V : 노드 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS80MTk2">백준4196 : 도미노<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>SCC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>dijkstra</title>
     <url>/2021/01/24/2021-01-24-dijkstra/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1895,6 +1895,61 @@ int main()
       </tags>
   </entry>
   <entry>
+    <title>union-find</title>
+    <url>/2021/01/24/2021-01-24-union-find/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="분리-집합"><a href="#분리-집합" class="headerlink" title="분리 집합"></a>분리 집합</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+&#x2F;&#x2F;처음에 u 배열 -1로 초기화.
+int u[1000001];
+
+int find(int a)
+&#123;
+    if(u[a]&lt;0)return a;
+    return u[a]&#x3D;find(u[a]);
+&#125;
+
+bool merge(int a,int b)
+&#123;
+    a&#x3D;find(a),b&#x3D;find(b);
+    if(a&#x3D;&#x3D;b)return false;
+    &#x2F;&#x2F;union by rank. path compression을 하지 않을 때 사용.
+    &#x2F;&#x2F;if(-u[a]&lt;-u[b])swap(a,b);
+    u[a]+&#x3D;u[b],u[b]&#x3D;a;
+    return true;
+&#125;
+
+int main(void)
+&#123;
+    int n,m;
+    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    fill(u,u+1+n,-1);
+    while(m--)
+    &#123;
+        int c,a,b;
+        scanf(&quot;%d %d %d&quot;,&amp;c,&amp;a,&amp;b);
+        if(c) printf(find(a)&#x3D;&#x3D;find(b)?&quot;YES\n&quot;:&quot;NO\n&quot;);
+        else merge(a,b);
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(Mlog*N) \approx O(M)$</p>
+<blockquote>
+<p>N : 정점 수, M : find 연산 수행 횟수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNzE3">백준1717 : 집합의 표현<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>union-find</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Fenwick-tree (binary indexed tree)</title>
     <url>/2021/01/31/2021-01-31-Fenwick-tree%20(binary%20indexed%20tree)/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1973,139 +2028,6 @@ int main(void)
       </categories>
       <tags>
         <tag>Fenwick-tree</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>union-find</title>
-    <url>/2021/01/24/2021-01-24-union-find/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="분리-집합"><a href="#분리-집합" class="headerlink" title="분리 집합"></a>분리 집합</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;처음에 u 배열 -1로 초기화.
-int u[1000001];
-
-int find(int a)
-&#123;
-    if(u[a]&lt;0)return a;
-    return u[a]&#x3D;find(u[a]);
-&#125;
-
-bool merge(int a,int b)
-&#123;
-    a&#x3D;find(a),b&#x3D;find(b);
-    if(a&#x3D;&#x3D;b)return false;
-    &#x2F;&#x2F;union by rank. path compression을 하지 않을 때 사용.
-    &#x2F;&#x2F;if(-u[a]&lt;-u[b])swap(a,b);
-    u[a]+&#x3D;u[b],u[b]&#x3D;a;
-    return true;
-&#125;
-
-int main(void)
-&#123;
-    int n,m;
-    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    fill(u,u+1+n,-1);
-    while(m--)
-    &#123;
-        int c,a,b;
-        scanf(&quot;%d %d %d&quot;,&amp;c,&amp;a,&amp;b);
-        if(c) printf(find(a)&#x3D;&#x3D;find(b)?&quot;YES\n&quot;:&quot;NO\n&quot;);
-        else merge(a,b);
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(Mlog*N) \approx O(M)$</p>
-<blockquote>
-<p>N : 정점 수, M : find 연산 수행 횟수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNzE3">백준1717 : 집합의 표현<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>union-find</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>interactive problem</title>
-    <url>/2021/02/14/2021-02-14-interactive%20problem/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="문제"><a href="#문제" class="headerlink" title="문제"></a>문제</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9wcm9ibGVtc2V0L3Byb2JsZW0vMTQyNS9G">Codeforces 1425F - Flamingoes of Mystery<i class="fa fa-external-link-alt"></i></span></p>
-<ol>
-<li>$N$ 개의 신비한 새장이 있고, $i$ 번째 새장에는 $A_i$ 마리의 플라밍고가 들어있습니다.</li>
-<li>$?\ L\ R$ 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.</li>
-<li>최대 $N$ 번의 질문으로, 각 새장에 들어있는 플라밍고의 수를 알아내야 합니다.</li>
-</ol>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-int sum[1001],ans[1001];
-
-int main()
-&#123;
-    int n; scanf(&quot;%d&quot;,&amp;n);
-    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
-    &#123;
-        printf(&quot;? 1 %d\n&quot;,i);
-        fflush(stdout);
-        scanf(&quot;%d&quot;,&amp;sum[i]);
-    &#125;
-
-    printf(&quot;? 2 3\n&quot;);
-    fflush(stdout);
-    int tt; scanf(&quot;%d&quot;,&amp;tt);
-
-    ans[1]&#x3D;sum[1]&#x3D;sum[3]-tt;
-    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
-        ans[i]&#x3D;sum[i]-sum[i-1];
-
-    printf(&quot;! &quot;);
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        printf(&quot;%d &quot;,ans[i]);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="입력"><a href="#입력" class="headerlink" title="입력"></a>입력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">6
-
-5
-
-9
-
-15
-
-22
-
-30
-
-8
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">
-? 1 2
-
-? 1 3
-
-? 1 4
-
-? 1 5
-
-? 1 6
-
-? 2 3
-
-! 1 4 4 6 7 8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <categories>
-        <category>PS</category>
-      </categories>
-      <tags>
-        <tag>codeforces</tag>
-        <tag>interactive</tag>
       </tags>
   </entry>
   <entry>
@@ -2282,6 +2204,184 @@ int main()&#123;
       </tags>
   </entry>
   <entry>
+    <title>prime-factorization</title>
+    <url>/2021/02/03/2021-02-03-prime-factorization/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="에라토스테네스의-체"><a href="#에라토스테네스의-체" class="headerlink" title="에라토스테네스의 체"></a>에라토스테네스의 체</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+&#x2F;&#x2F;n&lt;&#x3D;sz^2이 되도록 sz 적당히 크게 잡기.
+&#x2F;&#x2F;고쳐야 할 부분 (1)~(2)
+const int sz&#x3D;3163;&#x2F;&#x2F;(1)
+bool no_prime[sz+1]&#x3D;&#123;true,true&#125;;
+vector&lt;int&gt; prime;
+
+int main()
+&#123;
+    int n; scanf(&quot;%d&quot;,&amp;n);
+    
+    for(int i&#x3D;2;i*i&lt;&#x3D;n;i++)&#x2F;&#x2F;(2)
+        if(!no_prime[i])
+        &#123;
+            prime.push_back(i);
+            for(int j&#x3D;i*2;j&lt;&#x3D;sz;j+&#x3D;i)
+                no_prime[j]&#x3D;true;
+        &#125;
+
+    for(int i:prime)
+        while(n%i&#x3D;&#x3D;0)
+        &#123;
+            printf(&quot;%d\n&quot;,i);
+            n&#x2F;&#x3D;i;
+        &#125;
+    &#x2F;&#x2F;prime 벡터에 없는 큰 소수가 남았다면 직접 출력.
+    if(n!&#x3D;1) printf(&quot;%d&quot;,n);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(\sqrt{N}log\sqrt{N})$</li>
+<li>소인수분해 : $O(\sqrt{N}) (&#x3D;O(\sqrt{N}+logN))$</li>
+</ul>
+<blockquote>
+<p>N : 소인수분해 할 가장 큰 수.</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTY1Mw==">백준11653 : 소인수분해<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="언더-프라임"><a href="#언더-프라임" class="headerlink" title="언더 프라임"></a>언더 프라임</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+&#x2F;&#x2F;n&lt;&#x3D;sz이 되도록. n은 소인수분해 할 가장 큰 수.
+const int sz&#x3D;5000000;
+int under_prime[sz+1];&#x2F;&#x2F;under_prime[i] : i을 나누는 가장 작은 소수.
+
+void logsieve()
+&#123;
+    under_prime[1]&#x3D;1;
+    &#x2F;&#x2F;1+(1&#x2F;2)+(1&#x2F;3)+...+(1&#x2F;sz) 는 log sz로 수렴.
+    for(int i&#x3D;2;i&lt;&#x3D;sz;i++)
+        if(!under_prime[i])
+            for(int j&#x3D;i;j&lt;&#x3D;sz;j+&#x3D;i)
+                if(!under_prime[j])
+                    under_prime[j]&#x3D;i;
+&#125;
+
+int main()
+&#123;
+    &#x2F;&#x2F;메인에서 함수 실행하기.
+    logsieve();
+    int n; scanf(&quot;%d&quot;,&amp;n);
+    while(n--)
+    &#123;
+        int k; scanf(&quot;%d&quot;,&amp;k);
+        vector&lt;int&gt; factor;
+        while(k&gt;1)
+        &#123;
+            factor.push_back(under_prime[k]);
+            k&#x2F;&#x3D;under_prime[k];
+        &#125;
+        for(int i:factor)
+            printf(&quot;%d &quot;,i);
+        printf(&quot;\n&quot;);
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도-1"><a href="#시간복잡도-1" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(NlogN)$</li>
+<li>소인수분해 : $O(logN)$</li>
+</ul>
+<blockquote>
+<p>N : 소인수분해 할 가장 큰 수.</p>
+</blockquote>
+<h2 id="관련문제-1"><a href="#관련문제-1" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNjU2Mw==">백준16563 : 어려운 소인수분해<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>prime-factorization</tag>
+        <tag>sieve-of-Eratosthenes</tag>
+        <tag>under-prime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>interactive problem</title>
+    <url>/2021/02/14/2021-02-14-interactive%20problem/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="문제"><a href="#문제" class="headerlink" title="문제"></a>문제</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9wcm9ibGVtc2V0L3Byb2JsZW0vMTQyNS9G">Codeforces 1425F - Flamingoes of Mystery<i class="fa fa-external-link-alt"></i></span></p>
+<ol>
+<li>$N$ 개의 신비한 새장이 있고, $i$ 번째 새장에는 $A_i$ 마리의 플라밍고가 들어있습니다.</li>
+<li>$?\ L\ R$ 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.</li>
+<li>최대 $N$ 번의 질문으로, 각 새장에 들어있는 플라밍고의 수를 알아내야 합니다.</li>
+</ol>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+int sum[1001],ans[1001];
+
+int main()
+&#123;
+    int n; scanf(&quot;%d&quot;,&amp;n);
+    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
+    &#123;
+        printf(&quot;? 1 %d\n&quot;,i);
+        fflush(stdout);
+        scanf(&quot;%d&quot;,&amp;sum[i]);
+    &#125;
+
+    printf(&quot;? 2 3\n&quot;);
+    fflush(stdout);
+    int tt; scanf(&quot;%d&quot;,&amp;tt);
+
+    ans[1]&#x3D;sum[1]&#x3D;sum[3]-tt;
+    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
+        ans[i]&#x3D;sum[i]-sum[i-1];
+
+    printf(&quot;! &quot;);
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        printf(&quot;%d &quot;,ans[i]);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="입력"><a href="#입력" class="headerlink" title="입력"></a>입력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">6
+
+5
+
+9
+
+15
+
+22
+
+30
+
+8
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">
+? 1 2
+
+? 1 3
+
+? 1 4
+
+? 1 5
+
+? 1 6
+
+? 2 3
+
+! 1 4 4 6 7 8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>PS</category>
+      </categories>
+      <tags>
+        <tag>codeforces</tag>
+        <tag>interactive</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>freopen</title>
     <url>/2021/02/12/2021-02-12-freopen/</url>
     <content><![CDATA[<span id="more"></span>
@@ -2401,103 +2501,69 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>prime-factorization</title>
-    <url>/2021/02/03/2021-02-03-prime-factorization/</url>
+    <title>bipartite matching</title>
+    <url>/2021/02/23/2021-02-23-bipartite%20matching/</url>
     <content><![CDATA[<span id="more"></span>
 
-<h1 id="에라토스테네스의-체"><a href="#에라토스테네스의-체" class="headerlink" title="에라토스테네스의 체"></a>에라토스테네스의 체</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+<h1 id="이분-매칭"><a href="#이분-매칭" class="headerlink" title="이분 매칭"></a>이분 매칭</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
 using namespace std;
-&#x2F;&#x2F;n&lt;&#x3D;sz^2이 되도록 sz 적당히 크게 잡기.
-&#x2F;&#x2F;고쳐야 할 부분 (1)~(2)
-const int sz&#x3D;3163;&#x2F;&#x2F;(1)
-bool no_prime[sz+1]&#x3D;&#123;true,true&#125;;
-vector&lt;int&gt; prime;
 
-int main()
+&#x2F;&#x2F;a,b의 크기는 이분 그래프 각각의 정점 수. vis,graph의 크기는 a의 크기와 같게.
+int a[1001],b[1001];
+bool vis[1001];
+vector&lt;int&gt; graph[1001];
+
+bool BM(int cur)
 &#123;
-    int n; scanf(&quot;%d&quot;,&amp;n);
-    
-    for(int i&#x3D;2;i*i&lt;&#x3D;n;i++)&#x2F;&#x2F;(2)
-        if(!no_prime[i])
+    vis[cur]&#x3D;true;
+    for(int go:graph[cur])
+        if(b[go]&#x3D;&#x3D;-1||!vis[b[go]]&amp;&amp;BM(b[go]))
         &#123;
-            prime.push_back(i);
-            for(int j&#x3D;i*2;j&lt;&#x3D;sz;j+&#x3D;i)
-                no_prime[j]&#x3D;true;
+            a[cur]&#x3D;go;
+            b[go]&#x3D;cur;
+            return true;
         &#125;
-
-    for(int i:prime)
-        while(n%i&#x3D;&#x3D;0)
-        &#123;
-            printf(&quot;%d\n&quot;,i);
-            n&#x2F;&#x3D;i;
-        &#125;
-    &#x2F;&#x2F;prime 벡터에 없는 큰 소수가 남았다면 직접 출력.
-    if(n!&#x3D;1) printf(&quot;%d&quot;,n);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(\sqrt{N}log\sqrt{N})$</li>
-<li>소인수분해 : $O(\sqrt{N}) (&#x3D;O(\sqrt{N}+logN))$</li>
-</ul>
-<blockquote>
-<p>N : 소인수분해 할 가장 큰 수.</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTY1Mw==">백준11653 : 소인수분해<i class="fa fa-external-link-alt"></i></span></p>
-<h1 id="언더-프라임"><a href="#언더-프라임" class="headerlink" title="언더 프라임"></a>언더 프라임</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-&#x2F;&#x2F;n&lt;&#x3D;sz이 되도록. n은 소인수분해 할 가장 큰 수.
-const int sz&#x3D;5000000;
-int under_prime[sz+1];&#x2F;&#x2F;under_prime[i] : i을 나누는 가장 작은 소수.
-
-void logsieve()
-&#123;
-    under_prime[1]&#x3D;1;
-    &#x2F;&#x2F;1+(1&#x2F;2)+(1&#x2F;3)+...+(1&#x2F;sz) 는 log sz로 수렴.
-    for(int i&#x3D;2;i&lt;&#x3D;sz;i++)
-        if(!under_prime[i])
-            for(int j&#x3D;i;j&lt;&#x3D;sz;j+&#x3D;i)
-                if(!under_prime[j])
-                    under_prime[j]&#x3D;i;
+    return false;
 &#125;
 
 int main()
 &#123;
-    &#x2F;&#x2F;메인에서 함수 실행하기.
-    logsieve();
-    int n; scanf(&quot;%d&quot;,&amp;n);
-    while(n--)
-    &#123;
-        int k; scanf(&quot;%d&quot;,&amp;k);
-        vector&lt;int&gt; factor;
-        while(k&gt;1)
-        &#123;
-            factor.push_back(under_prime[k]);
-            k&#x2F;&#x3D;under_prime[k];
-        &#125;
-        for(int i:factor)
-            printf(&quot;%d &quot;,i);
-        printf(&quot;\n&quot;);
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    int n,m;scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    &#x2F;&#x2F;아직 매칭되기 전.(-1)
+    fill(a+1,a+1+n,-1);
+    fill(b+1,b+1+m,-1);
 
-<h2 id="시간복잡도-1"><a href="#시간복잡도-1" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(NlogN)$</li>
-<li>소인수분해 : $O(logN)$</li>
-</ul>
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        int work,t;scanf(&quot;%d&quot;,&amp;work);
+        while(work--)
+        &#123;
+            scanf(&quot;%d&quot;,&amp;t);
+            graph[i].push_back(t);
+        &#125;
+    &#125;
+
+    int ans&#x3D;0;
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        fill(vis+1,vis+1+n,false);
+        if(BM(i)) ans++;&#x2F;&#x2F;새로운 매칭에 성공.
+    &#125;
+    printf(&quot;%d&quot;,ans);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(VE)$</p>
 <blockquote>
-<p>N : 소인수분해 할 가장 큰 수.</p>
+<p>V : 정점 수, E : 간선 수</p>
 </blockquote>
-<h2 id="관련문제-1"><a href="#관련문제-1" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNjU2Mw==">백준16563 : 어려운 소인수분해<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTM3NQ==">백준11375 : 열혈강호<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>prime-factorization</tag>
-        <tag>sieve-of-Eratosthenes</tag>
-        <tag>under-prime</tag>
+        <tag>bipartite matching</tag>
       </tags>
   </entry>
   <entry>
@@ -2611,71 +2677,5 @@ int main()
 
 <p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>bipartite matching</title>
-    <url>/2021/02/23/2021-02-23-bipartite%20matching/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="이분-매칭"><a href="#이분-매칭" class="headerlink" title="이분 매칭"></a>이분 매칭</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;a,b의 크기는 이분 그래프 각각의 정점 수. vis,graph의 크기는 a의 크기와 같게.
-int a[1001],b[1001];
-bool vis[1001];
-vector&lt;int&gt; graph[1001];
-
-bool BM(int cur)
-&#123;
-    vis[cur]&#x3D;true;
-    for(int go:graph[cur])
-        if(b[go]&#x3D;&#x3D;-1||!vis[b[go]]&amp;&amp;BM(b[go]))
-        &#123;
-            a[cur]&#x3D;go;
-            b[go]&#x3D;cur;
-            return true;
-        &#125;
-    return false;
-&#125;
-
-int main()
-&#123;
-    int n,m;scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    &#x2F;&#x2F;아직 매칭되기 전.(-1)
-    fill(a+1,a+1+n,-1);
-    fill(b+1,b+1+m,-1);
-
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        int work,t;scanf(&quot;%d&quot;,&amp;work);
-        while(work--)
-        &#123;
-            scanf(&quot;%d&quot;,&amp;t);
-            graph[i].push_back(t);
-        &#125;
-    &#125;
-
-    int ans&#x3D;0;
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        fill(vis+1,vis+1+n,false);
-        if(BM(i)) ans++;&#x2F;&#x2F;새로운 매칭에 성공.
-    &#125;
-    printf(&quot;%d&quot;,ans);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(VE)$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTM3NQ==">백준11375 : 열혈강호<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>bipartite matching</tag>
-      </tags>
   </entry>
 </search>
