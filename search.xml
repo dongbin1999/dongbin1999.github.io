@@ -598,7 +598,7 @@ int main(void)
 <p>표의 <code>비트 이동</code>과 같은 규칙으로 비트가 이동했음을 알 수 있습니다.</p>
 <p>예시만으로는 4번째 비트와 5번째 비트가 어디로 이동하는지 알 수 없으므로, <del>운으로 찍었습니다.</del></p>
 <blockquote>
-<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjeDZlOyYjMTAzOyYjeDYyOyYjeDY5OyYjeDZlOyYjeDMxOyYjNTc7JiN4Mzk7JiN4Mzk7JiM2NDsmIzEwNTsmIzExMDsmIzExNzsmI3gyZTsmI3g2MTsmIzk5OyYjeDJlOyYjMTA3OyYjeDcyOw==">&#x64;&#111;&#x6e;&#103;&#x62;&#x69;&#x6e;&#x31;&#57;&#x39;&#x39;&#64;&#105;&#110;&#117;&#x2e;&#x61;&#99;&#x2e;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
+<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjMTExOyYjMTEwOyYjeDY3OyYjeDYyOyYjeDY5OyYjMTEwOyYjeDMxOyYjeDM5OyYjNTc7JiN4Mzk7JiM2NDsmIzEwNTsmI3g2ZTsmIzExNzsmIzQ2OyYjeDYxOyYjOTk7JiN4MmU7JiMxMDc7JiN4NzI7">&#100;&#111;&#110;&#x67;&#x62;&#x69;&#110;&#x31;&#x39;&#57;&#x39;&#64;&#105;&#x6e;&#117;&#46;&#x61;&#99;&#x2e;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
 </blockquote>
 <pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
 using namespace std;
@@ -1333,6 +1333,34 @@ normal runtime : 79973.000000 ms<span aria-hidden="true" class="line-numbers-row
       </tags>
   </entry>
   <entry>
+    <title>Programming-TeamProject</title>
+    <url>/2020/05/31/2020-05-31-Programming-TeamProject/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="프로그래밍-팀프로젝트"><a href="#프로그래밍-팀프로젝트" class="headerlink" title="프로그래밍 팀프로젝트"></a>프로그래밍 팀프로젝트</h1><h3 id="좀비-게임-변경-사항-x2F-오류-제보"><a href="#좀비-게임-변경-사항-x2F-오류-제보" class="headerlink" title="좀비 게임 (변경 사항&#x2F;오류 제보)"></a>좀비 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVRlYW1Qcm9qZWN0">Download<i class="fa fa-external-link-alt"></i></span></p>
+<ul>
+<li>Ver 1.0<ul>
+<li>게임의 첫 버전입니다.</li>
+</ul>
+</li>
+<li>Ver 1.1<br>*<br>* <ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjeDZmOyYjeDZlOyYjMTAzOyYjeDYyOyYjMTA1OyYjMTEwOyYjNDk7JiM1NzsmI3gzOTsmIzU3OyYjeDQwOyYjeDY5OyYjeDZlOyYjeDc1OyYjeDJlOyYjeDYxOyYjeDYzOyYjNDY7JiN4NmI7JiN4NzI7">&#x64;&#x6f;&#x6e;&#103;&#x62;&#105;&#110;&#49;&#57;&#x39;&#57;&#x40;&#x69;&#x6e;&#x75;&#x2e;&#x61;&#x63;&#46;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>university</category>
+      </categories>
+      <tags>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Programming project - Game Demo</title>
     <url>/2020/04/25/2020-04-25-Programming-project---Game-Demo/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1352,7 +1380,7 @@ normal runtime : 79973.000000 ms<span aria-hidden="true" class="line-numbers-row
 </ul>
 <blockquote>
 <p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDZmOyYjMTEwOyYjMTAzOyYjOTg7JiN4Njk7JiN4NmU7JiM0OTsmI3gzOTsmIzU3OyYjNTc7JiN4NDA7JiN4Njk7JiN4NmU7JiMxMTc7JiN4MmU7JiN4NjE7JiM5OTsmI3gyZTsmIzEwNzsmI3g3Mjs=">&#100;&#x6f;&#110;&#103;&#98;&#x69;&#x6e;&#49;&#x39;&#57;&#57;&#x40;&#x69;&#x6e;&#117;&#x2e;&#x61;&#99;&#x2e;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjeDZmOyYjMTEwOyYjeDY3OyYjeDYyOyYjMTA1OyYjMTEwOyYjeDMxOyYjeDM5OyYjeDM5OyYjeDM5OyYjNjQ7JiMxMDU7JiMxMTA7JiMxMTc7JiM0NjsmI3g2MTsmI3g2MzsmIzQ2OyYjeDZiOyYjeDcyOw==">&#x64;&#x6f;&#110;&#x67;&#x62;&#105;&#110;&#x31;&#x39;&#x39;&#x39;&#64;&#105;&#110;&#117;&#46;&#x61;&#x63;&#46;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1363,31 +1391,80 @@ normal runtime : 79973.000000 ms<span aria-hidden="true" class="line-numbers-row
       </tags>
   </entry>
   <entry>
-    <title>Programming-TeamProject</title>
-    <url>/2020/05/31/2020-05-31-Programming-TeamProject/</url>
+    <title>LCA(lowest common ancestor)</title>
+    <url>/2021/01/24/2021-01-24-LCA(lowest%20common%20ancestor)/</url>
     <content><![CDATA[<span id="more"></span>
 
-<h1 id="프로그래밍-팀프로젝트"><a href="#프로그래밍-팀프로젝트" class="headerlink" title="프로그래밍 팀프로젝트"></a>프로그래밍 팀프로젝트</h1><h3 id="좀비-게임-변경-사항-x2F-오류-제보"><a href="#좀비-게임-변경-사항-x2F-오류-제보" class="headerlink" title="좀비 게임 (변경 사항&#x2F;오류 제보)"></a>좀비 게임 (변경 사항&#x2F;오류 제보)</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RvbmdiaW4xOTk5L1Byb2dyYW1taW5nLVRlYW1Qcm9qZWN0">Download<i class="fa fa-external-link-alt"></i></span></p>
-<ul>
-<li>Ver 1.0<ul>
-<li>게임의 첫 버전입니다.</li>
-</ul>
-</li>
-<li>Ver 1.1<br>*<br>* <ul>
-<li></li>
-</ul>
-</li>
+<h1 id="최소-공통-조상"><a href="#최소-공통-조상" class="headerlink" title="최소 공통 조상"></a>최소 공통 조상</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+const int sz&#x3D;17;
+&#x2F;&#x2F;(1&lt;&lt;sz)&gt;&#x3D;n이 되게 관리.
+vector&lt;int&gt; tree[1&lt;&lt;sz];
+int depth[1&lt;&lt;sz];&#x2F;&#x2F;depth[i] : i번 노드의 깊이(루트노드에서부터의 거리)
+int sparse[1&lt;&lt;sz][sz];&#x2F;&#x2F;sparse[i][j] : i번째 노드의 2^j번째 부모. 1번(루트)노드의 부모도 1이라고 가정.
+
+void go(int node,int d,int parent)
+&#123;
+    sparse[node][0]&#x3D;parent;
+    depth[node]&#x3D;d;
+    &#x2F;&#x2F;어떤 노드의 2^i번째 부모는, 그 노드의 2^(i-1)번째 부모의 2^(i-1)번째 부모임.
+    for(int i&#x3D;1;i&lt;sz;i++)
+        sparse[node][i]&#x3D;sparse[sparse[node][i-1]][i-1];
+    for(int to:tree[node])
+        if(parent!&#x3D;to)
+            go(to,d+1,node);
+&#125;
+
+int LCA(int a,int b)
+&#123;
+    if(depth[a]&gt;depth[b])
+        swap(a,b);&#x2F;&#x2F;b가 더 깊은 점.
+    for(int i&#x3D;sz-1;i&gt;&#x3D;0;i--)&#x2F;&#x2F;b를 a 높이까지 올려줌.
+        if(depth[sparse[b][i]]&gt;&#x3D;depth[a])
+            b&#x3D;sparse[b][i];
+    if(a&#x3D;&#x3D;b)return a;&#x2F;&#x2F;a,b가 같은 점이면 그 점이 LCA.
+    for(int i&#x3D;sz-1;i&gt;&#x3D;0;i--)
+        if(sparse[a][i]!&#x3D;sparse[b][i])
+            a&#x3D;sparse[a][i],b&#x3D;sparse[b][i];
+    return sparse[a][0];&#x2F;&#x2F;a,b의 한단계 위가 LCA.
+&#125;
+
+int main()
+&#123;
+    int n,m;
+    scanf(&quot;%d&quot;, &amp;n);
+    for(int i&#x3D;1;i&lt;n;i++)
+    &#123;
+        int a,b;
+        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
+        tree[a].push_back(b);
+        tree[b].push_back(a);
+    &#125;
+    go(1,0,1);
+    scanf(&quot;%d&quot;,&amp;m);
+    while(m--)
+    &#123;
+        int a,b;
+        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
+        printf(&quot;%d\n&quot;,LCA(a,b));
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(NlogN)$</li>
+<li>LCA 찾기 : $O(logN)$</li>
 </ul>
 <blockquote>
-<p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjMTEwOyYjMTAzOyYjeDYyOyYjeDY5OyYjeDZlOyYjNDk7JiM1NzsmIzU3OyYjNTc7JiM2NDsmIzEwNTsmI3g2ZTsmI3g3NTsmIzQ2OyYjOTc7JiN4NjM7JiM0NjsmIzEwNzsmI3g3Mjs=">&#x64;&#111;&#110;&#103;&#x62;&#x69;&#x6e;&#49;&#57;&#57;&#57;&#64;&#105;&#x6e;&#x75;&#46;&#97;&#x63;&#46;&#107;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+<p>N : 노드 수</p>
 </blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQzOA==">백준11438 : LCA 2<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
-        <category>university</category>
+        <category>algorithm</category>
       </categories>
       <tags>
-        <tag>project</tag>
+        <tag>LCA</tag>
       </tags>
   </entry>
   <entry>
@@ -1510,168 +1587,6 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>LCA(lowest common ancestor)</title>
-    <url>/2021/01/24/2021-01-24-LCA(lowest%20common%20ancestor)/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="최소-공통-조상"><a href="#최소-공통-조상" class="headerlink" title="최소 공통 조상"></a>최소 공통 조상</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-const int sz&#x3D;17;
-&#x2F;&#x2F;(1&lt;&lt;sz)&gt;&#x3D;n이 되게 관리.
-vector&lt;int&gt; tree[1&lt;&lt;sz];
-int depth[1&lt;&lt;sz];&#x2F;&#x2F;depth[i] : i번 노드의 깊이(루트노드에서부터의 거리)
-int sparse[1&lt;&lt;sz][sz];&#x2F;&#x2F;sparse[i][j] : i번째 노드의 2^j번째 부모. 1번(루트)노드의 부모도 1이라고 가정.
-
-void go(int node,int d,int parent)
-&#123;
-    sparse[node][0]&#x3D;parent;
-    depth[node]&#x3D;d;
-    &#x2F;&#x2F;어떤 노드의 2^i번째 부모는, 그 노드의 2^(i-1)번째 부모의 2^(i-1)번째 부모임.
-    for(int i&#x3D;1;i&lt;sz;i++)
-        sparse[node][i]&#x3D;sparse[sparse[node][i-1]][i-1];
-    for(int to:tree[node])
-        if(parent!&#x3D;to)
-            go(to,d+1,node);
-&#125;
-
-int LCA(int a,int b)
-&#123;
-    if(depth[a]&gt;depth[b])
-        swap(a,b);&#x2F;&#x2F;b가 더 깊은 점.
-    for(int i&#x3D;sz-1;i&gt;&#x3D;0;i--)&#x2F;&#x2F;b를 a 높이까지 올려줌.
-        if(depth[sparse[b][i]]&gt;&#x3D;depth[a])
-            b&#x3D;sparse[b][i];
-    if(a&#x3D;&#x3D;b)return a;&#x2F;&#x2F;a,b가 같은 점이면 그 점이 LCA.
-    for(int i&#x3D;sz-1;i&gt;&#x3D;0;i--)
-        if(sparse[a][i]!&#x3D;sparse[b][i])
-            a&#x3D;sparse[a][i],b&#x3D;sparse[b][i];
-    return sparse[a][0];&#x2F;&#x2F;a,b의 한단계 위가 LCA.
-&#125;
-
-int main()
-&#123;
-    int n,m;
-    scanf(&quot;%d&quot;, &amp;n);
-    for(int i&#x3D;1;i&lt;n;i++)
-    &#123;
-        int a,b;
-        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
-        tree[a].push_back(b);
-        tree[b].push_back(a);
-    &#125;
-    go(1,0,1);
-    scanf(&quot;%d&quot;,&amp;m);
-    while(m--)
-    &#123;
-        int a,b;
-        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
-        printf(&quot;%d\n&quot;,LCA(a,b));
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(NlogN)$</li>
-<li>LCA 찾기 : $O(logN)$</li>
-</ul>
-<blockquote>
-<p>N : 노드 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQzOA==">백준11438 : LCA 2<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>LCA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MST(minimum spanning tree)</title>
-    <url>/2021/01/24/2021-01-24-MST(minimum%20spanning%20tree)/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="최소-스패닝-트리"><a href="#최소-스패닝-트리" class="headerlink" title="최소 스패닝 트리"></a>최소 스패닝 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-#define pii pair&lt;int,int&gt;
-using namespace std;
-
-struct element
-&#123;
-	int u,v,w;
-&#125;;
-
-bool operator&lt;(element a,element b)
-&#123;
-    return a.w&gt;b.w;
-&#125;
-
-vector&lt;pii&gt; tree[10001];
-int u[10001];
-priority_queue&lt;element&gt; pq;
-
-&#x2F;&#x2F;크루스칼 알고리즘 사용. 연결 여부를 union-find로 판별.
-int find(int a)
-&#123;
-    if(u[a]&lt;0)return a;
-    return u[a]&#x3D;find(u[a]);
-&#125;
-
-bool merge(int a,int b)
-&#123;
-    a&#x3D;find(a),b&#x3D;find(b);
-    if(a&#x3D;&#x3D;b)return false;
-    if(-u[a]&lt;-u[b])swap(a,b);
-    u[a]+&#x3D;u[b],u[b]&#x3D;a;
-    return true;
-&#125;
-
-&#x2F;&#x2F;v: 정점의 개수. main 에서 pq에 간선 넣고, u배열 -1로 초기화. mst의 가중치 리턴.
-int mst(int v)
-&#123;
-    int weight&#x3D;0;
-    while (!pq.empty())
-    &#123;
-        element e&#x3D;pq.top();
-        pq.pop();
-        if(merge(e.u,e.v))
-        &#123;
-            weight+&#x3D;e.w;
-            tree[e.u].push_back(&#123;e.v,e.w&#125;);
-            tree[e.v].push_back(&#123;e.u,e.w&#125;);
-        &#125;
-    &#125;
-    return weight;
-&#125;
-
-int main()
-&#123;
-	int v,e;
-	scanf(&quot;%d %d&quot;,&amp;v,&amp;e);
-	while(e--)
-	&#123;
-	    int a,b,c;
-		scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
-		pq.push(&#123;a,b,c&#125;);
-	&#125;
-	fill(u+1,u+1+v,-1);
-	printf(&quot;%d&quot;,mst(v));
-	return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogE) (&#x3D;O(ElogE)+O(Elog*V))$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTk3">백준1197 : 최소 스패닝 트리<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>MST</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SCC(strongly connected component)</title>
     <url>/2021/01/24/2021-01-24-SCC(strongly%20connected%20component)/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1767,6 +1682,151 @@ int main(void)
       </tags>
   </entry>
   <entry>
+    <title>MST(minimum spanning tree)</title>
+    <url>/2021/01/24/2021-01-24-MST(minimum%20spanning%20tree)/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="최소-스패닝-트리"><a href="#최소-스패닝-트리" class="headerlink" title="최소 스패닝 트리"></a>최소 스패닝 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+#define pii pair&lt;int,int&gt;
+using namespace std;
+
+struct element
+&#123;
+	int u,v,w;
+&#125;;
+
+bool operator&lt;(element a,element b)
+&#123;
+    return a.w&gt;b.w;
+&#125;
+
+vector&lt;pii&gt; tree[10001];
+int u[10001];
+priority_queue&lt;element&gt; pq;
+
+&#x2F;&#x2F;크루스칼 알고리즘 사용. 연결 여부를 union-find로 판별.
+int find(int a)
+&#123;
+    if(u[a]&lt;0)return a;
+    return u[a]&#x3D;find(u[a]);
+&#125;
+
+bool merge(int a,int b)
+&#123;
+    a&#x3D;find(a),b&#x3D;find(b);
+    if(a&#x3D;&#x3D;b)return false;
+    if(-u[a]&lt;-u[b])swap(a,b);
+    u[a]+&#x3D;u[b],u[b]&#x3D;a;
+    return true;
+&#125;
+
+&#x2F;&#x2F;v: 정점의 개수. main 에서 pq에 간선 넣고, u배열 -1로 초기화. mst의 가중치 리턴.
+int mst(int v)
+&#123;
+    int weight&#x3D;0;
+    while (!pq.empty())
+    &#123;
+        element e&#x3D;pq.top();
+        pq.pop();
+        if(merge(e.u,e.v))
+        &#123;
+            weight+&#x3D;e.w;
+            tree[e.u].push_back(&#123;e.v,e.w&#125;);
+            tree[e.v].push_back(&#123;e.u,e.w&#125;);
+        &#125;
+    &#125;
+    return weight;
+&#125;
+
+int main()
+&#123;
+	int v,e;
+	scanf(&quot;%d %d&quot;,&amp;v,&amp;e);
+	while(e--)
+	&#123;
+	    int a,b,c;
+		scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
+		pq.push(&#123;a,b,c&#125;);
+	&#125;
+	fill(u+1,u+1+v,-1);
+	printf(&quot;%d&quot;,mst(v));
+	return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogE) (&#x3D;O(ElogE)+O(Elog*V))$</p>
+<blockquote>
+<p>V : 정점 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTk3">백준1197 : 최소 스패닝 트리<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>MST</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>topological-sort</title>
+    <url>/2021/01/24/2021-01-24-topological-sort/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="위상-정렬"><a href="#위상-정렬" class="headerlink" title="위상 정렬"></a>위상 정렬</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+&#x2F;&#x2F;간선 추가할때 indegree 관리.
+vector&lt;int&gt; dag[32001];
+int indegree[32001];
+&#x2F;&#x2F;n은 정점 수.
+void topological_sort(int n)
+&#123;
+    vector&lt;int&gt; ans;&#x2F;&#x2F;위상정렬된 정점.
+    queue&lt;int&gt; q;
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        if(!indegree[i])
+            q.push(i);
+    while(!q.empty())
+    &#123;
+        int t&#x3D;q.front();
+        q.pop();
+        for(int go:dag[t])
+            if(--indegree[go]&#x3D;&#x3D;0)
+                q.push(go);
+        ans.push_back(t);
+    &#125;
+    for(int i:ans)
+        printf(&quot;%d &quot;,i); &#x2F;&#x2F;출력.
+&#125;
+
+int main()
+&#123;
+    int n,m;
+    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    while(m--)
+    &#123;
+        int a,b;
+        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
+        dag[a].push_back(b);
+        indegree[b]++;
+    &#125;
+    topological_sort(n);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V+E)$</p>
+<blockquote>
+<p>V : 정점 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMjUy">백준2252 : 줄 세우기<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>topological-sort</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>dijkstra</title>
     <url>/2021/01/24/2021-01-24-dijkstra/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1835,66 +1895,6 @@ int main(void)
       </tags>
   </entry>
   <entry>
-    <title>topological-sort</title>
-    <url>/2021/01/24/2021-01-24-topological-sort/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="위상-정렬"><a href="#위상-정렬" class="headerlink" title="위상 정렬"></a>위상 정렬</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;간선 추가할때 indegree 관리.
-vector&lt;int&gt; dag[32001];
-int indegree[32001];
-&#x2F;&#x2F;n은 정점 수.
-void topological_sort(int n)
-&#123;
-    vector&lt;int&gt; ans;&#x2F;&#x2F;위상정렬된 정점.
-    queue&lt;int&gt; q;
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        if(!indegree[i])
-            q.push(i);
-    while(!q.empty())
-    &#123;
-        int t&#x3D;q.front();
-        q.pop();
-        for(int go:dag[t])
-            if(--indegree[go]&#x3D;&#x3D;0)
-                q.push(go);
-        ans.push_back(t);
-    &#125;
-    for(int i:ans)
-        printf(&quot;%d &quot;,i); &#x2F;&#x2F;출력.
-&#125;
-
-int main()
-&#123;
-    int n,m;
-    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    while(m--)
-    &#123;
-        int a,b;
-        scanf(&quot;%d %d&quot;,&amp;a,&amp;b);
-        dag[a].push_back(b);
-        indegree[b]++;
-    &#125;
-    topological_sort(n);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V+E)$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMjUy">백준2252 : 줄 세우기<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>topological-sort</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>union-find</title>
     <url>/2021/01/24/2021-01-24-union-find/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1947,87 +1947,6 @@ int main(void)
       </categories>
       <tags>
         <tag>union-find</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Fenwick-tree (binary indexed tree)</title>
-    <url>/2021/01/31/2021-01-31-Fenwick-tree%20(binary%20indexed%20tree)/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="펜윅-트리"><a href="#펜윅-트리" class="headerlink" title="펜윅 트리"></a>펜윅 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-#define ll long long
-using namespace std;
-&#x2F;&#x2F;크기는 n&#x3D;sz.
-const int sz&#x3D;1000000;
-ll BIT[sz+1];
-ll arr[sz+1];
-
-&#x2F;&#x2F;sum(i) : 1번째~i번째 수의 총합
-ll sum(int i)
-&#123;
-    ll ret&#x3D;0;
-    while(i&gt;0)
-    &#123;
-        ret+&#x3D;BIT[i];
-        i-&#x3D;i&amp;-i;
-    &#125;
-    return ret;
-&#125;
-
-void update(int i, ll diff)
-&#123;
-    while(i&lt;&#x3D;sz)
-    &#123;
-        BIT[i]+&#x3D;diff;
-        i+&#x3D;i&amp;-i;
-    &#125;
-&#125;
-
-int main(void)
-&#123;
-    int n,m,k;
-    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
-
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        scanf(&quot;%lld&quot;,&amp;arr[i]);
-        update(i,arr[i]);
-    &#125;
-
-    int q&#x3D;m+k;
-    while(q--)
-    &#123;
-        int a; scanf(&quot;%d&quot;,&amp;a);
-        if(a&#x3D;&#x3D;1)
-        &#123;
-            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
-            update(b,c-arr[b]);
-            arr[b]&#x3D;c;
-        &#125;
-        else
-        &#123;
-            int l,r; scanf(&quot;%d %d&quot;,&amp;l,&amp;r);
-            printf(&quot;%lld\n&quot;,sum(r)-sum(l-1));
-        &#125;
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(NlogN)$</li>
-<li>구간 합 구하기 : $O(logN)$</li>
-<li>값 업데이트 : $O(logN)$</li>
-</ul>
-<blockquote>
-<p>N : 수의 개수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>data structure</category>
-      </categories>
-      <tags>
-        <tag>Fenwick-tree</tag>
       </tags>
   </entry>
   <entry>
@@ -2132,6 +2051,87 @@ int main(void)
       </tags>
   </entry>
   <entry>
+    <title>Fenwick-tree (binary indexed tree)</title>
+    <url>/2021/01/31/2021-01-31-Fenwick-tree%20(binary%20indexed%20tree)/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="펜윅-트리"><a href="#펜윅-트리" class="headerlink" title="펜윅 트리"></a>펜윅 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+#define ll long long
+using namespace std;
+&#x2F;&#x2F;크기는 n&#x3D;sz.
+const int sz&#x3D;1000000;
+ll BIT[sz+1];
+ll arr[sz+1];
+
+&#x2F;&#x2F;sum(i) : 1번째~i번째 수의 총합
+ll sum(int i)
+&#123;
+    ll ret&#x3D;0;
+    while(i&gt;0)
+    &#123;
+        ret+&#x3D;BIT[i];
+        i-&#x3D;i&amp;-i;
+    &#125;
+    return ret;
+&#125;
+
+void update(int i, ll diff)
+&#123;
+    while(i&lt;&#x3D;sz)
+    &#123;
+        BIT[i]+&#x3D;diff;
+        i+&#x3D;i&amp;-i;
+    &#125;
+&#125;
+
+int main(void)
+&#123;
+    int n,m,k;
+    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
+
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        scanf(&quot;%lld&quot;,&amp;arr[i]);
+        update(i,arr[i]);
+    &#125;
+
+    int q&#x3D;m+k;
+    while(q--)
+    &#123;
+        int a; scanf(&quot;%d&quot;,&amp;a);
+        if(a&#x3D;&#x3D;1)
+        &#123;
+            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
+            update(b,c-arr[b]);
+            arr[b]&#x3D;c;
+        &#125;
+        else
+        &#123;
+            int l,r; scanf(&quot;%d %d&quot;,&amp;l,&amp;r);
+            printf(&quot;%lld\n&quot;,sum(r)-sum(l-1));
+        &#125;
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(NlogN)$</li>
+<li>구간 합 구하기 : $O(logN)$</li>
+<li>값 업데이트 : $O(logN)$</li>
+</ul>
+<blockquote>
+<p>N : 수의 개수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>data structure</category>
+      </categories>
+      <tags>
+        <tag>Fenwick-tree</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>segment-tree</title>
     <url>/2021/01/31/2021-01-31-segment-tree/</url>
     <content><![CDATA[<span id="more"></span>
@@ -2201,6 +2201,72 @@ int main()&#123;
       </categories>
       <tags>
         <tag>segment-tree</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bipartite matching</title>
+    <url>/2021/02/23/2021-02-23-bipartite%20matching/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="이분-매칭"><a href="#이분-매칭" class="headerlink" title="이분 매칭"></a>이분 매칭</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+&#x2F;&#x2F;a,b의 크기는 이분 그래프 각각의 정점 수. vis,graph의 크기는 a의 크기와 같게.
+int a[1001],b[1001];
+bool vis[1001];
+vector&lt;int&gt; graph[1001];
+
+bool BM(int cur)
+&#123;
+    vis[cur]&#x3D;true;
+    for(int go:graph[cur])
+        if(b[go]&#x3D;&#x3D;-1||!vis[b[go]]&amp;&amp;BM(b[go]))
+        &#123;
+            a[cur]&#x3D;go;
+            b[go]&#x3D;cur;
+            return true;
+        &#125;
+    return false;
+&#125;
+
+int main()
+&#123;
+    int n,m;scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    &#x2F;&#x2F;아직 매칭되기 전.(-1)
+    fill(a+1,a+1+n,-1);
+    fill(b+1,b+1+m,-1);
+
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        int work,t;scanf(&quot;%d&quot;,&amp;work);
+        while(work--)
+        &#123;
+            scanf(&quot;%d&quot;,&amp;t);
+            graph[i].push_back(t);
+        &#125;
+    &#125;
+
+    int ans&#x3D;0;
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        fill(vis+1,vis+1+n,false);
+        if(BM(i)) ans++;&#x2F;&#x2F;새로운 매칭에 성공.
+    &#125;
+    printf(&quot;%d&quot;,ans);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(VE)$</p>
+<blockquote>
+<p>V : 정점 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTM3NQ==">백준11375 : 열혈강호<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>bipartite matching</tag>
       </tags>
   </entry>
   <entry>
@@ -2423,150 +2489,6 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>interactive problem</title>
-    <url>/2021/02/14/2021-02-14-interactive%20problem/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="문제"><a href="#문제" class="headerlink" title="문제"></a>문제</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9wcm9ibGVtc2V0L3Byb2JsZW0vMTQyNS9G">Codeforces 1425F - Flamingoes of Mystery<i class="fa fa-external-link-alt"></i></span></p>
-<ol>
-<li>$N$ 개의 신비한 새장이 있고, $i$ 번째 새장에는 $A_i$ 마리의 플라밍고가 들어있습니다.</li>
-<li>$?\ L\ R$ 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.</li>
-<li>최대 $N$ 번의 질문으로, 각 새장에 들어있는 플라밍고의 수를 알아내야 합니다.</li>
-</ol>
-<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-int sum[1001],ans[1001];
-
-int main()
-&#123;
-    int n; scanf(&quot;%d&quot;,&amp;n);
-    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
-    &#123;
-        printf(&quot;? 1 %d\n&quot;,i);
-        fflush(stdout);
-        scanf(&quot;%d&quot;,&amp;sum[i]);
-    &#125;
-
-    printf(&quot;? 2 3\n&quot;);
-    fflush(stdout);
-    int tt; scanf(&quot;%d&quot;,&amp;tt);
-
-    ans[1]&#x3D;sum[1]&#x3D;sum[3]-tt;
-    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
-        ans[i]&#x3D;sum[i]-sum[i-1];
-
-    printf(&quot;! &quot;);
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        printf(&quot;%d &quot;,ans[i]);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="입력"><a href="#입력" class="headerlink" title="입력"></a>입력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">6
-
-5
-
-9
-
-15
-
-22
-
-30
-
-8
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">
-? 1 2
-
-? 1 3
-
-? 1 4
-
-? 1 5
-
-? 1 6
-
-? 2 3
-
-! 1 4 4 6 7 8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <categories>
-        <category>PS</category>
-      </categories>
-      <tags>
-        <tag>codeforces</tag>
-        <tag>interactive</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>bipartite matching</title>
-    <url>/2021/02/23/2021-02-23-bipartite%20matching/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="이분-매칭"><a href="#이분-매칭" class="headerlink" title="이분 매칭"></a>이분 매칭</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;a,b의 크기는 이분 그래프 각각의 정점 수. vis,graph의 크기는 a의 크기와 같게.
-int a[1001],b[1001];
-bool vis[1001];
-vector&lt;int&gt; graph[1001];
-
-bool BM(int cur)
-&#123;
-    vis[cur]&#x3D;true;
-    for(int go:graph[cur])
-        if(b[go]&#x3D;&#x3D;-1||!vis[b[go]]&amp;&amp;BM(b[go]))
-        &#123;
-            a[cur]&#x3D;go;
-            b[go]&#x3D;cur;
-            return true;
-        &#125;
-    return false;
-&#125;
-
-int main()
-&#123;
-    int n,m;scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    &#x2F;&#x2F;아직 매칭되기 전.(-1)
-    fill(a+1,a+1+n,-1);
-    fill(b+1,b+1+m,-1);
-
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        int work,t;scanf(&quot;%d&quot;,&amp;work);
-        while(work--)
-        &#123;
-            scanf(&quot;%d&quot;,&amp;t);
-            graph[i].push_back(t);
-        &#125;
-    &#125;
-
-    int ans&#x3D;0;
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        fill(vis+1,vis+1+n,false);
-        if(BM(i)) ans++;&#x2F;&#x2F;새로운 매칭에 성공.
-    &#125;
-    printf(&quot;%d&quot;,ans);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(VE)$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTM3NQ==">백준11375 : 열혈강호<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>bipartite matching</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>network flow</title>
     <url>/2021/03/08/2021-03-08-network%20flow/</url>
     <content><![CDATA[<span id="more"></span>
@@ -2658,6 +2580,84 @@ int main()
       </categories>
       <tags>
         <tag>network flow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>interactive problem</title>
+    <url>/2021/02/14/2021-02-14-interactive%20problem/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="문제"><a href="#문제" class="headerlink" title="문제"></a>문제</h1><p><span class="exturl" data-url="aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9wcm9ibGVtc2V0L3Byb2JsZW0vMTQyNS9G">Codeforces 1425F - Flamingoes of Mystery<i class="fa fa-external-link-alt"></i></span></p>
+<ol>
+<li>$N$ 개의 신비한 새장이 있고, $i$ 번째 새장에는 $A_i$ 마리의 플라밍고가 들어있습니다.</li>
+<li>$?\ L\ R$ 의 형태로 질문을 하면, $L$ ~ $R$ 번째 새장에 들어있는 플라밍고의 마릿수 합을 알려줍니다.</li>
+<li>최대 $N$ 번의 질문으로, 각 새장에 들어있는 플라밍고의 수를 알아내야 합니다.</li>
+</ol>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+int sum[1001],ans[1001];
+
+int main()
+&#123;
+    int n; scanf(&quot;%d&quot;,&amp;n);
+    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
+    &#123;
+        printf(&quot;? 1 %d\n&quot;,i);
+        fflush(stdout);
+        scanf(&quot;%d&quot;,&amp;sum[i]);
+    &#125;
+
+    printf(&quot;? 2 3\n&quot;);
+    fflush(stdout);
+    int tt; scanf(&quot;%d&quot;,&amp;tt);
+
+    ans[1]&#x3D;sum[1]&#x3D;sum[3]-tt;
+    for(int i&#x3D;2;i&lt;&#x3D;n;i++)
+        ans[i]&#x3D;sum[i]-sum[i-1];
+
+    printf(&quot;! &quot;);
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        printf(&quot;%d &quot;,ans[i]);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="입력"><a href="#입력" class="headerlink" title="입력"></a>입력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">6
+
+5
+
+9
+
+15
+
+22
+
+30
+
+8
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">
+? 1 2
+
+? 1 3
+
+? 1 4
+
+? 1 5
+
+? 1 6
+
+? 2 3
+
+! 1 4 4 6 7 8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>PS</category>
+      </categories>
+      <tags>
+        <tag>codeforces</tag>
+        <tag>interactive</tag>
       </tags>
   </entry>
 </search>
