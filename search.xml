@@ -117,6 +117,342 @@ int main()
       </tags>
   </entry>
   <entry>
+    <title>Java differenves by Version</title>
+    <url>/2020/04/01/2020-04-01-java-differences-by-Version/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1>Java 버전별 차이점</h1>
+
+<h4>201901694 이동빈</h4>
+
+
+
+<h2 id="2000년도"><a href="#2000년도" class="headerlink" title="~2000년도"></a>~2000년도</h2><hr>
+<h3 id="JDK-1-0a"><a href="#JDK-1-0a" class="headerlink" title="JDK 1.0a"></a>JDK 1.0a</h3><ul>
+<li>발표 : 1994년도</li>
+</ul>
+<hr>
+<h3 id="JDK-1-0a2"><a href="#JDK-1-0a2" class="headerlink" title="JDK 1.0a2"></a>JDK 1.0a2</h3><ul>
+<li>발표 : 1995년 5월 23일</li>
+<li>특징</li>
+</ul>
+<p><strong>언어 자체가 정식으로 발표된 날이다.</strong></p>
+<hr>
+<h3 id="JDK-1-0"><a href="#JDK-1-0" class="headerlink" title="JDK 1.0"></a>JDK 1.0</h3><ul>
+<li><p>발표 : 1996년 1월 23일</p>
+</li>
+<li><p>특징</p>
+<p>발표 이전에 불렸던 이름은 <code>Oak</code>였으며, 안정화 작업을 거친 1.0.2 버전에서 <code>Java</code>로 이름이 바뀌었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="JDK-1-1"><a href="#JDK-1-1" class="headerlink" title="JDK 1.1"></a>JDK 1.1</h3><ul>
+<li>발표 : 1997년 2월 19일</li>
+<li>추가된 기능<ul>
+<li><code>inner class</code></li>
+<li><code>JavaBeans</code></li>
+<li><code>RMI</code></li>
+<li><code>reflection</code></li>
+<li>유니코드 지원</li>
+<li><code>국제화(Internationalization)</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-1-2"><a href="#J2SE-1-2" class="headerlink" title="J2SE 1.2"></a>J2SE 1.2</h3><ul>
+<li><p>발표 : 1998년 12월 8일</p>
+</li>
+<li><p>지원 종료 : 2003년 11월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>새로운 <code>GUI</code></li>
+<li><code> JIT</code></li>
+<li><code>CORBA</code></li>
+<li><code>strictfp</code>, <code>Swing GUI</code>, <code>JIT</code>, <code>Java Applet</code>을 구동하는 웹 브라우저 플러그인</li>
+<li><code>Collections</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>굵직한 기능들이 추가되면서 2 부터 약칭을 <code>J2SE(Java 2 Standard Edition)</code> 로 표기하기 시작했으며, 이 표기는 5 까지 사용된다. 1999년에 업데이트를 통해 <code>HotSpot JVM</code>이 첫 선을 보인다.</p>
+</li>
+</ul>
+<hr>
+<h2 id="2000-2010년도"><a href="#2000-2010년도" class="headerlink" title="2000~2010년도"></a>2000~2010년도</h2><hr>
+<h3 id="J2SE-1-3"><a href="#J2SE-1-3" class="headerlink" title="J2SE 1.3"></a>J2SE 1.3</h3><ul>
+<li><p>발표 : 2000년 3월 8일</p>
+</li>
+<li><p>지원 종료 : 2006년 11월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>HotSpot JVM</code></li>
+<li><code>JNDI</code></li>
+<li><code>JPDA</code></li>
+<li><code>JavaSound</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> <code>RMI</code>가 <code>CORBA</code>를 지원하도록 변경되었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-1-4"><a href="#J2SE-1-4" class="headerlink" title="J2SE 1.4"></a>J2SE 1.4</h3><ul>
+<li>발표 : 2002년 2월 6일</li>
+<li>지원 종료 : 2008년 10월 <em>(2013년 2월까지 연장 지원)</em></li>
+<li>추가된 기능<ul>
+<li><code>assert</code>문</li>
+<li>정규표현식</li>
+<li><code>IPv6</code></li>
+<li><code>Non-Blocking IO</code></li>
+<li><code>XML API</code></li>
+<li><code>JCE</code></li>
+<li><code>JSSE</code></li>
+<li><code>JAAS</code></li>
+<li><code>Java Web Start</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="J2SE-5"><a href="#J2SE-5" class="headerlink" title="J2SE 5"></a>J2SE 5</h3><ul>
+<li><p>발표 : 2004년 9월 30일</p>
+</li>
+<li><p>지원 종료 : 2009년 9월 <em>(2015년 5월까지 연장 지원)</em> </p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Generics</code></li>
+<li><code>Annotation</code></li>
+<li><code>Auto Boxing/Unboxing</code></li>
+<li><code>Enumeration</code></li>
+<li>가변 길이 파라미터</li>
+<li><code>Static Import</code></li>
+<li>새로운 <code>Concurrency API</code></li>
+<li><code>java.util.Scanner</code> <em>(이전보다 편하게 표준 입력 사용 가능)</em></li>
+<li><code>Windows 9x</code> &#x2F; <code>Windows NT 4.0</code> <em>(~&#96;J2SE 5.0&#96;)</em></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p><strong>이 때부터 버젼 중 앞의 1을 빼버리고 표기하기 시작했다.</strong> 그러나 내부적으로는 여전히 1.5, 1.6, 1.7 등으로 데이터가 들어있다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-6"><a href="#Java-SE-6" class="headerlink" title="Java SE 6"></a>Java SE 6</h3><ul>
+<li><p>발표 : 2006년 12월 11일</p>
+</li>
+<li><p>지원 종료 : 2013년 2월 <em>(2018년 12월까지 연장 지원)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Scripting Language Support</code></li>
+<li><code>JDBC 4.0</code></li>
+<li><code>Java Compiler API</code></li>
+<li><code>Pluggable Annotation</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p><strong>이 때부터 표기가 <code>J2SE</code>에서 <code>Java SE</code>로 바뀌었다.</strong>  스크립팅 언어 지원과 함께 <code>Rhino JavaScript</code> 엔진이 기본으로 탑재되었다.</p>
+</li>
+</ul>
+<hr>
+<h2 id="2010년도-현재"><a href="#2010년도-현재" class="headerlink" title="2010년도~ 현재"></a>2010년도~ 현재</h2><hr>
+<h3 id="Java-SE-7"><a href="#Java-SE-7" class="headerlink" title="Java SE 7"></a>Java SE 7</h3><ul>
+<li>발표 : 2011년 7월 7일</li>
+<li>지원 종료 : 2015년 4월 <em>(2022년 7월까지 연장 지원 예정)</em></li>
+<li>추가된 기능<ul>
+<li><code>Dynamic Language</code> 지원</li>
+<li><code>switch</code>문에서 <code>String</code> 사용</li>
+<li><code>try</code>문에서 자동 자원 관리</li>
+<li><code>Diamond Operator &lt;&gt;</code></li>
+<li>이진수 literal, 숫자 literal에 <code>_</code> 지원</li>
+<li>새로운 <code>Concurrency API</code></li>
+<li>새로운 <code>File NIO library</code></li>
+<li><code>Elliptic Curve Cryptography</code></li>
+<li><code>Java2D</code>를 위한 <code>XRender</code>, <code>Upstream</code>, <code>Java Deployment Ruleset</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-8"><a href="#Java-SE-8" class="headerlink" title="Java SE 8"></a>Java SE 8</h3><ul>
+<li><p>발표 : 2014년 3월 18일</p>
+</li>
+<li><p>지원 종료 : 2019년 1월 <em>(2023년 9월까지 연장 지원 예정)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>Unsigned Integer</code> 계산</li>
+<li><code>Lambda Expression</code>, <code>Rhino</code> 대신 <code>Nashorn JavaScript</code> 엔진 탑재</li>
+<li><code>Annotation on Java Types</code></li>
+<li><code>Repeating Annotation</code></li>
+<li>새로운 날짜와 시간 API <em>(사실상 JodaTime이라고 보면 된다)</em></li>
+<li><code>Static Link JNI Library</code></li>
+<li><code>Interface Default Method</code></li>
+<li><code>PermGen</code> 영역 삭제</li>
+<li><code>Stream API</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>본래 일반 지원은 2017년 9월 종료 예정이었으나 <code>Java 9</code> 발표의 지연 때문에 2018년 9월로 연장되었다가, 이후 라이선스 이관 문제로 인해 2019년 1월로 다시 연장되었다.</p>
+<p><strong>32비트를 지원하는 마지막 공식 Java 버전으로, 이후 버전의 32비트 지원은 오직 서드파티를 통해서만 지원된다.</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-9"><a href="#Java-SE-9" class="headerlink" title="Java SE 9"></a>Java SE 9</h3><ul>
+<li><p>발표 : 2017년 9월 21일</p>
+</li>
+<li><p>지원 종료 : 2018년 3월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><p><code>JShell</code> <em>(Java를 인터프리터 언어 셸처럼 사용할 수 있음)</em></p>
+</li>
+<li><p><code>Ahead-Of-Time Compilation</code> <em>( 실험 기능 &#x2F; Java 바이트코드를 기계어로 미리 번역)</em></p>
+</li>
+<li><p><code>구조적 불변 컬렉션</code>, <code>통합 로깅</code>,  <code>HTTP/2</code>, <code>private 인터페이스 메소드</code>, <code>HTML5 Javadoc</code> 지원</p>
+</li>
+<li><p>.properties 파일에 <code>UTF-8</code> 지원</p>
+</li>
+<li><p><code>Project Jigsaw</code> 기반으로 런타임 모듈화</p>
+<ul>
+<li><code>AWT</code>나 <code>Swing </code> 같은 불필요한 라이브러리를 끌어쓸 필요도 없이, 최상위 모듈인 <code>Base</code>만 사용해도 된다.</li>
+<li>특정 프로그램에 최적화된 최소 런타임을 제작할 수 있게 되면서 패키징 역시 간편해졌다</li>
+</ul>
+<br /></li>
+</ul>
+</li>
+<li><p>삭제된 기능</p>
+<ul>
+<li><code>Java Applet</code></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> Deprecated 표시에는 해당 버전과 제거 예정 여부를 표시할 수 있게 되었다.</p>
+<p>새로 적용된 버저닝 정책에 따라 이 버전부터는 더 이상 1.x 버전으로 내놓지 않고, 대신 <strong>9.0</strong>으로 급속한 판올림이 일어났다. 또한 제거 예정인 Deprecated API는 <strong>다음 버전인 Java SE 10부터 완전 삭제 예정</strong>이므로 해당 API를 쓰는 프로그램은 더 이상 이후의 버전에서 컴파일조차 불가능하게 된다. 그리고<code> Java SE 9</code>부터는 6개월마다 새로운 버전이 업데이트된다.</p>
+<p>본래는 2016년 발표 예정이었으나 2번이나 연기되어 2017년 7월 27일 발표 예정, 그나마도 한번 더 연기되어 9월 21일에 발표되었다. 가장 큰 원인은 역시 <code>Project Jigsaw</code>의 개발 난이도였다. 런타임의 모듈화는 하위 호환성을 어느 정도 포기하고 성능을 추구한 것이기에 아직 현장에서는 <code>Java 9</code>로 넘어가는 것을 꺼리는 분위기다.</p>
+<p><strong>이 버전부터 64비트 버전만 출시되었으며, 32비트 버전은 더 이상 공식적으로 나오지 않는다.</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-10"><a href="#Java-SE-10" class="headerlink" title="Java SE 10"></a>Java SE 10</h3><ul>
+<li><p>발표 : 2018년 3월 20일</p>
+</li>
+<li><p>지원 종료 : 2018년 9월</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li><code>var 키워드</code>를 이용한 지역 변수 타입 추론</li>
+<li>병렬 garbage collection</li>
+<li>개별 쓰레드로 분리된 <code>Stop-The-World</code></li>
+<li><code>루트 CA 목록</code></li>
+<li>Java 기반의 <code>JIT 컴파일러</code> <em>(실험 기능)</em></li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p> JDK의 레포지토리가 하나로 통합되었으며, JVM 힙 영역을 시스템 메모리가 아닌 다른 종류의 메모리에도 할당할 수 있게 되었다. 이전 버전에서 Deprecated 처리된 API는 <code>Java SE 10</code>에서 모두 삭제되었다.</p>
+</li>
+</ul>
+<hr>
+<h3 id="Java-SE-11"><a href="#Java-SE-11" class="headerlink" title="Java SE 11"></a>Java SE 11</h3><ul>
+<li><p>발표 : 2018년 9월 25일</p>
+</li>
+<li><p>지원 종료 : 2023년 9월 <em>(2026년 9월까지 연장 지원 예정)</em></p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>lambda parameter에 대한 지역 변수 문법</li>
+<li>epsilon garbage collector</li>
+<li>HTTP 클라이언트 표준화 기능</li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>이클립스 재단으로 넘어간 <code>Java EE</code>가 JDK에서 삭제되고, <code>JavaFX</code>도 JDK에서 분리되어 별도의 모듈로 제공된다.  <code>Gloun</code>이라는 업체가 <code>JavaFX</code>를 유지보수 중이므로 <span class="exturl" data-url="aHR0cHM6Ly9nbHVvbmhxLmNvbS9wcm9kdWN0cy9qYXZhZngv">이곳<i class="fa fa-external-link-alt"></i></span>에서 다운로드받으면 된다.</p>
+</li>
+</ul>
+<p> Java SE 11부터 Oracle JDK의 독점 기능이 오픈 소스 버전인 OpenJDK에 이식된다. 이는 다시 말해 Oracle JDK와 OpenJDK가 완전히 <strong>동일</strong>해진다는 뜻이다. Oracle JDK는 Java SE 11부터 LTS(장기 지원) 버전으로 3년마다 출시되는데, 출시 후 5년 동안 오라클의 기술 지원이 제공되고 최대 3년까지 지원 기간을 연장할 수 있다. Oracle JDK는 이제 3년에 한 번 출시되니 Java의 실질적인 버전 업을 담당하는 것은 OpenJDK가 된 셈이다. OpenJDK는 기업들을 위한 기술 지원은 없고, 새로운 버전이 나오면 이전 버전에 대한 마이너 업데이트와 보안 업데이트는 중단된다.</p>
+<p>그리고 Java 11과 함께 발표된 또 다른 소식은 바로 <strong>Oracle JDK가 구독형 유료 모델로 전환된다는 점</strong>이다. 2019년 1월부터 오라클이 제공하는 모든 <code>Oracle JDK</code>는 유료화되며, 구독권을 구입하지 않으면 <code>Oracle JDK</code>에 접근 자체가 금지된다. 기존의 일반&#x2F;연장 지원 서비스는 구독권에 포함되므로 별도의 서비스로는 제공되지 않는다. <strong>개인 사용자는 2021년 1월부터 비용을 지불해야 한다.</strong> 이 때문에 많은 기업들이 <code>Oracle JDK</code>에서 발을 빼고 있으며, <code>OpenJDK</code>를 기반으로 한 다른 <code>서드파티 JDK</code>가 대안으로 떠오르고 있다. 대표적인 예로 <code>Azul Systems</code>에서 개발한 <code>Zulu JDK</code>가 있는데, <code>Zulu JDK</code>는 오라클의 <code>TCK(Technology Certification Kit)</code> 인증을 받은 구현체이다. 개인과 기업 모두 무료로 사용할 수 있고, 기술 지원에 한해서만 유료 서비스가 제공된다. 또 다른 대안으로는 <code>AdoptOpenJDK</code>가 있는데, <code>AdoptOpenJDK</code>는 <code>HotSpot VM</code> 대신 <code>Eclipse OpenJ9</code>을 탑재한 버전도 같이 제공하고 있다. 다만 아직 TCK 인증을 받지 않았기에 주의가 필요하다.</p>
+<hr>
+<h3 id="Java-SE-12"><a href="#Java-SE-12" class="headerlink" title="Java SE 12"></a>Java SE 12</h3><ul>
+<li><p>발표 : 2019년 3월 19일</p>
+</li>
+<li><p>추가된 기능</p>
+<ul>
+<li>garbage collector 개선</li>
+<li><code>micro benchmarking</code> 툴</li>
+</ul>
+<br />
+</li>
+<li><p>기타 특징</p>
+<p>문법적으로 Switch문을 확장했다.</p>
+</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">FRIDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">SUNDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token constant">SATURDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span><span class="token operator">:</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<p>예전에는 이렇게 써야 했던 Switch문을 아래와 같은 형식으로도 쓸 수 있게 되었다.</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+<h3 id="Java-SE-13"><a href="#Java-SE-13" class="headerlink" title="Java SE 13"></a>Java SE 13</h3><ul>
+<li><p>발표 : 2019년 9월 17일</p>
+</li>
+<li><p>특징</p>
+<p>java 12에서의 스위치 개선을 이어 yield 라는 예약어가 추가되었다.</p>
+</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">6</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">7</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">8</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">9</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+<h3 id="Java-SE-14"><a href="#Java-SE-14" class="headerlink" title="Java SE 14"></a>Java SE 14</h3><ul>
+<li>발표 : 2020년 3월 18일</li>
+</ul>
+<hr>
+<h2 id="앞으로-출시될-버전"><a href="#앞으로-출시될-버전" class="headerlink" title="앞으로 출시될 버전"></a>앞으로 출시될 버전</h2><hr>
+<h3 id="Java-SE-15"><a href="#Java-SE-15" class="headerlink" title="Java SE 15"></a>Java SE 15</h3><ul>
+<li>2020년 9월 공개 예정.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>university</category>
+      </categories>
+      <tags>
+        <tag>assignment</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About Strassen Algorithm</title>
     <url>/2020/04/11/2020-04-11-About-Strassen-Algorithm/</url>
     <content><![CDATA[<span id="more"></span>
@@ -518,342 +854,6 @@ normal runtime : 79973.000000 ms<span aria-hidden="true" class="line-numbers-row
       </tags>
   </entry>
   <entry>
-    <title>Java differenves by Version</title>
-    <url>/2020/04/01/2020-04-01-java-differences-by-Version/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1>Java 버전별 차이점</h1>
-
-<h4>201901694 이동빈</h4>
-
-
-
-<h2 id="2000년도"><a href="#2000년도" class="headerlink" title="~2000년도"></a>~2000년도</h2><hr>
-<h3 id="JDK-1-0a"><a href="#JDK-1-0a" class="headerlink" title="JDK 1.0a"></a>JDK 1.0a</h3><ul>
-<li>발표 : 1994년도</li>
-</ul>
-<hr>
-<h3 id="JDK-1-0a2"><a href="#JDK-1-0a2" class="headerlink" title="JDK 1.0a2"></a>JDK 1.0a2</h3><ul>
-<li>발표 : 1995년 5월 23일</li>
-<li>특징</li>
-</ul>
-<p><strong>언어 자체가 정식으로 발표된 날이다.</strong></p>
-<hr>
-<h3 id="JDK-1-0"><a href="#JDK-1-0" class="headerlink" title="JDK 1.0"></a>JDK 1.0</h3><ul>
-<li><p>발표 : 1996년 1월 23일</p>
-</li>
-<li><p>특징</p>
-<p>발표 이전에 불렸던 이름은 <code>Oak</code>였으며, 안정화 작업을 거친 1.0.2 버전에서 <code>Java</code>로 이름이 바뀌었다.</p>
-</li>
-</ul>
-<hr>
-<h3 id="JDK-1-1"><a href="#JDK-1-1" class="headerlink" title="JDK 1.1"></a>JDK 1.1</h3><ul>
-<li>발표 : 1997년 2월 19일</li>
-<li>추가된 기능<ul>
-<li><code>inner class</code></li>
-<li><code>JavaBeans</code></li>
-<li><code>RMI</code></li>
-<li><code>reflection</code></li>
-<li>유니코드 지원</li>
-<li><code>국제화(Internationalization)</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="J2SE-1-2"><a href="#J2SE-1-2" class="headerlink" title="J2SE 1.2"></a>J2SE 1.2</h3><ul>
-<li><p>발표 : 1998년 12월 8일</p>
-</li>
-<li><p>지원 종료 : 2003년 11월</p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li>새로운 <code>GUI</code></li>
-<li><code> JIT</code></li>
-<li><code>CORBA</code></li>
-<li><code>strictfp</code>, <code>Swing GUI</code>, <code>JIT</code>, <code>Java Applet</code>을 구동하는 웹 브라우저 플러그인</li>
-<li><code>Collections</code></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p>굵직한 기능들이 추가되면서 2 부터 약칭을 <code>J2SE(Java 2 Standard Edition)</code> 로 표기하기 시작했으며, 이 표기는 5 까지 사용된다. 1999년에 업데이트를 통해 <code>HotSpot JVM</code>이 첫 선을 보인다.</p>
-</li>
-</ul>
-<hr>
-<h2 id="2000-2010년도"><a href="#2000-2010년도" class="headerlink" title="2000~2010년도"></a>2000~2010년도</h2><hr>
-<h3 id="J2SE-1-3"><a href="#J2SE-1-3" class="headerlink" title="J2SE 1.3"></a>J2SE 1.3</h3><ul>
-<li><p>발표 : 2000년 3월 8일</p>
-</li>
-<li><p>지원 종료 : 2006년 11월</p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><code>HotSpot JVM</code></li>
-<li><code>JNDI</code></li>
-<li><code>JPDA</code></li>
-<li><code>JavaSound</code></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p> <code>RMI</code>가 <code>CORBA</code>를 지원하도록 변경되었다.</p>
-</li>
-</ul>
-<hr>
-<h3 id="J2SE-1-4"><a href="#J2SE-1-4" class="headerlink" title="J2SE 1.4"></a>J2SE 1.4</h3><ul>
-<li>발표 : 2002년 2월 6일</li>
-<li>지원 종료 : 2008년 10월 <em>(2013년 2월까지 연장 지원)</em></li>
-<li>추가된 기능<ul>
-<li><code>assert</code>문</li>
-<li>정규표현식</li>
-<li><code>IPv6</code></li>
-<li><code>Non-Blocking IO</code></li>
-<li><code>XML API</code></li>
-<li><code>JCE</code></li>
-<li><code>JSSE</code></li>
-<li><code>JAAS</code></li>
-<li><code>Java Web Start</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="J2SE-5"><a href="#J2SE-5" class="headerlink" title="J2SE 5"></a>J2SE 5</h3><ul>
-<li><p>발표 : 2004년 9월 30일</p>
-</li>
-<li><p>지원 종료 : 2009년 9월 <em>(2015년 5월까지 연장 지원)</em> </p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><code>Generics</code></li>
-<li><code>Annotation</code></li>
-<li><code>Auto Boxing/Unboxing</code></li>
-<li><code>Enumeration</code></li>
-<li>가변 길이 파라미터</li>
-<li><code>Static Import</code></li>
-<li>새로운 <code>Concurrency API</code></li>
-<li><code>java.util.Scanner</code> <em>(이전보다 편하게 표준 입력 사용 가능)</em></li>
-<li><code>Windows 9x</code> &#x2F; <code>Windows NT 4.0</code> <em>(~&#96;J2SE 5.0&#96;)</em></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p><strong>이 때부터 버젼 중 앞의 1을 빼버리고 표기하기 시작했다.</strong> 그러나 내부적으로는 여전히 1.5, 1.6, 1.7 등으로 데이터가 들어있다.</p>
-</li>
-</ul>
-<hr>
-<h3 id="Java-SE-6"><a href="#Java-SE-6" class="headerlink" title="Java SE 6"></a>Java SE 6</h3><ul>
-<li><p>발표 : 2006년 12월 11일</p>
-</li>
-<li><p>지원 종료 : 2013년 2월 <em>(2018년 12월까지 연장 지원)</em></p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><code>Scripting Language Support</code></li>
-<li><code>JDBC 4.0</code></li>
-<li><code>Java Compiler API</code></li>
-<li><code>Pluggable Annotation</code></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p><strong>이 때부터 표기가 <code>J2SE</code>에서 <code>Java SE</code>로 바뀌었다.</strong>  스크립팅 언어 지원과 함께 <code>Rhino JavaScript</code> 엔진이 기본으로 탑재되었다.</p>
-</li>
-</ul>
-<hr>
-<h2 id="2010년도-현재"><a href="#2010년도-현재" class="headerlink" title="2010년도~ 현재"></a>2010년도~ 현재</h2><hr>
-<h3 id="Java-SE-7"><a href="#Java-SE-7" class="headerlink" title="Java SE 7"></a>Java SE 7</h3><ul>
-<li>발표 : 2011년 7월 7일</li>
-<li>지원 종료 : 2015년 4월 <em>(2022년 7월까지 연장 지원 예정)</em></li>
-<li>추가된 기능<ul>
-<li><code>Dynamic Language</code> 지원</li>
-<li><code>switch</code>문에서 <code>String</code> 사용</li>
-<li><code>try</code>문에서 자동 자원 관리</li>
-<li><code>Diamond Operator &lt;&gt;</code></li>
-<li>이진수 literal, 숫자 literal에 <code>_</code> 지원</li>
-<li>새로운 <code>Concurrency API</code></li>
-<li>새로운 <code>File NIO library</code></li>
-<li><code>Elliptic Curve Cryptography</code></li>
-<li><code>Java2D</code>를 위한 <code>XRender</code>, <code>Upstream</code>, <code>Java Deployment Ruleset</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="Java-SE-8"><a href="#Java-SE-8" class="headerlink" title="Java SE 8"></a>Java SE 8</h3><ul>
-<li><p>발표 : 2014년 3월 18일</p>
-</li>
-<li><p>지원 종료 : 2019년 1월 <em>(2023년 9월까지 연장 지원 예정)</em></p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><code>Unsigned Integer</code> 계산</li>
-<li><code>Lambda Expression</code>, <code>Rhino</code> 대신 <code>Nashorn JavaScript</code> 엔진 탑재</li>
-<li><code>Annotation on Java Types</code></li>
-<li><code>Repeating Annotation</code></li>
-<li>새로운 날짜와 시간 API <em>(사실상 JodaTime이라고 보면 된다)</em></li>
-<li><code>Static Link JNI Library</code></li>
-<li><code>Interface Default Method</code></li>
-<li><code>PermGen</code> 영역 삭제</li>
-<li><code>Stream API</code></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p>본래 일반 지원은 2017년 9월 종료 예정이었으나 <code>Java 9</code> 발표의 지연 때문에 2018년 9월로 연장되었다가, 이후 라이선스 이관 문제로 인해 2019년 1월로 다시 연장되었다.</p>
-<p><strong>32비트를 지원하는 마지막 공식 Java 버전으로, 이후 버전의 32비트 지원은 오직 서드파티를 통해서만 지원된다.</strong></p>
-</li>
-</ul>
-<hr>
-<h3 id="Java-SE-9"><a href="#Java-SE-9" class="headerlink" title="Java SE 9"></a>Java SE 9</h3><ul>
-<li><p>발표 : 2017년 9월 21일</p>
-</li>
-<li><p>지원 종료 : 2018년 3월</p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><p><code>JShell</code> <em>(Java를 인터프리터 언어 셸처럼 사용할 수 있음)</em></p>
-</li>
-<li><p><code>Ahead-Of-Time Compilation</code> <em>( 실험 기능 &#x2F; Java 바이트코드를 기계어로 미리 번역)</em></p>
-</li>
-<li><p><code>구조적 불변 컬렉션</code>, <code>통합 로깅</code>,  <code>HTTP/2</code>, <code>private 인터페이스 메소드</code>, <code>HTML5 Javadoc</code> 지원</p>
-</li>
-<li><p>.properties 파일에 <code>UTF-8</code> 지원</p>
-</li>
-<li><p><code>Project Jigsaw</code> 기반으로 런타임 모듈화</p>
-<ul>
-<li><code>AWT</code>나 <code>Swing </code> 같은 불필요한 라이브러리를 끌어쓸 필요도 없이, 최상위 모듈인 <code>Base</code>만 사용해도 된다.</li>
-<li>특정 프로그램에 최적화된 최소 런타임을 제작할 수 있게 되면서 패키징 역시 간편해졌다</li>
-</ul>
-<br /></li>
-</ul>
-</li>
-<li><p>삭제된 기능</p>
-<ul>
-<li><code>Java Applet</code></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p> Deprecated 표시에는 해당 버전과 제거 예정 여부를 표시할 수 있게 되었다.</p>
-<p>새로 적용된 버저닝 정책에 따라 이 버전부터는 더 이상 1.x 버전으로 내놓지 않고, 대신 <strong>9.0</strong>으로 급속한 판올림이 일어났다. 또한 제거 예정인 Deprecated API는 <strong>다음 버전인 Java SE 10부터 완전 삭제 예정</strong>이므로 해당 API를 쓰는 프로그램은 더 이상 이후의 버전에서 컴파일조차 불가능하게 된다. 그리고<code> Java SE 9</code>부터는 6개월마다 새로운 버전이 업데이트된다.</p>
-<p>본래는 2016년 발표 예정이었으나 2번이나 연기되어 2017년 7월 27일 발표 예정, 그나마도 한번 더 연기되어 9월 21일에 발표되었다. 가장 큰 원인은 역시 <code>Project Jigsaw</code>의 개발 난이도였다. 런타임의 모듈화는 하위 호환성을 어느 정도 포기하고 성능을 추구한 것이기에 아직 현장에서는 <code>Java 9</code>로 넘어가는 것을 꺼리는 분위기다.</p>
-<p><strong>이 버전부터 64비트 버전만 출시되었으며, 32비트 버전은 더 이상 공식적으로 나오지 않는다.</strong></p>
-</li>
-</ul>
-<hr>
-<h3 id="Java-SE-10"><a href="#Java-SE-10" class="headerlink" title="Java SE 10"></a>Java SE 10</h3><ul>
-<li><p>발표 : 2018년 3월 20일</p>
-</li>
-<li><p>지원 종료 : 2018년 9월</p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li><code>var 키워드</code>를 이용한 지역 변수 타입 추론</li>
-<li>병렬 garbage collection</li>
-<li>개별 쓰레드로 분리된 <code>Stop-The-World</code></li>
-<li><code>루트 CA 목록</code></li>
-<li>Java 기반의 <code>JIT 컴파일러</code> <em>(실험 기능)</em></li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p> JDK의 레포지토리가 하나로 통합되었으며, JVM 힙 영역을 시스템 메모리가 아닌 다른 종류의 메모리에도 할당할 수 있게 되었다. 이전 버전에서 Deprecated 처리된 API는 <code>Java SE 10</code>에서 모두 삭제되었다.</p>
-</li>
-</ul>
-<hr>
-<h3 id="Java-SE-11"><a href="#Java-SE-11" class="headerlink" title="Java SE 11"></a>Java SE 11</h3><ul>
-<li><p>발표 : 2018년 9월 25일</p>
-</li>
-<li><p>지원 종료 : 2023년 9월 <em>(2026년 9월까지 연장 지원 예정)</em></p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li>lambda parameter에 대한 지역 변수 문법</li>
-<li>epsilon garbage collector</li>
-<li>HTTP 클라이언트 표준화 기능</li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p>이클립스 재단으로 넘어간 <code>Java EE</code>가 JDK에서 삭제되고, <code>JavaFX</code>도 JDK에서 분리되어 별도의 모듈로 제공된다.  <code>Gloun</code>이라는 업체가 <code>JavaFX</code>를 유지보수 중이므로 <span class="exturl" data-url="aHR0cHM6Ly9nbHVvbmhxLmNvbS9wcm9kdWN0cy9qYXZhZngv">이곳<i class="fa fa-external-link-alt"></i></span>에서 다운로드받으면 된다.</p>
-</li>
-</ul>
-<p> Java SE 11부터 Oracle JDK의 독점 기능이 오픈 소스 버전인 OpenJDK에 이식된다. 이는 다시 말해 Oracle JDK와 OpenJDK가 완전히 <strong>동일</strong>해진다는 뜻이다. Oracle JDK는 Java SE 11부터 LTS(장기 지원) 버전으로 3년마다 출시되는데, 출시 후 5년 동안 오라클의 기술 지원이 제공되고 최대 3년까지 지원 기간을 연장할 수 있다. Oracle JDK는 이제 3년에 한 번 출시되니 Java의 실질적인 버전 업을 담당하는 것은 OpenJDK가 된 셈이다. OpenJDK는 기업들을 위한 기술 지원은 없고, 새로운 버전이 나오면 이전 버전에 대한 마이너 업데이트와 보안 업데이트는 중단된다.</p>
-<p>그리고 Java 11과 함께 발표된 또 다른 소식은 바로 <strong>Oracle JDK가 구독형 유료 모델로 전환된다는 점</strong>이다. 2019년 1월부터 오라클이 제공하는 모든 <code>Oracle JDK</code>는 유료화되며, 구독권을 구입하지 않으면 <code>Oracle JDK</code>에 접근 자체가 금지된다. 기존의 일반&#x2F;연장 지원 서비스는 구독권에 포함되므로 별도의 서비스로는 제공되지 않는다. <strong>개인 사용자는 2021년 1월부터 비용을 지불해야 한다.</strong> 이 때문에 많은 기업들이 <code>Oracle JDK</code>에서 발을 빼고 있으며, <code>OpenJDK</code>를 기반으로 한 다른 <code>서드파티 JDK</code>가 대안으로 떠오르고 있다. 대표적인 예로 <code>Azul Systems</code>에서 개발한 <code>Zulu JDK</code>가 있는데, <code>Zulu JDK</code>는 오라클의 <code>TCK(Technology Certification Kit)</code> 인증을 받은 구현체이다. 개인과 기업 모두 무료로 사용할 수 있고, 기술 지원에 한해서만 유료 서비스가 제공된다. 또 다른 대안으로는 <code>AdoptOpenJDK</code>가 있는데, <code>AdoptOpenJDK</code>는 <code>HotSpot VM</code> 대신 <code>Eclipse OpenJ9</code>을 탑재한 버전도 같이 제공하고 있다. 다만 아직 TCK 인증을 받지 않았기에 주의가 필요하다.</p>
-<hr>
-<h3 id="Java-SE-12"><a href="#Java-SE-12" class="headerlink" title="Java SE 12"></a>Java SE 12</h3><ul>
-<li><p>발표 : 2019년 3월 19일</p>
-</li>
-<li><p>추가된 기능</p>
-<ul>
-<li>garbage collector 개선</li>
-<li><code>micro benchmarking</code> 툴</li>
-</ul>
-<br />
-</li>
-<li><p>기타 특징</p>
-<p>문법적으로 Switch문을 확장했다.</p>
-</li>
-</ul>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token operator">:</span>
-    <span class="token keyword">case</span> <span class="token constant">FRIDAY</span><span class="token operator">:</span>
-    <span class="token keyword">case</span> <span class="token constant">SUNDAY</span><span class="token operator">:</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">break</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span><span class="token operator">:</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">break</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token operator">:</span>
-    <span class="token keyword">case</span> <span class="token constant">SATURDAY</span><span class="token operator">:</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">break</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span><span class="token operator">:</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">break</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-<p>예전에는 이렇게 써야 했던 Switch문을 아래와 같은 형식으로도 쓸 수 있게 되었다.</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<hr>
-<h3 id="Java-SE-13"><a href="#Java-SE-13" class="headerlink" title="Java SE 13"></a>Java SE 13</h3><ul>
-<li><p>발표 : 2019년 9월 17일</p>
-</li>
-<li><p>특징</p>
-<p>java 12에서의 스위치 개선을 이어 yield 라는 예약어가 추가되었다.</p>
-</li>
-</ul>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">switch</span> <span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">case</span> <span class="token constant">MONDAY</span><span class="token punctuation">,</span> <span class="token constant">FRIDAY</span><span class="token punctuation">,</span> <span class="token constant">SUNDAY</span> <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">6</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">TUESDAY</span>                <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">7</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">THURSDAY</span><span class="token punctuation">,</span> <span class="token constant">SATURDAY</span>     <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">8</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token constant">WEDNESDAY</span>              <span class="token operator">-></span> <span class="token keyword">yield</span> <span class="token number">9</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<hr>
-<h3 id="Java-SE-14"><a href="#Java-SE-14" class="headerlink" title="Java SE 14"></a>Java SE 14</h3><ul>
-<li>발표 : 2020년 3월 18일</li>
-</ul>
-<hr>
-<h2 id="앞으로-출시될-버전"><a href="#앞으로-출시될-버전" class="headerlink" title="앞으로 출시될 버전"></a>앞으로 출시될 버전</h2><hr>
-<h3 id="Java-SE-15"><a href="#Java-SE-15" class="headerlink" title="Java SE 15"></a>Java SE 15</h3><ul>
-<li>2020년 9월 공개 예정.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>university</category>
-      </categories>
-      <tags>
-        <tag>assignment</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Codeforces April Fools Day Contest 2020 review</title>
     <url>/2020/04/02/2020-04-02-Codeforces-April-Fools-Day-Contest-2020-review/</url>
     <content><![CDATA[<span id="more"></span>
@@ -999,7 +999,7 @@ int main(void)
 <p>표의 <code>비트 이동</code>과 같은 규칙으로 비트가 이동했음을 알 수 있습니다.</p>
 <p>예시만으로는 4번째 비트와 5번째 비트가 어디로 이동하는지 알 수 없으므로, <del>운으로 찍었습니다.</del></p>
 <blockquote>
-<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjeDZlOyYjMTAzOyYjeDYyOyYjeDY5OyYjMTEwOyYjNDk7JiM1NzsmI3gzOTsmI3gzOTsmIzY0OyYjeDY5OyYjeDZlOyYjMTE3OyYjeDJlOyYjeDYxOyYjOTk7JiM0NjsmI3g2YjsmIzExNDs=">&#x64;&#111;&#x6e;&#103;&#x62;&#x69;&#110;&#49;&#57;&#x39;&#x39;&#64;&#x69;&#x6e;&#117;&#x2e;&#x61;&#99;&#46;&#x6b;&#114;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
+<p> (더 정확한 풀이를 아시는 분은 <span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjMTExOyYjMTEwOyYjeDY3OyYjeDYyOyYjMTA1OyYjeDZlOyYjeDMxOyYjNTc7JiM1NzsmI3gzOTsmI3g0MDsmI3g2OTsmIzExMDsmIzExNzsmI3gyZTsmIzk3OyYjOTk7JiM0NjsmIzEwNzsmIzExNDs=">&#100;&#111;&#110;&#x67;&#x62;&#105;&#x6e;&#x31;&#57;&#57;&#x39;&#x40;&#x69;&#110;&#117;&#x2e;&#97;&#99;&#46;&#107;&#114;<i class="fa fa-external-link-alt"></i></span> 로 알려주세요!)</p>
 </blockquote>
 <pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;cstdio&gt;
 using namespace std;
@@ -1352,7 +1352,7 @@ int main()
 </ul>
 <blockquote>
 <p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjMTEwOyYjMTAzOyYjOTg7JiN4Njk7JiMxMTA7JiN4MzE7JiM1NzsmIzU3OyYjNTc7JiN4NDA7JiN4Njk7JiN4NmU7JiN4NzU7JiN4MmU7JiN4NjE7JiM5OTsmI3gyZTsmI3g2YjsmI3g3Mjs=">&#x64;&#111;&#110;&#103;&#98;&#x69;&#110;&#x31;&#57;&#57;&#57;&#x40;&#x69;&#x6e;&#x75;&#x2e;&#x61;&#99;&#x2e;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjeDZmOyYjMTEwOyYjeDY3OyYjOTg7JiMxMDU7JiN4NmU7JiN4MzE7JiN4Mzk7JiM1NzsmIzU3OyYjNjQ7JiMxMDU7JiMxMTA7JiN4NzU7JiM0NjsmIzk3OyYjeDYzOyYjeDJlOyYjMTA3OyYjMTE0Ow==">&#100;&#x6f;&#110;&#x67;&#98;&#105;&#x6e;&#x31;&#x39;&#57;&#57;&#64;&#105;&#110;&#x75;&#46;&#97;&#x63;&#x2e;&#107;&#114;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1380,7 +1380,7 @@ int main()
 </ul>
 <blockquote>
 <p>기타 오류사항 발견 시 <strong>하단의 댓글</strong> 또는</p>
-<p><span class="exturl" data-url="bWFpbHRvOiYjeDY0OyYjMTExOyYjeDZlOyYjeDY3OyYjOTg7JiN4Njk7JiN4NmU7JiN4MzE7JiM1NzsmIzU3OyYjNTc7JiM2NDsmI3g2OTsmI3g2ZTsmIzExNzsmIzQ2OyYjOTc7JiN4NjM7JiN4MmU7JiN4NmI7JiN4NzI7">&#x64;&#111;&#x6e;&#x67;&#98;&#x69;&#x6e;&#x31;&#57;&#57;&#57;&#64;&#x69;&#x6e;&#117;&#46;&#97;&#x63;&#x2e;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
+<p><span class="exturl" data-url="bWFpbHRvOiYjMTAwOyYjMTExOyYjMTEwOyYjeDY3OyYjOTg7JiN4Njk7JiN4NmU7JiN4MzE7JiM1NzsmI3gzOTsmI3gzOTsmIzY0OyYjeDY5OyYjeDZlOyYjMTE3OyYjeDJlOyYjeDYxOyYjOTk7JiN4MmU7JiN4NmI7JiN4NzI7">&#100;&#111;&#110;&#x67;&#98;&#x69;&#x6e;&#x31;&#57;&#x39;&#x39;&#64;&#x69;&#x6e;&#117;&#x2e;&#x61;&#99;&#x2e;&#x6b;&#x72;<i class="fa fa-external-link-alt"></i></span> 로 의견 남겨주시면 감사하겠습니다!</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1388,62 +1388,6 @@ int main()
       </categories>
       <tags>
         <tag>project</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Floyd-Warshall</title>
-    <url>/2021/01/24/2021-01-24-Floyd-Warshall/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="플로이드-와샬-알고리즘"><a href="#플로이드-와샬-알고리즘" class="headerlink" title="플로이드 와샬 알고리즘"></a>플로이드 와샬 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-&#x2F;&#x2F;간선 입력 전에, adj 배열 1e9로 초기화.
-int adj[101][101];
-void floyd_warshall(int n)
-&#123;
-    for(int via&#x3D;1;via&lt;&#x3D;n;via++)
-        for(int s&#x3D;1;s&lt;&#x3D;n;s++)
-            for(int e&#x3D;1;e&lt;&#x3D;n;e++)
-                if(s!&#x3D;e)
-                    adj[s][e]&#x3D;min(adj[s][e],adj[s][via]+adj[via][e]);
-
-    &#x2F;&#x2F;출력. adj[i][j] : i-&gt;j에 필요한 최소 비용.
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        for(int j&#x3D;1;j&lt;&#x3D;n;j++)
-            printf(&quot;%d &quot;,adj[i][j]&#x3D;&#x3D;1e9?0:adj[i][j]);
-        printf(&quot;\n&quot;);
-    &#125;
-&#125;
-
-int main()
-&#123;
-    int n,m;
-    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        fill(adj[i]+1,adj[i]+1+n,1e9);
-    while(m--)
-    &#123;
-        int a,b,c;
-        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
-        adj[a][b]&#x3D;min(adj[a][b],c);
-    &#125;
-    floyd_warshall(n);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V^3)$</p>
-<blockquote>
-<p>V : 정점 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQwNA==">백준11404 : 플로이드<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>Floyd-Warshall</tag>
       </tags>
   </entry>
   <entry>
@@ -1507,6 +1451,62 @@ int main()
       </categories>
       <tags>
         <tag>Bellman-Ford</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Floyd-Warshall</title>
+    <url>/2021/01/24/2021-01-24-Floyd-Warshall/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="플로이드-와샬-알고리즘"><a href="#플로이드-와샬-알고리즘" class="headerlink" title="플로이드 와샬 알고리즘"></a>플로이드 와샬 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+
+&#x2F;&#x2F;간선 입력 전에, adj 배열 1e9로 초기화.
+int adj[101][101];
+void floyd_warshall(int n)
+&#123;
+    for(int via&#x3D;1;via&lt;&#x3D;n;via++)
+        for(int s&#x3D;1;s&lt;&#x3D;n;s++)
+            for(int e&#x3D;1;e&lt;&#x3D;n;e++)
+                if(s!&#x3D;e)
+                    adj[s][e]&#x3D;min(adj[s][e],adj[s][via]+adj[via][e]);
+
+    &#x2F;&#x2F;출력. adj[i][j] : i-&gt;j에 필요한 최소 비용.
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        for(int j&#x3D;1;j&lt;&#x3D;n;j++)
+            printf(&quot;%d &quot;,adj[i][j]&#x3D;&#x3D;1e9?0:adj[i][j]);
+        printf(&quot;\n&quot;);
+    &#125;
+&#125;
+
+int main()
+&#123;
+    int n,m;
+    scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        fill(adj[i]+1,adj[i]+1+n,1e9);
+    while(m--)
+    &#123;
+        int a,b,c;
+        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
+        adj[a][b]&#x3D;min(adj[a][b],c);
+    &#125;
+    floyd_warshall(n);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(V^3)$</p>
+<blockquote>
+<p>V : 정점 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTQwNA==">백준11404 : 플로이드<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>Floyd-Warshall</tag>
       </tags>
   </entry>
   <entry>
@@ -1584,6 +1584,159 @@ int main()
       </categories>
       <tags>
         <tag>LCA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>dijkstra</title>
+    <url>/2021/01/24/2021-01-24-dijkstra/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="다익스트라-알고리즘"><a href="#다익스트라-알고리즘" class="headerlink" title="다익스트라 알고리즘"></a>다익스트라 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+#define pii pair&lt;int,int&gt;
+using namespace std;
+
+&#x2F;&#x2F;노드 수에 맞게 크기 조정.
+vector&lt;pii&gt; graph[20001];
+bool vis[20001];
+int dist[20001];
+
+&#x2F;&#x2F;v: 노드의 수, k: 시작 정점.
+void dijkstra(int v, int k)
+&#123;
+    fill(vis+1,vis+1+v,false);
+    fill(dist+1,dist+1+v,1e9), dist[k]&#x3D;0;&#x2F;&#x2F;k-&gt;k 제외 거리 무한대.
+    priority_queue&lt;pii,vector&lt;pii&gt;,greater&lt;pii&gt;&gt; pq;
+    pq.push(&#123;0,k&#125;);
+    while(!pq.empty())
+    &#123;
+        pii cur&#x3D;pq.top();
+        pq.pop();
+        if(vis[cur.second]) continue;
+        &#x2F;&#x2F;처음 node에 도달한 경우가 최소 비용.
+        vis[cur.second]&#x3D;true, dist[cur.second]&#x3D;cur.first;
+        for(auto go:graph[cur.second]) &#x2F;&#x2F;갈수있는 모든정점 방문.
+            pq.push(&#123;cur.first+go.second,go.first&#125;);
+    &#125;
+
+    &#x2F;&#x2F;출력.
+    for(int i&#x3D;1;i&lt;&#x3D;v;i++)
+        if (dist[i]&#x3D;&#x3D;1e9)
+            printf(&quot;INF\n&quot;);
+        else
+            printf(&quot;%d\n&quot;,dist[i]);
+&#125;
+
+int main(void)
+&#123;
+    int v,e,k;
+    scanf(&quot;%d %d %d&quot;,&amp;v,&amp;e,&amp;k);
+    while(e--)
+    &#123;
+        int a,b,w;
+        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;w);
+        graph[a].push_back(&#123;b,w&#125;);
+      &#x2F;&#x2F;graph[b].push_back(&#123;a,w&#125;);&#x2F;&#x2F;방향그래프.
+    &#125;
+    dijkstra(v,k);
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogV)$</p>
+<blockquote>
+<p>V : 정점 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNzUz">백준1753 : 최단경로<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>dijkstra</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MST(minimum spanning tree)</title>
+    <url>/2021/01/24/2021-01-24-MST(minimum%20spanning%20tree)/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="최소-스패닝-트리"><a href="#최소-스패닝-트리" class="headerlink" title="최소 스패닝 트리"></a>최소 스패닝 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+#define pii pair&lt;int,int&gt;
+using namespace std;
+
+struct element
+&#123;
+	int u,v,w;
+&#125;;
+
+bool operator&lt;(element a,element b)
+&#123;
+    return a.w&gt;b.w;
+&#125;
+
+vector&lt;pii&gt; tree[10001];
+int u[10001];
+priority_queue&lt;element&gt; pq;
+
+&#x2F;&#x2F;크루스칼 알고리즘 사용. 연결 여부를 union-find로 판별.
+int find(int a)
+&#123;
+    if(u[a]&lt;0)return a;
+    return u[a]&#x3D;find(u[a]);
+&#125;
+
+bool merge(int a,int b)
+&#123;
+    a&#x3D;find(a),b&#x3D;find(b);
+    if(a&#x3D;&#x3D;b)return false;
+    if(-u[a]&lt;-u[b])swap(a,b);
+    u[a]+&#x3D;u[b],u[b]&#x3D;a;
+    return true;
+&#125;
+
+&#x2F;&#x2F;v: 정점의 개수. main 에서 pq에 간선 넣고, u배열 -1로 초기화. mst의 가중치 리턴.
+int mst(int v)
+&#123;
+    int weight&#x3D;0;
+    while (!pq.empty())
+    &#123;
+        element e&#x3D;pq.top();
+        pq.pop();
+        if(merge(e.u,e.v))
+        &#123;
+            weight+&#x3D;e.w;
+            tree[e.u].push_back(&#123;e.v,e.w&#125;);
+            tree[e.v].push_back(&#123;e.u,e.w&#125;);
+        &#125;
+    &#125;
+    return weight;
+&#125;
+
+int main()
+&#123;
+	int v,e;
+	scanf(&quot;%d %d&quot;,&amp;v,&amp;e);
+	while(e--)
+	&#123;
+	    int a,b,c;
+		scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
+		pq.push(&#123;a,b,c&#125;);
+	&#125;
+	fill(u+1,u+1+v,-1);
+	printf(&quot;%d&quot;,mst(v));
+	return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogE) (&#x3D;O(ElogE)+O(Elog*V))$</p>
+<blockquote>
+<p>V : 정점 수, E : 간선 수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTk3">백준1197 : 최소 스패닝 트리<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>MST</tag>
       </tags>
   </entry>
   <entry>
@@ -1679,159 +1832,6 @@ int main(void)
       </categories>
       <tags>
         <tag>SCC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MST(minimum spanning tree)</title>
-    <url>/2021/01/24/2021-01-24-MST(minimum%20spanning%20tree)/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="최소-스패닝-트리"><a href="#최소-스패닝-트리" class="headerlink" title="최소 스패닝 트리"></a>최소 스패닝 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-#define pii pair&lt;int,int&gt;
-using namespace std;
-
-struct element
-&#123;
-	int u,v,w;
-&#125;;
-
-bool operator&lt;(element a,element b)
-&#123;
-    return a.w&gt;b.w;
-&#125;
-
-vector&lt;pii&gt; tree[10001];
-int u[10001];
-priority_queue&lt;element&gt; pq;
-
-&#x2F;&#x2F;크루스칼 알고리즘 사용. 연결 여부를 union-find로 판별.
-int find(int a)
-&#123;
-    if(u[a]&lt;0)return a;
-    return u[a]&#x3D;find(u[a]);
-&#125;
-
-bool merge(int a,int b)
-&#123;
-    a&#x3D;find(a),b&#x3D;find(b);
-    if(a&#x3D;&#x3D;b)return false;
-    if(-u[a]&lt;-u[b])swap(a,b);
-    u[a]+&#x3D;u[b],u[b]&#x3D;a;
-    return true;
-&#125;
-
-&#x2F;&#x2F;v: 정점의 개수. main 에서 pq에 간선 넣고, u배열 -1로 초기화. mst의 가중치 리턴.
-int mst(int v)
-&#123;
-    int weight&#x3D;0;
-    while (!pq.empty())
-    &#123;
-        element e&#x3D;pq.top();
-        pq.pop();
-        if(merge(e.u,e.v))
-        &#123;
-            weight+&#x3D;e.w;
-            tree[e.u].push_back(&#123;e.v,e.w&#125;);
-            tree[e.v].push_back(&#123;e.u,e.w&#125;);
-        &#125;
-    &#125;
-    return weight;
-&#125;
-
-int main()
-&#123;
-	int v,e;
-	scanf(&quot;%d %d&quot;,&amp;v,&amp;e);
-	while(e--)
-	&#123;
-	    int a,b,c;
-		scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;c);
-		pq.push(&#123;a,b,c&#125;);
-	&#125;
-	fill(u+1,u+1+v,-1);
-	printf(&quot;%d&quot;,mst(v));
-	return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogE) (&#x3D;O(ElogE)+O(Elog*V))$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xMTk3">백준1197 : 최소 스패닝 트리<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>MST</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>dijkstra</title>
-    <url>/2021/01/24/2021-01-24-dijkstra/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="다익스트라-알고리즘"><a href="#다익스트라-알고리즘" class="headerlink" title="다익스트라 알고리즘"></a>다익스트라 알고리즘</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-#define pii pair&lt;int,int&gt;
-using namespace std;
-
-&#x2F;&#x2F;노드 수에 맞게 크기 조정.
-vector&lt;pii&gt; graph[20001];
-bool vis[20001];
-int dist[20001];
-
-&#x2F;&#x2F;v: 노드의 수, k: 시작 정점.
-void dijkstra(int v, int k)
-&#123;
-    fill(vis+1,vis+1+v,false);
-    fill(dist+1,dist+1+v,1e9), dist[k]&#x3D;0;&#x2F;&#x2F;k-&gt;k 제외 거리 무한대.
-    priority_queue&lt;pii,vector&lt;pii&gt;,greater&lt;pii&gt;&gt; pq;
-    pq.push(&#123;0,k&#125;);
-    while(!pq.empty())
-    &#123;
-        pii cur&#x3D;pq.top();
-        pq.pop();
-        if(vis[cur.second]) continue;
-        &#x2F;&#x2F;처음 node에 도달한 경우가 최소 비용.
-        vis[cur.second]&#x3D;true, dist[cur.second]&#x3D;cur.first;
-        for(auto go:graph[cur.second]) &#x2F;&#x2F;갈수있는 모든정점 방문.
-            pq.push(&#123;cur.first+go.second,go.first&#125;);
-    &#125;
-
-    &#x2F;&#x2F;출력.
-    for(int i&#x3D;1;i&lt;&#x3D;v;i++)
-        if (dist[i]&#x3D;&#x3D;1e9)
-            printf(&quot;INF\n&quot;);
-        else
-            printf(&quot;%d\n&quot;,dist[i]);
-&#125;
-
-int main(void)
-&#123;
-    int v,e,k;
-    scanf(&quot;%d %d %d&quot;,&amp;v,&amp;e,&amp;k);
-    while(e--)
-    &#123;
-        int a,b,w;
-        scanf(&quot;%d %d %d&quot;,&amp;a,&amp;b,&amp;w);
-        graph[a].push_back(&#123;b,w&#125;);
-      &#x2F;&#x2F;graph[b].push_back(&#123;a,w&#125;);&#x2F;&#x2F;방향그래프.
-    &#125;
-    dijkstra(v,k);
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><p>$O(ElogV)$</p>
-<blockquote>
-<p>V : 정점 수, E : 간선 수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8xNzUz">백준1753 : 최단경로<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>dijkstra</tag>
       </tags>
   </entry>
   <entry>
@@ -1950,6 +1950,159 @@ int main(void)
       </tags>
   </entry>
   <entry>
+    <title>segment-tree</title>
+    <url>/2021/01/31/2021-01-31-segment-tree/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="세그먼트-트리"><a href="#세그먼트-트리" class="headerlink" title="세그먼트 트리"></a>세그먼트 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+typedef long long ll;
+&#x2F;&#x2F;크기는 n&lt;sz 이면서 sz&#x3D;1&lt;&lt;k 꼴로. 2^17&#x3D;131072 &#x2F; 2^18&#x3D;262144 &#x2F; 2^19&#x3D;524288 &#x2F; 2^20&#x3D;1048576
+&#x2F;&#x2F;고쳐야 할 부분 (1)~(5)
+const int sz&#x3D;1&lt;&lt;20;
+ll arr[sz*2];
+
+&#x2F;&#x2F;처음 값 입력받은 후 트리 구축.
+void construct()&#123;
+    for(int i&#x3D;sz-1;i&gt;&#x3D;1;i--)
+        arr[i]&#x3D;arr[i*2]+arr[i*2+1];&#x2F;&#x2F;(1)
+&#125;
+
+void update(int i,ll val)&#123;
+    i+&#x3D;sz,arr[i]&#x3D;val;
+    while(i&gt;1)i&#x2F;&#x3D;2,arr[i]&#x3D;arr[i*2]+arr[i*2+1];&#x2F;&#x2F;(2)
+&#125;
+
+ll query(int s,int e,int node,int ns,int ne)&#123;
+    if(e&lt;ns||ne&lt;s)return 0;&#x2F;&#x2F;(3)
+    if(s&lt;&#x3D;ns&amp;&amp;ne&lt;&#x3D;e)return arr[node];&#x2F;&#x2F;(4)
+    int mid&#x3D;(ns+ne)&#x2F;2;
+    return query(s,e,node*2,ns,mid)+query(s,e,node*2+1,mid+1,ne);&#x2F;&#x2F;(5)
+&#125;
+
+int main()&#123;
+    int n,m,k;
+    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
+
+    &#x2F;&#x2F;값 입력받는 위치 주의.(+sz)
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        scanf(&quot;%lld&quot;,&amp;arr[i+sz]);
+    construct();
+
+    int q&#x3D;m+k;
+    while(q--)&#123;
+        int a; scanf(&quot;%d&quot;,&amp;a);
+        if(a&#x3D;&#x3D;1)&#123;
+            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
+            update(b,c);
+        &#125;
+        else&#123;
+            int l,r; scanf(&quot;%d %d&quot;,&amp;l, &amp;r);
+            printf(&quot;%lld\n&quot;, query(l,r,1,0,sz-1));
+        &#125;
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(N)$</li>
+<li>구간 합 구하기 : $O(logN)$</li>
+<li>값 업데이트 : $O(logN)$</li>
+</ul>
+<blockquote>
+<p>N : 수의 개수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>data structure</category>
+      </categories>
+      <tags>
+        <tag>segment-tree</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fenwick-tree (binary indexed tree)</title>
+    <url>/2021/01/31/2021-01-31-Fenwick-tree%20(binary%20indexed%20tree)/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="펜윅-트리"><a href="#펜윅-트리" class="headerlink" title="펜윅 트리"></a>펜윅 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
+#define ll long long
+using namespace std;
+&#x2F;&#x2F;크기는 n&#x3D;sz.
+const int sz&#x3D;1000000;
+ll BIT[sz+1];
+ll arr[sz+1];
+
+&#x2F;&#x2F;sum(i) : 1번째~i번째 수의 총합
+ll sum(int i)
+&#123;
+    ll ret&#x3D;0;
+    while(i&gt;0)
+    &#123;
+        ret+&#x3D;BIT[i];
+        i-&#x3D;i&amp;-i;
+    &#125;
+    return ret;
+&#125;
+
+void update(int i, ll diff)
+&#123;
+    while(i&lt;&#x3D;sz)
+    &#123;
+        BIT[i]+&#x3D;diff;
+        i+&#x3D;i&amp;-i;
+    &#125;
+&#125;
+
+int main(void)
+&#123;
+    int n,m,k;
+    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
+
+    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+    &#123;
+        scanf(&quot;%lld&quot;,&amp;arr[i]);
+        update(i,arr[i]);
+    &#125;
+
+    int q&#x3D;m+k;
+    while(q--)
+    &#123;
+        int a; scanf(&quot;%d&quot;,&amp;a);
+        if(a&#x3D;&#x3D;1)
+        &#123;
+            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
+            update(b,c-arr[b]);
+            arr[b]&#x3D;c;
+        &#125;
+        else
+        &#123;
+            int l,r; scanf(&quot;%d %d&quot;,&amp;l,&amp;r);
+            printf(&quot;%lld\n&quot;,sum(r)-sum(l-1));
+        &#125;
+    &#125;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
+<li>전처리 : $O(NlogN)$</li>
+<li>구간 합 구하기 : $O(logN)$</li>
+<li>값 업데이트 : $O(logN)$</li>
+</ul>
+<blockquote>
+<p>N : 수의 개수</p>
+</blockquote>
+<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>data structure</category>
+      </categories>
+      <tags>
+        <tag>Fenwick-tree</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>segment-tree (with lazy propagation)</title>
     <url>/2021/01/31/2021-01-31-segment-tree%20(with%20lazy%20propagation)/</url>
     <content><![CDATA[<span id="more"></span>
@@ -2048,78 +2201,6 @@ int main(void)
       </categories>
       <tags>
         <tag>segment-tree (with lazy propagation)</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>segment-tree</title>
-    <url>/2021/01/31/2021-01-31-segment-tree/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="세그먼트-트리"><a href="#세그먼트-트리" class="headerlink" title="세그먼트 트리"></a>세그먼트 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-typedef long long ll;
-&#x2F;&#x2F;크기는 n&lt;sz 이면서 sz&#x3D;1&lt;&lt;k 꼴로. 2^17&#x3D;131072 &#x2F; 2^18&#x3D;262144 &#x2F; 2^19&#x3D;524288 &#x2F; 2^20&#x3D;1048576
-&#x2F;&#x2F;고쳐야 할 부분 (1)~(5)
-const int sz&#x3D;1&lt;&lt;20;
-ll arr[sz*2];
-
-&#x2F;&#x2F;처음 값 입력받은 후 트리 구축.
-void construct()&#123;
-    for(int i&#x3D;sz-1;i&gt;&#x3D;1;i--)
-        arr[i]&#x3D;arr[i*2]+arr[i*2+1];&#x2F;&#x2F;(1)
-&#125;
-
-void update(int i,ll val)&#123;
-    i+&#x3D;sz,arr[i]&#x3D;val;
-    while(i&gt;1)i&#x2F;&#x3D;2,arr[i]&#x3D;arr[i*2]+arr[i*2+1];&#x2F;&#x2F;(2)
-&#125;
-
-ll query(int s,int e,int node,int ns,int ne)&#123;
-    if(e&lt;ns||ne&lt;s)return 0;&#x2F;&#x2F;(3)
-    if(s&lt;&#x3D;ns&amp;&amp;ne&lt;&#x3D;e)return arr[node];&#x2F;&#x2F;(4)
-    int mid&#x3D;(ns+ne)&#x2F;2;
-    return query(s,e,node*2,ns,mid)+query(s,e,node*2+1,mid+1,ne);&#x2F;&#x2F;(5)
-&#125;
-
-int main()&#123;
-    int n,m,k;
-    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
-
-    &#x2F;&#x2F;값 입력받는 위치 주의.(+sz)
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        scanf(&quot;%lld&quot;,&amp;arr[i+sz]);
-    construct();
-
-    int q&#x3D;m+k;
-    while(q--)&#123;
-        int a; scanf(&quot;%d&quot;,&amp;a);
-        if(a&#x3D;&#x3D;1)&#123;
-            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
-            update(b,c);
-        &#125;
-        else&#123;
-            int l,r; scanf(&quot;%d %d&quot;,&amp;l, &amp;r);
-            printf(&quot;%lld\n&quot;, query(l,r,1,0,sz-1));
-        &#125;
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(N)$</li>
-<li>구간 합 구하기 : $O(logN)$</li>
-<li>값 업데이트 : $O(logN)$</li>
-</ul>
-<blockquote>
-<p>N : 수의 개수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>data structure</category>
-      </categories>
-      <tags>
-        <tag>segment-tree</tag>
       </tags>
   </entry>
   <entry>
@@ -2223,84 +2304,122 @@ int main()
       </tags>
   </entry>
   <entry>
-    <title>Fenwick-tree (binary indexed tree)</title>
-    <url>/2021/01/31/2021-01-31-Fenwick-tree%20(binary%20indexed%20tree)/</url>
+    <title>freopen</title>
+    <url>/2021/02/12/2021-02-12-freopen/</url>
     <content><![CDATA[<span id="more"></span>
 
-<h1 id="펜윅-트리"><a href="#펜윅-트리" class="headerlink" title="펜윅 트리"></a>펜윅 트리</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-#define ll long long
+<h1 id="Clion에서-파일-입출력-하기"><a href="#Clion에서-파일-입출력-하기" class="headerlink" title="Clion에서 파일 입출력 하기"></a>Clion에서 파일 입출력 하기</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
 using namespace std;
-&#x2F;&#x2F;크기는 n&#x3D;sz.
-const int sz&#x3D;1000000;
-ll BIT[sz+1];
-ll arr[sz+1];
 
-&#x2F;&#x2F;sum(i) : 1번째~i번째 수의 총합
-ll sum(int i)
+int main()
 &#123;
-    ll ret&#x3D;0;
-    while(i&gt;0)
-    &#123;
-        ret+&#x3D;BIT[i];
-        i-&#x3D;i&amp;-i;
-    &#125;
-    return ret;
+    int num,sum&#x3D;0;
+    char buff[10000];buff[0]&#x3D;0;
+
+    freopen(&quot;in.txt&quot;,&quot;r&quot;,stdin);&#x2F;&#x2F;&quot;in.txt&quot;의 데이터를 &quot;r&quot;(read). &quot;in.txt&quot;는 &quot;main.cpp&quot;와 같은 경로에 있어야함.
+    while(scanf(&quot;%d&quot;,&amp;num)!&#x3D;EOF)
+        sum+&#x3D;num;
+
+    printf(&quot;%d&quot;,sum);&#x2F;&#x2F;freopen 이전의 출력은 console 창에 출력됨.
+
+    freopen(&quot;out.txt&quot;,&quot;w&quot;,stdout);&#x2F;&#x2F;&quot;out.txt&quot;에 데이터를 &quot;w&quot;(write).
+    printf(&quot;%d\n&quot;,sum);&#x2F;&#x2F;freopen 이후의 출력은 &quot;out.txt&quot;에 기록됨.
+
+    freopen(&quot;in2.txt&quot;,&quot;r&quot;,stdin);
+
+    freopen(&quot;out.txt&quot;,&quot;a&quot;,stdout);&#x2F;&#x2F;이미 존재하는 파일의 끝에서 read 목적으로 파일을 엶.
+    while(scanf(&quot;%[^\n]&quot;,buff)!&#x3D;EOF)&#x2F;&#x2F;띄어쓰기를 포함하여 한줄씩 출력.
+        printf(&quot;%s\n&quot;,buff),buff[0]&#x3D;0,getchar();
+
+    fclose(stdin),fclose(stdout);
+    return 0;
 &#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-void update(int i, ll diff)
+<h2 id="설정"><a href="#설정" class="headerlink" title="설정"></a>설정</h2><ol>
+<li><p>우측 상단의 <code>Debug</code> - <code>Edit Configurations</code> 클릭</p>
+<p>![Edit Configurations](\source\images\2021-02-12\Edit Configurations.JPG)</p>
+</li>
+<li><p><code>Working directory</code> 를 <code>main.cpp</code> 이 있는 위치로 바꿔줍니다. </p>
+<p>![Working directory](\source\images\2021-02-12\Working directory.JPG)</p>
+</li>
+<li><p>해당 위치에 사용할 input data (<code>in.txt</code>, <code>in2.txt</code>) 를 넣어줍니다.</p>
+<p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cmain.cpp.JPG" alt="main.cpp"></p>
+</li>
+</ol>
+<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><h3 id="in-txt"><a href="#in-txt" class="headerlink" title="in.txt"></a>in.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">1 2 3 4 5 6 7 8 9 10<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="in2-txt"><a href="#in2-txt" class="headerlink" title="in2.txt"></a>in2.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">
+#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+#define ll long long
+#define MOD (ll)1000000007
+#define pii pair&lt;int,int&gt;
+#define pll pair&lt;ll,ll&gt;
+#define UNIQUE(v) sort(v.begin(),v.end());v.erase(unique(v.begin(),v.end()),v.end());
+ll GCD(ll a,ll b)&#123;return b?GCD(b,a%b):a;&#125;
+ll power(ll a,ll b)&#123;ll ret&#x3D;1;while(b)&#123;if(b%2)ret&#x3D;ret*a%MOD;a&#x3D;a*a%MOD;b&#x2F;&#x3D;2;&#125;return ret;&#125;
+const int sz &#x3D; 1&lt;&lt;17;
+
+int a[100001];
+
+int main()
 &#123;
-    while(i&lt;&#x3D;sz)
+    int tc;
+    scanf(&quot;%d&quot;,&amp;tc);
+    while(tc--)
     &#123;
-        BIT[i]+&#x3D;diff;
-        i+&#x3D;i&amp;-i;
-    &#125;
-&#125;
-
-int main(void)
-&#123;
-    int n,m,k;
-    scanf(&quot;%d %d %d&quot;,&amp;n,&amp;m,&amp;k);
-
-    for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-    &#123;
-        scanf(&quot;%lld&quot;,&amp;arr[i]);
-        update(i,arr[i]);
-    &#125;
-
-    int q&#x3D;m+k;
-    while(q--)
-    &#123;
-        int a; scanf(&quot;%d&quot;,&amp;a);
-        if(a&#x3D;&#x3D;1)
+        int n;
+        scanf(&quot;%d&quot;,&amp;n);
+        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
         &#123;
-            int b;ll c; scanf(&quot;%d %lld&quot;,&amp;b,&amp;c);
-            update(b,c-arr[b]);
-            arr[b]&#x3D;c;
-        &#125;
-        else
-        &#123;
-            int l,r; scanf(&quot;%d %d&quot;,&amp;l,&amp;r);
-            printf(&quot;%lld\n&quot;,sum(r)-sum(l-1));
+            scanf(&quot;%d&quot;,&amp;a[i]);
         &#125;
     &#125;
     return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="시간복잡도"><a href="#시간복잡도" class="headerlink" title="시간복잡도"></a>시간복잡도</h2><ul>
-<li>전처리 : $O(NlogN)$</li>
-<li>구간 합 구하기 : $O(logN)$</li>
-<li>값 업데이트 : $O(logN)$</li>
-</ul>
-<blockquote>
-<p>N : 수의 개수</p>
-</blockquote>
-<h2 id="관련문제"><a href="#관련문제" class="headerlink" title="관련문제"></a>관련문제</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWNtaWNwYy5uZXQvcHJvYmxlbS8yMDQy">백준2042 : 구간 합 구하기<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="console"><a href="#console" class="headerlink" title="console"></a>console</h3><p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cconsole.JPG" alt="console"></p>
+<h3 id="out-txt"><a href="#out-txt" class="headerlink" title="out.txt"></a>out.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">55
+
+#include &lt;bits&#x2F;stdc++.h&gt;
+using namespace std;
+#define ll long long
+#define MOD (ll)1000000007
+#define pii pair&lt;int,int&gt;
+#define pll pair&lt;ll,ll&gt;
+#define UNIQUE(v) sort(v.begin(),v.end());v.erase(unique(v.begin(),v.end()),v.end());
+ll GCD(ll a,ll b)&#123;return b?GCD(b,a%b):a;&#125;
+ll power(ll a,ll b)&#123;ll ret&#x3D;1;while(b)&#123;if(b%2)ret&#x3D;ret*a%MOD;a&#x3D;a*a%MOD;b&#x2F;&#x3D;2;&#125;return ret;&#125;
+const int sz &#x3D; 1&lt;&lt;17;
+
+int a[100001];
+
+int main()
+&#123;
+    int tc;
+    scanf(&quot;%d&quot;,&amp;tc);
+    while(tc--)
+    &#123;
+        int n;
+        scanf(&quot;%d&quot;,&amp;n);
+        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
+        &#123;
+            scanf(&quot;%d&quot;,&amp;a[i]);
+        &#125;
+    &#125;
+    return 0;
+&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><code>out.txt</code> 은 여기에 생성됩니다.</p>
+<p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cout.JPG" alt="out"></p>
 ]]></content>
       <categories>
-        <category>data structure</category>
+        <category>PS</category>
       </categories>
       <tags>
-        <tag>Fenwick-tree</tag>
+        <tag>freopen</tag>
       </tags>
   </entry>
   <entry>
@@ -2445,125 +2564,6 @@ int main()
       </categories>
       <tags>
         <tag>bipartite matching</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>freopen</title>
-    <url>/2021/02/12/2021-02-12-freopen/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="Clion에서-파일-입출력-하기"><a href="#Clion에서-파일-입출력-하기" class="headerlink" title="Clion에서 파일 입출력 하기"></a>Clion에서 파일 입출력 하기</h1><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-
-int main()
-&#123;
-    int num,sum&#x3D;0;
-    char buff[10000];buff[0]&#x3D;0;
-
-    freopen(&quot;in.txt&quot;,&quot;r&quot;,stdin);&#x2F;&#x2F;&quot;in.txt&quot;의 데이터를 &quot;r&quot;(read). &quot;in.txt&quot;는 &quot;main.cpp&quot;와 같은 경로에 있어야함.
-    while(scanf(&quot;%d&quot;,&amp;num)!&#x3D;EOF)
-        sum+&#x3D;num;
-
-    printf(&quot;%d&quot;,sum);&#x2F;&#x2F;freopen 이전의 출력은 console 창에 출력됨.
-
-    freopen(&quot;out.txt&quot;,&quot;w&quot;,stdout);&#x2F;&#x2F;&quot;out.txt&quot;에 데이터를 &quot;w&quot;(write).
-    printf(&quot;%d\n&quot;,sum);&#x2F;&#x2F;freopen 이후의 출력은 &quot;out.txt&quot;에 기록됨.
-
-    freopen(&quot;in2.txt&quot;,&quot;r&quot;,stdin);
-
-    freopen(&quot;out.txt&quot;,&quot;a&quot;,stdout);&#x2F;&#x2F;이미 존재하는 파일의 끝에서 read 목적으로 파일을 엶.
-    while(scanf(&quot;%[^\n]&quot;,buff)!&#x3D;EOF)&#x2F;&#x2F;띄어쓰기를 포함하여 한줄씩 출력.
-        printf(&quot;%s\n&quot;,buff),buff[0]&#x3D;0,getchar();
-
-    fclose(stdin),fclose(stdout);
-    return 0;
-&#125;
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="설정"><a href="#설정" class="headerlink" title="설정"></a>설정</h2><ol>
-<li><p>우측 상단의 <code>Debug</code> - <code>Edit Configurations</code> 클릭</p>
-<p>![Edit Configurations](\source\images\2021-02-12\Edit Configurations.JPG)</p>
-</li>
-<li><p><code>Working directory</code> 를 <code>main.cpp</code> 이 있는 위치로 바꿔줍니다. </p>
-<p>![Working directory](\source\images\2021-02-12\Working directory.JPG)</p>
-</li>
-<li><p>해당 위치에 사용할 input data (<code>in.txt</code>, <code>in2.txt</code>) 를 넣어줍니다.</p>
-<p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cmain.cpp.JPG" alt="main.cpp"></p>
-</li>
-</ol>
-<h2 id="출력"><a href="#출력" class="headerlink" title="출력"></a>출력</h2><h3 id="in-txt"><a href="#in-txt" class="headerlink" title="in.txt"></a>in.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">1 2 3 4 5 6 7 8 9 10<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="in2-txt"><a href="#in2-txt" class="headerlink" title="in2.txt"></a>in2.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">
-#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-#define ll long long
-#define MOD (ll)1000000007
-#define pii pair&lt;int,int&gt;
-#define pll pair&lt;ll,ll&gt;
-#define UNIQUE(v) sort(v.begin(),v.end());v.erase(unique(v.begin(),v.end()),v.end());
-ll GCD(ll a,ll b)&#123;return b?GCD(b,a%b):a;&#125;
-ll power(ll a,ll b)&#123;ll ret&#x3D;1;while(b)&#123;if(b%2)ret&#x3D;ret*a%MOD;a&#x3D;a*a%MOD;b&#x2F;&#x3D;2;&#125;return ret;&#125;
-const int sz &#x3D; 1&lt;&lt;17;
-
-int a[100001];
-
-int main()
-&#123;
-    int tc;
-    scanf(&quot;%d&quot;,&amp;tc);
-    while(tc--)
-    &#123;
-        int n;
-        scanf(&quot;%d&quot;,&amp;n);
-        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        &#123;
-            scanf(&quot;%d&quot;,&amp;a[i]);
-        &#125;
-    &#125;
-    return 0;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="console"><a href="#console" class="headerlink" title="console"></a>console</h3><p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cconsole.JPG" alt="console"></p>
-<h3 id="out-txt"><a href="#out-txt" class="headerlink" title="out.txt"></a>out.txt</h3><pre class="line-numbers language-.txt" data-language=".txt"><code class="language-.txt">55
-
-#include &lt;bits&#x2F;stdc++.h&gt;
-using namespace std;
-#define ll long long
-#define MOD (ll)1000000007
-#define pii pair&lt;int,int&gt;
-#define pll pair&lt;ll,ll&gt;
-#define UNIQUE(v) sort(v.begin(),v.end());v.erase(unique(v.begin(),v.end()),v.end());
-ll GCD(ll a,ll b)&#123;return b?GCD(b,a%b):a;&#125;
-ll power(ll a,ll b)&#123;ll ret&#x3D;1;while(b)&#123;if(b%2)ret&#x3D;ret*a%MOD;a&#x3D;a*a%MOD;b&#x2F;&#x3D;2;&#125;return ret;&#125;
-const int sz &#x3D; 1&lt;&lt;17;
-
-int a[100001];
-
-int main()
-&#123;
-    int tc;
-    scanf(&quot;%d&quot;,&amp;tc);
-    while(tc--)
-    &#123;
-        int n;
-        scanf(&quot;%d&quot;,&amp;n);
-        for(int i&#x3D;1;i&lt;&#x3D;n;i++)
-        &#123;
-            scanf(&quot;%d&quot;,&amp;a[i]);
-        &#125;
-    &#125;
-    return 0;
-&#125;
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><code>out.txt</code> 은 여기에 생성됩니다.</p>
-<p><img src="/%5Csource%5Cimages%5C2021-02-12%5Cout.JPG" alt="out"></p>
-]]></content>
-      <categories>
-        <category>PS</category>
-      </categories>
-      <tags>
-        <tag>freopen</tag>
       </tags>
   </entry>
   <entry>
