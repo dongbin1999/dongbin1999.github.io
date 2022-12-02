@@ -18,7 +18,7 @@ tags:
 
 
 
-![C](\source\images\2020-04-16\C.JPG)
+![C](/images/2020-04-16\C.JPG)
 
 ### 문제
 

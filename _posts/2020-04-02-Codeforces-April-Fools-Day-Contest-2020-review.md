@@ -24,7 +24,7 @@ tags:
 
 [대회 링크](https://codeforces.com/contest/1331)
 
-![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/April_Fools_Day_Contest_2020_introduction.JPG)
+![출처 : https://codeforces.com/contest/1331](assets/images/2020-04-02/April_Fools_Day_Contest_2020_introduction.JPG)
 
 4/1일에 진행된다.. 레이팅에 반영되지 않는다[^1].. 출제자와 유머 코드가 맞아야 한다..? 등의 내용입니다.
 
@@ -42,7 +42,7 @@ tags:
 
 # 2. 목차
 
-![출처 : https://codeforces.com/contest/1331](/images/2020-04-02/Problems_list.JPG)
+![출처 : https://codeforces.com/contest/1331](assets\images\2020-04-02\Problems_list.JPG)
 
 문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.
 
@@ -56,7 +56,7 @@ tags:
 
 # 3. 문제 풀이
 
-![출처 : https://codeforces.com/contest/1331/problem/A](/images/2020-04-02/A.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/A](\images\2020-04-02\A.JPG)
 
 [`A번 문제`](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
 

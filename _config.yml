@@ -87,7 +87,7 @@ rss: /atom.xml
 since: 2020
 
 # icon between year and author @Footer
-authoricon: crown
+authoricon: heart
 animated: true
 color: "#ffff00"
 
@@ -209,14 +209,12 @@ social:
 
 social_icons:
   enable: true
-  icons_only: true
-  transition: false
 
   GitHub: github
   E-Mail: envelope
   TFT: gamepad
   Baekjoon : code
-  Codeforces : chart-simple
+  Codeforces : chart
 
 
 # Sidebar Avatar
