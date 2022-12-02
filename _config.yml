@@ -6,7 +6,7 @@
 # Site
 title: leedongbin's blog
 subtitle: 개발 / PS / 게임일기
-description:
+description: INU 2nd grade
 author: leedongbin
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://dongbin1999.github.io'
+url: https://dongbin1999.github.io
 baseurl: '/'
 permalink: pretty
 
@@ -39,7 +39,7 @@ excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
-highlighter: rouge
+highlighter: Tomorrow Night
 highlight:
   line_number: true
 
@@ -81,16 +81,15 @@ favicon: /assets/favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
-# Set rss to false to disable feed link.
-# Leave rss as empty to use site's feed link.
-# Set rss to specific value if you have burned your feed already.
 rss: /atom.xml
 
 # Specify the date when the site was setup
 since: 2020
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: crown
+animated: true
+color: "#ffff00"
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -118,19 +117,14 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
+  about: /about/
+  tags: /tags/
   categories: /categories/
   archives: /archives/
-  tags: /tags/
+  #schedule: /schedule/
   #sitemap: /sitemap.xml
-  about: /about/
-  #commonweal: /404.html
+  #commonweal: /404/
 
-
-# Enable/Disable menu icons.
-# Icon Mapping:
-#   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
-#   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
@@ -142,9 +136,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
-
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -209,55 +200,50 @@ font:
 # Sidebar Settings
 # ---------------------------------------------------------------
 
+social:
+  GitHub: https://github.com/dongbin1999
+  E-Mail: dongbin1999@inu.ac.kr
+  TFT: https://lolchess.gg/profile/kr/templar
+  Baekjoon : https://www.acmicpc.net/user/leedongbin
+  Codeforces : https://codeforces.com/profile/dongbin1999
 
-# Social Links
-# Key is the link label showing to end users.
-# Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
-
-
-# Social Links Icons
-# Icon Mapping:
-#   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
-#   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
-  # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  icons_only: true
+  transition: false
+
   GitHub: github
-  # Twitter: twitter
-  # Weibo: weibo
+  E-Mail: envelope
+  TFT: gamepad
+  Baekjoon : code
+  Codeforces : chart-simple
 
 
 # Sidebar Avatar
-# in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/profile.jpg
 
 
 # Table Of Contents in the Sidebar
 toc:
   enable: true
-
   # Automatically add list number to toc.
   number: true
-
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
 
 
 # Creative Commons 4.0 International License.
-# http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
-#creative_commons:
+creative_commons:
+  license: by-nc-sa
+  size: big
+  sidebar: true
+  post: false
+  language: deed.ko
 
 
 sidebar:
-  # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  position: left #right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -265,19 +251,15 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   display: post
-  #display: always
-  #display: hide
-  #display: remove
 
   # Sidebar offset from top menubar in pixels.
   offset: 12
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
-
+  b2t: true
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -296,10 +278,12 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
+
+read_more_btn: false
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
@@ -311,7 +295,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -320,19 +304,6 @@ post_wordcount:
   wordcount: false
   min2read: false
   separated_meta: true
-
-# Wechat Subscriber
-#wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
-
-# Declare license on posts
-post_copyright:
-  enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
 
 
 # ---------------------------------------------------------------
@@ -351,9 +322,9 @@ custom_logo:
 
 # Code Highlight theme
 # Available value:
-#    normal | night | night eighties | night blue | night bright
+# normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -366,18 +337,6 @@ mathjax:
   per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
-# Han Support docs: https://hanzi.pro/
-han: false
-
-# Swiftype Search API Key
-#swiftype_key:
-
-# Baidu Analytics ID
-#baidu_analytics:
-
-# Duoshuo ShortName
-#duoshuo_shortname:
-
 # Disqus
 disqus:
   enable: true
@@ -387,75 +346,18 @@ disqus:
   # count need to be false when hide is true
   hide: false
 
-# <wildfire>
-wildfire:
-  enable: false
-  # version - It's recommended to use the following versions.
-  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
-  useDev: true
-  version: 0.5.6 
-  # database config
-  databaseProvider: firebase # or wilddog
-  firebase: # your firebase config goes here ↓
-    apiKey: 
-    authDomain:
-    databaseURL:
-    projectId:
-    storageBucket:
-    messagingSenderId:
-  wilddog: # your wilddog config goes here ↓
-    siteId:
-  # other configs
-  theme: dark # light
-  locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
-# Any question? 
-# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
-# </wildfire>
-
 # Hypercomments
 #hypercomments_id:
 
-# Gentie productKey
-#gentie_productKey:
-
-# changyan
-changyan:
-  enable: false
-  appid:
-  appkey:
-
-# Support for youyan comments system.
-# You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
-
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
-
 # Support for gitalk comments system.
 gitalk:
-  enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
-  owner: # colingpt
-  admin: # colingpt
+  enable: true
+  clientID: 6c6afa9589f2ebe0b2e4
+  clientSecret: 0983729d403e8b2f1911a73299ecfb3ce7d5097a
+  repo: dongbin1999.github.io
+  owner: dongbin1999
+  admin: dongbin1999
 
-# Baidu Share
-# Available value:
-#    button | slide
-# Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
-
-# Share
-#jiathis:
-# Warning: JiaThis does not support https.
-#add_this_id:
-
-# Share
-#duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
