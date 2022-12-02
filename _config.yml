@@ -20,16 +20,6 @@ permalink: pretty
 
 # Pagination
 paginate: 10
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
@@ -81,7 +71,7 @@ favicon: /assets/favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
-rss: 
+rss: /atom.xml
 
 # Specify the date when the site was setup
 since: 2020
@@ -233,9 +223,6 @@ toc:
 creative_commons:
   license: by-nc-sa
   size: big
-  sidebar: true
-  post: false
-  language: deed.ko
 
 
 sidebar:
@@ -296,7 +283,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: false
+  min2read: true
   separated_meta: true
 
 
@@ -352,31 +339,10 @@ gitalk:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+#google_site_verification: ac1xc3oXSRXUd2GwDUAJwDaa01GWtmEBhLCzGw7a_dI
 
 # Google Analytics
 #google_analytics:
-
-# Yandex Webmaster tools verification setting
-# See: https://webmaster.yandex.ru/
-#yandex_site_verification:
-
-# CNZZ count
-#cnzz_siteid:
-
-# Application Insights
-# See https://azure.microsoft.com/en-us/services/application-insights/
-# application_insights:
-
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
-
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
