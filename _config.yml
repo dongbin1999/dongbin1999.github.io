@@ -9,7 +9,7 @@ subtitle: 개발 / PS / 게임일기
 description: INU 2nd grade
 author: leedongbin
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: ko
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
@@ -283,7 +283,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: true
+  min2read: false
   separated_meta: true
 
 
@@ -366,8 +366,8 @@ busuanzi_count:
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_header: <i class="fa fa-hand-pointer-o"></i>
+  page_pv_footer: views
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO

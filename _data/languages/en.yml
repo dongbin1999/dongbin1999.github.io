@@ -22,12 +22,12 @@ menu:
   commonweal: Commonweal 404
 
 sidebar:
-  overview: Overview
-  toc: Table of Contents
+  overview: 프로필
+  toc: 목차
 
 post:
-  created: Post created
-  modified: Post modified
+  created: created
+  modified: modified
   sticky: Sticky
   posted: Posted on
   in: In
@@ -56,13 +56,13 @@ footer:
 counter:
   tag_cloud:
     zero: No tags
-    one: 1 tag in total
-    other: "%d tags in total"
+    one: 1 tag
+    other: "%d tags"
 
   categories:
     zero: No categories
-    one: 1 category in total
-    other: "%d categories in total"
+    one: 1 category
+    other: "%d categories"
 
   archive_posts:
     zero: No posts.
@@ -77,16 +77,6 @@ state:
 
 search:
   placeholder: Searching...
-
-cheers:
-  um: Um..
-  ok: OK
-  nice: Nice
-  good: Good
-  great: Great
-  excellent: Excellent
-
-keep_on: Keep on posting.
 
 symbol:
   comma: ', '

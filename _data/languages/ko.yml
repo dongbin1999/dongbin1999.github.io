@@ -23,7 +23,7 @@ sidebar:
 
 post:
   sticky: 고정
-  posted: 작성일
+  posted: posted
   modified: Updated at
   in: In
   read_more: 더 읽어보기
@@ -50,18 +50,18 @@ footer:
 counter:
   tag_cloud:
     zero: 태그 없음
-    one: 1개의 태그
-    other: "총 %d개의 태그"
+    one: 태그 1개
+    other: "태그 %d개"
 
   categories:
     zero: 카테고리 없음
-    one: 1개의 카테고리
-    other: "총 %d개의 카테고리"
+    one: 카테고리 1개
+    other: "카테고리 %d개"
 
   archive_posts:
-    zero: 포스트 없음
-    one: 1개의 포스트
-    other: "총 %d개의 포스트"
+    zero: 글 없음
+    one: 글 1개
+    other: "글 %d개"
 
 state:
   posts: 포스트
