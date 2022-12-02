@@ -10,9 +10,9 @@ tags:
 - review
 ---
 
-<!-- more -->
-
 ## [Codeforces Round #635 (Div. 2) #C 문제](https://codeforces.com/contest/1337/problem/C)
+
+<!-- more -->
 
 오늘은 4/15 어제밤에 치뤘던 대회의 `greedy algorithm` 문제에 대해 소개드리겠습니다.
 

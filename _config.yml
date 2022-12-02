@@ -42,7 +42,6 @@ kramdown:
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
-  -
     scope:
       path: ""
       type: "posts"
@@ -65,13 +64,13 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `assets/` directory.
+# Put your favicon.ico into `assets/` directory. (크롬 탭 왼쪽의 아이콘)
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
-#rss: /atom.xml
+rss: /atom.xml
 
 # 블로그 만든 년도
 since: 2020
@@ -96,7 +95,7 @@ seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -272,11 +271,11 @@ auto_excerpt:
   enable: false
   length: 150
 
-# Post meta display settings
+# Post meta display settings (글 아래 게시날짜/업데이트 날짜/카테고리/글자개수/읽은시간 등 표시)
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   categories: true
 
 # Post wordcount display settings
@@ -352,11 +351,11 @@ busuanzi_count:
   # 방문자 표시
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_footer: visitors
   # 사이트 조회수 표시
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_footer: views
   # 글 조회수 표시
   page_pv: true
   page_pv_header: <i class="fa fa-repeat"></i>

@@ -29,7 +29,7 @@ post:
   created: created
   modified: modified
   sticky: Sticky
-  posted: Posted on
+  posted: 작성 : 
   in: In
   more: more
   read_more: Read more
@@ -67,7 +67,7 @@ counter:
   archive_posts:
     zero: No posts.
     one: 1 post.
-    other: "%d posts in total."
+    other: "%d posts"
 
 state:
   posts: posts
