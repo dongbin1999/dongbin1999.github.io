@@ -18,13 +18,13 @@ url: https://dongbin1999.github.io
 baseurl: '/'
 permalink: pretty
 
-# Pagination
+# Pagination (한 페이지에 보일 글 개수)
 paginate: 10
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
-# Separator
+# Separator (글 내용 중<!-- more --> 이후의 내용은 홈에서 보이지 않음)
 excerpt_separator: <!-- more -->
 
 # Code Highlighter
@@ -71,12 +71,12 @@ favicon: /assets/favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
-rss: /atom.xml
+#rss: /atom.xml
 
-# Specify the date when the site was setup
+# 블로그 만든 년도
 since: 2020
 
-# icon between year and author @Footer
+# icon between year and author @Footer (블로그 맨 아래 아이콘)
 authoricon: wifi
 
 # Footer `powered-by` and `theme-info` copyright
@@ -339,41 +339,34 @@ gitalk:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification: ac1xc3oXSRXUd2GwDUAJwDaa01GWtmEBhLCzGw7a_dI
+google_site_verification: ac1xc3oXSRXUd2GwDUAJwDaa01GWtmEBhLCzGw7a_dI
 
 # Google Analytics
 #google_analytics:
-
-# Star rating support to each article.
-# To get your ID visit https://widgetpack.com
-rating:
-  enable: false
-  id:     #<app_id>
-  color:  fc6423
 
 
 # Show number of visitors to each article.
 # Show PV/UV of the website/page with busuanzi.
 busuanzi_count:
   enable: true
-  # custom uv span for the whole site
+  # 방문자 표시
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
-  # custom pv span for the whole site
+  # 사이트 조회수 표시
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-  # custom pv span for one page only
+  # 글 조회수 표시
   page_pv: true
-  page_pv_header: <i class="fa fa-hand-pointer-o"></i>
+  page_pv_header: <i class="fa fa-repeat"></i>
   page_pv_footer: views
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
 
-# Local search
+# Local search (블로그 내의 검색기능)
 local_search:
   enable: true
   trigger: auto #manual (trigger search by pressing enter key or search button)
