@@ -81,15 +81,13 @@ favicon: /assets/favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
-rss: /atom.xml
+rss: 
 
 # Specify the date when the site was setup
 since: 2020
 
 # icon between year and author @Footer
-authoricon: heart
-animated: true
-color: "#ffff00"
+authoricon: wifi
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -114,7 +112,6 @@ index_with_subtitle: false
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
   about: /about/
@@ -128,6 +125,7 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  # https://fontawesome.com/v4/icons/   #(Font Awesome 4.7.0)
   home: home
   about: user
   categories: th
@@ -207,14 +205,14 @@ social:
   Baekjoon : https://www.acmicpc.net/user/leedongbin
   Codeforces : https://codeforces.com/profile/dongbin1999
 
+# https://fontawesome.com/v4/icons/   #(Font Awesome 4.7.0)
 social_icons:
   enable: true
-
   GitHub: github
   E-Mail: envelope
   TFT: gamepad
   Baekjoon : code
-  Codeforces : chart
+  Codeforces : bar-chart
 
 
 # Sidebar Avatar
@@ -273,15 +271,13 @@ sidebar:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically saving scroll position on each post/page in cookies.
 save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
-
-read_more_btn: false
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.

@@ -30,7 +30,7 @@ tags:
 
 
 
-![출처 : https://codeforces.com/contests](/images/2020-04-02/participants.JPG)
+![출처 : https://codeforces.com/contests](/assets/images/2020-04-02/participants.JPG)
 
 세계 각국에서 __19470__ 분이나 참가하셨습니다.
 
@@ -42,7 +42,7 @@ tags:
 
 # 2. 목차
 
-![출처 : https://codeforces.com/contest/1331](\assets\images\2020-04-02\Problems_list.JPG)
+![출처 : https://codeforces.com/contest/1331](/assets/images/2020-04-02/Problems_list.JPG)
 
 문제 목차입니다. <span style="color:green">초록색</span>은 제가 맞힌 문제, <span style="color:red">빨간색</span>은 제가 시도했지만 틀린 문제입니다.
 
@@ -56,7 +56,7 @@ tags:
 
 # 3. 문제 풀이
 
-![출처 : https://codeforces.com/contest/1331/problem/A](\images\2020-04-02\A.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/A](/assets/images/2020-04-02/A.JPG)
 
 [`A번 문제`](https://codeforces.com/contest/1331/problem/A)입니다. 첫 문제부터 입출력 예제와 문제에 대한 설명이 하나도 없습니다...
 
@@ -136,7 +136,7 @@ int main(void)
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/C](/images/2020-04-02/C.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/C](/assets/images/2020-04-02/C.JPG)
 
 [`C번 문제`](https://codeforces.com/contest/1331/problem/C)입니다. 풀이를 생각해내는 데 한참 걸렸습니다.
 
@@ -199,7 +199,7 @@ int main(void)
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/D](/images/2020-04-02/D.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/D](/assets/images/2020-04-02/D.JPG)
 
 [`D번 문제`](https://codeforces.com/contest/1331/problem/D)입니다. 오른쪽 아래`Problem tags`에 `chinese remainder theorem`[^2]라고 나와있는데, 저게 왜 필요한지 잘 모르겠습니다. 만우절 디테일에 신경 쓴 듯합니다.
 
@@ -232,9 +232,9 @@ int main(void)
 
 __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 넘어가겠습니다.__
 
-![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E1.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](/assets/images/2020-04-02/E1.JPG)
 
-![출처 : https://codeforces.com/contest/1331/problem/E](/images/2020-04-02/E2.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/E](/assets/images/2020-04-02/E2.JPG)
 
 [`E번 문제`](https://codeforces.com/contest/1331/problem/E)입니다. 푸는 데 상당히 많은 시간이 걸릴 것 같은 문제입니다.
 
@@ -252,7 +252,7 @@ __여기서부터는 제가 풀지 못한 문제들이라 짧게 리뷰하고 �
 
 <br />
 
-![출처 : https://codeforces.com/contest/1331/problem/F](/images/2020-04-02/F.JPG)
+![출처 : https://codeforces.com/contest/1331/problem/F](/assets/images/2020-04-02/F.JPG)
 
 [`F번 문제`](https://codeforces.com/contest/1331/problem/F)입니다. 풀이가 너무 궁금하여 다른 분들의 코드를 참고했는데, 저는 대회 시간이 10시간이었더라도 못 풀었을 문제입니다. 풀이를 보시기 전에 한 번 고민해보세요!
 
@@ -304,7 +304,7 @@ int main(void)
 
 # 4. 결과
 
-![출처 : https://codeforces.com/contest/1331/standings](/images/2020-04-02/standing.JPG)
+![출처 : https://codeforces.com/contest/1331/standings](/assets/images/2020-04-02/standing.JPG)
 
 제 성적입니다.
 

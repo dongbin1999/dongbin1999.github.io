@@ -18,7 +18,7 @@ tags:
 
 
 
-![C](/images/2020-04-16\C.JPG)
+![C](/assets/images/2020-04-16/C.JPG)
 
 ### 문제
 
@@ -59,11 +59,11 @@ tags:
 
 다음의 예제를 트리로 그려봅시다.
 
-![Example](\source\images\2020-04-16\Example.JPG)
+![Example](/assets/images/2020-04-16/Example.JPG)
 
 
 
-![tree](\source\images\2020-04-16\tree.png)
+![tree](/assets/images/2020-04-16/tree.png)
 
 이 상태에서, 각 노드의 레벨은 __`DFS`__ 로 구현할 수 있습니다.
 
@@ -170,7 +170,7 @@ int main()
 
 
 
-![wrong example](\source\images\2020-04-16\wrong example.png)
+![wrong example](/assets/images/2020-04-16/wrong-example.png)
 
 위의 그림에서 <span style="color:green">`4번 도시`</span>, <span style="color:green">`8번 도시`</span>를 고를때까진 문제가 없습니다. 하지만 <span style="color:skyblue">`5번 도시`</span>와 <span style="color:skyblue">`3번 도시`</span>를 고를때,
 
@@ -180,7 +180,7 @@ __이 도시들이 <span style="color:purple">관광도시</span>에서 <span st
 
 그 답은 __`x`번 도시의 <span style="color:blue">`자손 노드의 수`</span>__ 입니다. 왜냐하면 우리는 레벨이 높은 도시부터 우선적으로 골라왔기때문에, 어떤 노드를 고를 때 그 자손 노드들은 이미 다 선택되어있을 것입니다. 따라서 다음과 같은 상황이 됩니다.
 
-![corrected example](\source\images\2020-04-16\corrected example.png)
+![corrected example](/assets/images/2020-04-16/corrected-example.png)
 
 따라서 `2+2+2+2+1 = 9`로 정확한 답이 됩니다. _(위의 그림에서 `7`을 고른다면 답보다 값이 작아집니다.)_
 
