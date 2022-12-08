@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: leedongbin's blo
+title: leedongbin's blog
 subtitle: 개발 / PS / 게임일기
 description: INU 2nd grade
 author: leedongbin
@@ -29,7 +29,7 @@ excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
-highlighter: Tomorrow Night
+highlighter: cpp
 highlight:
   line_number: true
 
