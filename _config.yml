@@ -19,7 +19,7 @@ baseurl: '/'
 permalink: pretty
 
 # Pagination (한 페이지에 보일 글 개수)
-paginate: 10
+paginate: 6
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
@@ -341,7 +341,7 @@ gitalk:
 google_site_verification: ac1xc3oXSRXUd2GwDUAJwDaa01GWtmEBhLCzGw7a_dI
 
 # Google Analytics
-#google_analytics:
+google_analytics: G-T5CH852EGN
 
 
 # Show number of visitors to each article.
