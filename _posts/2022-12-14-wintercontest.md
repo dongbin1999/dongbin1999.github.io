@@ -19,7 +19,7 @@ tags:
 
 귀여운 프로필 뱃지와 배경을 모두 받을 수 있는 대회였다. 실력 테스트 겸 컬렉션 수집하려고 참여했는데, B번에서 머리가 마구마구 꼬여버렸다.
 
-</br> 
+<br> 
 
 ### A.[눈 치우기](https://www.acmicpc.net/problem/26215)
 
@@ -56,7 +56,7 @@ int main(){
 }
 ```
 
-</br> 
+<br> 
 
 ### B.[은나무](https://www.acmicpc.net/problem/26216)
 
@@ -137,7 +137,7 @@ int main(){
 
 이 문제에서 시간을 다 써버렸다. 꼬였던 머리만큼이나 코드도 더러워진 모습.
 
-</br> 
+<br> 
 
 ### C.[별꽃의 세레나데 (Easy)](https://www.acmicpc.net/problem/26217)
 
@@ -158,7 +158,7 @@ int main(){
 }
 ```
 
-</br> 
+<br> 
 
 ### D. [생산 시스템 관리](https://www.acmicpc.net/problem/26218) / Upsolving
 
@@ -206,7 +206,7 @@ int main(){
 
 이 문제는 B번 문제에서 멘탈과 시간이 모두 날아가버려서 못풀었다. ㅠㅠ
 
-</br> 
+<br> 
 
 ## 후기
 
